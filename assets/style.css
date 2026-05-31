@@ -192,3 +192,65 @@ h2 { margin: 0 0 8px; font-size: 28px; letter-spacing: -0.04em; }
   color: var(--muted);
   line-height: 1.55;
 }
+
+.topic-sections {
+  display: grid;
+  gap: 24px;
+}
+
+.topic-section {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: clamp(18px, 4vw, 28px);
+  box-shadow: 0 10px 30px rgba(35, 51, 92, 0.06);
+}
+
+.topic-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.topic-section-head h3 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+}
+
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.survey-jump-btn {
+  display: grid;
+  gap: 8px;
+  text-align: left;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  border-radius: 18px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+.survey-jump-btn:hover {
+  transform: translateY(-2px);
+  border-color: rgba(59, 110, 234, 0.45);
+}
+
+.survey-jump-btn strong {
+  color: var(--text);
+  font-size: 16px;
+}
+
+.survey-jump-btn span {
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 14px;
+}

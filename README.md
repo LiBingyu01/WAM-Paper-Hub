@@ -1,93 +1,66 @@
-# UAV-VLN-WAM-Paper-Hub
+# UAV-VLN-AWESOME-Paper-Hub
 
-A survey-oriented paper hub for **UAV Vision-Language Navigation (UAV VLN)**, covering traditional UAV navigation, instruction following, Vision-Language-Action (VLA) models, World Action Models (WAM), embodied AI, multimodal perception, datasets, simulators, and evaluation metrics.
+A focused survey-oriented paper hub for **UAV Vision-Language Navigation (UAV VLN)**.
 
-This repository is designed for building a UAV VLN survey such as:
+This version is intentionally strict:
+- only **6 topics** are used;
+- each paper can have **up to 3 tags**;
+- the homepage provides **6 jump buttons** that scroll to the corresponding topic sections.
 
-> UAV Vision-Language Navigation: From Traditional Navigation to Vision-Language-Action Models and World Action Models
+## Six Fixed Topics
 
-## Main Topics
+1. **Foundations**  
+   VLN formulation, spatial grounding, navigation policy, instruction following.
 
-The paper hub uses the following topic taxonomy:
+2. **Traditional UAV VLN**  
+   SLAM, path planning, semantic maps, obstacle avoidance, visual navigation.
 
-1. **UAV VLN**: UAV / drone / aerial vision-language navigation.
-2. **Navigation Foundation**: VLN formulation, spatial reasoning, language grounding, navigation policy.
-3. **Traditional Navigation**: SLAM, path planning, semantic navigation, obstacle avoidance, visual navigation.
-4. **Instruction Following**: language-guided UAV control and grounded instruction following.
-5. **Vision-Language-Action**: VLA, action tokens, language-conditioned policy, robot foundation models.
-6. **World Action Model**: action-conditioned world models, visual world models, future observation prediction, imagination-based planning.
-7. **Embodied AI**: embodied agents, aerial embodied intelligence, physical agents.
-8. **Multimodal Perception**: visual grounding, panoramic perception, GPS/IMU/LiDAR fusion, semantic maps.
-9. **Dataset / Simulator**: UAV datasets, VLN benchmarks, AirSim, Flightmare, Habitat, Isaac Sim, Gazebo, CARLA.
-10. **Evaluation**: SR, SPL, navigation error, collision rate, instruction-following accuracy, sim-to-real, OOD generalization.
-11. **Survey**: survey, review, taxonomy, overview papers.
+3. **UAV VLA**  
+   Vision + language → action, action tokens, language-conditioned policy learning.
+
+4. **UAV WAM**  
+   Observation + action → future observation/state for imagination-based planning.
+
+5. **Datasets & Simulators**  
+   AirSim, Flightmare, Habitat, Isaac Sim, instruction-trajectory-video data.
+
+6. **Evaluation**  
+   SR, SPL, collision rate, instruction accuracy, sim-to-real and OOD generalization.
 
 ## Features
 
-- Static GitHub Pages website.
-- Search by title, abstract, author, topic, or venue.
-- Filter by topic and UAV relevance.
-- Sort by date, title, or favorites.
-- Local favorites stored in browser local storage.
-- Export current filtered results as CSV or BibTeX.
-- Fetch and classify papers from arXiv.
-- GitHub Actions workflow for daily automatic updates.
+- arXiv-based update script
+- stricter score-based six-topic classification
+- at most 3 tags per paper
+- grouped topic sections on the webpage
+- search, filter, sort, favorites, CSV/BibTeX export
 
-## Local Usage
+## Quick Start
 
 ```bash
 pip install -r requirements.txt
-python scripts/fetch_arxiv.py --max-results 100
+python scripts/fetch_arxiv.py --max-results 60
 python -m http.server 8000
 ```
 
 Then open:
 
 ```text
-http://localhost:8000
+http://127.0.0.1:8000
 ```
 
-## Update Data from arXiv
+## Update Data
 
 ```bash
-python scripts/fetch_arxiv.py --max-results 100
-
-git add data/papers.json data/papers.csv data/meta.json
-git commit -m "Update papers from arXiv"
-git push
+python scripts/fetch_arxiv.py --max-results 60
 ```
 
-## GitHub Pages
-
-After uploading this repository to GitHub:
-
-```text
-Settings -> Pages -> Deploy from a branch -> main -> /root
-```
-
-The site will be available at:
-
-```text
-https://<username>.github.io/<repo-name>/
-```
-
-For example:
-
-```text
-https://LiBingyu01.github.io/WAM-Paper-Hub/
-```
-
-## Recommended Survey Outline
-
-1. Introduction
-2. Foundations of UAV Vision-Language Navigation
-3. Traditional UAV VLN and Aerial Navigation
-4. Vision-Language-Action Models for UAV Navigation
-5. World Action Models for UAV Navigation
-6. Datasets, Simulators, and Benchmarks
-7. Evaluation Protocols
-8. Challenges and Future Directions
+The script updates:
+- `data/papers.json`
+- `data/papers.csv`
+- `data/meta.json`
 
 ## Notes
 
-You can manually edit `data/papers.json` to add project links, code links, or notes. The fetch script preserves manually curated `code_url`, `project_url`, and `notes` fields when the same arXiv paper is updated.
+- Retrieval is more precise than the previous broad version, but you should still manually curate highly important papers.
+- Existing manually added `code_url` and `project_url` are preserved when possible.

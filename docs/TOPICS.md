@@ -1,140 +1,57 @@
-# Topic Taxonomy for UAV VLN Survey
+# Topic Design
 
-This hub is designed around a UAV VLN survey structure:
+This hub uses **only six fixed topics**.
 
-## 1. UAV VLN
-Core papers on UAV / drone / aerial vision-language navigation.
-
-Example keywords:
-- uav vision-language navigation
-- aerial vision-language navigation
-- drone vision-language navigation
+## 1. Foundations
+Representative concepts:
 - vision-language navigation
-- language-guided navigation
-- instruction-guided navigation
-- embodied navigation
-- object-goal navigation
-
-## 2. Navigation Foundation
-General VLN and navigation foundations.
-
-Example keywords:
-- vision-language navigation
-- embodied navigation
-- spatial reasoning
 - language grounding
+- spatial grounding
+- instruction following
 - navigation policy
-- imitation learning for navigation
-- reinforcement learning for navigation
 
-## 3. Traditional Navigation
-Classical UAV visual navigation and planning.
-
-Example keywords:
+## 2. Traditional UAV VLN
+Representative concepts:
+- SLAM
 - visual navigation
 - path planning
-- trajectory planning
-- SLAM / VSLAM / semantic SLAM
 - obstacle avoidance
-- map-based navigation
-- semantic navigation
+- semantic maps
 
-## 4. Instruction Following
-Language-guided UAV control and grounded instruction following.
-
-Example keywords:
-- uav instruction following
-- language-guided drone
-- language-conditioned control
-- text-guided navigation
-- spatial instruction following
-- human-drone interaction
-
-## 5. Vision-Language-Action
-VLA and policy learning papers.
-
-Example keywords:
+## 3. UAV VLA
+Representative concepts:
 - vision-language-action
-- VLA
-- language-conditioned policy
 - action token
-- action prediction
-- OpenVLA
-- RT-1 / RT-2 / RT-X
-- diffusion policy
-- robot foundation model
+- language-conditioned policy
+- action generation / prediction
+- OpenVLA, RT-1, RT-2, Octo
 
-## 6. World Action Model
-World models and action-conditioned future prediction.
-
-Example keywords:
+## 4. UAV WAM
+Representative concepts:
 - world action model
 - action-conditioned world model
-- visual world model
-- video world model
 - future observation prediction
-- next-state prediction
-- action-conditioned video generation
+- video prediction
 - imagination-based planning
-- Dreamer / Genie / UniSim / Cosmos
 
-## 7. Embodied AI
-Embodied agents and aerial embodied intelligence.
+## 5. Datasets & Simulators
+Representative concepts:
+- dataset
+- benchmark
+- simulator
+- AirSim / Flightmare / Habitat / Isaac Sim
+- instruction-trajectory-video data
 
-Example keywords:
-- embodied ai
-- embodied intelligence
-- embodied agent
-- aerial embodied intelligence
-- vision-language agent
-- situated agent
-
-## 8. Multimodal Perception
-Perception modules for UAV VLN and WAM.
-
-Example keywords:
-- visual grounding
-- spatial grounding
-- panoramic perception
-- GPS / IMU / LiDAR
-- sensor fusion
-- semantic map
-- occupancy prediction
-
-## 9. Dataset / Simulator
-Datasets, benchmarks, and simulators.
-
-Example keywords:
-- UAV dataset
-- drone benchmark
-- VLN dataset
-- AirSim
-- Flightmare
-- Habitat
-- Isaac Sim
-- Gazebo
-- CARLA
-- sim-to-real
-
-## 10. Evaluation
-Evaluation protocols and metrics.
-
-Example keywords:
+## 6. Evaluation
+Representative concepts:
 - success rate
 - SPL
-- navigation error
 - collision rate
-- instruction-following accuracy
-- action accuracy
-- sim-to-real transfer
-- OOD generalization
+- instruction following accuracy
+- sim-to-real / OOD generalization
 
-## 11. Survey
-Survey and taxonomy papers.
+## Labeling Policy
 
-Example keywords:
-- survey
-- review
-- taxonomy
-- overview
-- comprehensive study
+- Papers may be **cross-labeled**.
+- Each paper receives **at most 3 topic labels**.
+- Topic assignment is **score-based** rather than simple loose matching.

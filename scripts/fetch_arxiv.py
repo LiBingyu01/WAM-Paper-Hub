@@ -1,18 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Fetch and classify papers for UAV-VLN-WAM-Paper-Hub.
+Fetch and classify papers for the UAV VLN survey hub.
 
-This script is designed for a survey-oriented paper hub on:
-- UAV Vision-Language Navigation (UAV VLN)
-- Traditional UAV Navigation and VLN foundations
-- Vision-Language-Action (VLA) models
-- World Action Models (WAM) / World Models
-- Embodied AI, multimodal perception, datasets, simulators, and evaluation
-
-Usage:
-    python scripts/fetch_arxiv.py --max-results 80
-    python scripts/fetch_arxiv.py --max-results 200 --output data/papers.json
+Design goals of this version:
+1. Only use six survey topics.
+2. Make classification stricter and score-based.
+3. Allow cross-labeling, but at most 3 topic tags per paper.
+4. Reduce overly broad retrieval by using more precise arXiv queries.
 """
 
 import argparse
@@ -23,7 +18,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from urllib.parse import quote
 
 import feedparser
@@ -32,180 +27,109 @@ from dateutil import parser as date_parser
 
 ARXIV_API = "https://export.arxiv.org/api/query"
 
-# Survey-oriented arXiv queries. You can add project/model names here later.
-SEARCH_QUERIES = [
-    '"uav navigation"',
-    '"drone navigation"',
-    '"aerial navigation"',
-    '"vision-language navigation"',
-    '"vision language navigation"',
-    '"language-guided navigation"',
-    '"instruction following navigation"',
-    '"uav vision-language navigation"',
-    '"drone vision-language navigation"',
-    '"aerial vision-language navigation"',
-    '"vision-language-action"',
-    '"vision language action"',
-    '"language-conditioned policy"',
-    '"vision-language policy"',
-    '"uav foundation model"',
-    '"drone foundation model"',
-    '"world action model"',
-    '"action-conditioned world model"',
-    '"visual world model"',
-    '"generative world model"',
-    '"uav world model"',
-    '"drone world model"',
-    '"action-conditioned video generation"',
-    '"future observation prediction"',
-    '"video prediction"',
-    '"model-based reinforcement learning"',
-    '"embodied navigation"',
-    '"embodied ai"',
-    '"aerial embodied intelligence"',
-    '"uav simulator"',
-    '"drone simulator"',
-    '"vision-language navigation" survey',
-    '"world model" survey',
-    '"vision-language-action" survey',
-    '"uav navigation" survey',
-]
-
 TOPIC_ORDER = [
-    "UAV VLN",
-    "Navigation Foundation",
-    "Traditional Navigation",
-    "Instruction Following",
-    "Vision-Language-Action",
-    "World Action Model",
-    "Embodied AI",
-    "Multimodal Perception",
-    "Dataset / Simulator",
+    "Foundations",
+    "Traditional UAV VLN",
+    "UAV VLA",
+    "UAV WAM",
+    "Datasets & Simulators",
     "Evaluation",
-    "Survey",
-    "Other",
 ]
 
-UAV_VLN_KEYWORDS = [
-    "uav vision-language navigation", "aerial vision-language navigation", "drone vision-language navigation",
-    "vision language navigation for uav", "vision-language navigation", "vision language navigation",
-    "vln", "aerial navigation", "uav navigation", "drone navigation", "language-guided navigation",
-    "language guided navigation", "instruction-guided navigation", "instruction following navigation",
-    "natural language navigation", "embodied navigation", "goal-oriented navigation", "target-driven navigation",
-    "object-goal navigation", "object navigation", "remote embodied navigation",
+# Tighter query set. General foundational papers are kept, but broad non-relevant
+# categories are reduced by avoiding too many generic world-model or embodied queries.
+SEARCH_QUERIES = [
+    '"vision-language navigation"',
+    '"language-guided navigation"',
+    '((uav OR drone OR aerial) AND (navigation OR "visual navigation"))',
+    '((uav OR drone OR aerial) AND ("slam" OR "path planning" OR "obstacle avoidance" OR "semantic map"))',
+    '((uav OR drone OR aerial) AND ("instruction following" OR "language grounding" OR "language-conditioned navigation"))',
+    '("vision-language-action" OR "vision language action" OR "openvla" OR "rt-2" OR "octo")',
+    '((uav OR drone OR aerial) AND ("vision-language-action" OR "language-conditioned policy" OR "action token"))',
+    '("world action model" OR "action-conditioned world model" OR "video world model" OR "generative world model")',
+    '((uav OR drone OR aerial) AND ("world model" OR "future observation prediction" OR "model-based reinforcement learning"))',
+    '((uav OR drone OR aerial) AND (dataset OR benchmark OR simulator OR AirSim OR Flightmare OR Habitat OR "Isaac Sim"))',
+    '("vision-language navigation" AND (evaluation OR metric OR SPL OR "success rate" OR "sim-to-real"))',
+    '((uav OR drone OR aerial) AND (evaluation OR metric OR "success rate" OR collision OR "OOD generalization"))',
 ]
 
-NAVIGATION_FOUNDATION_KEYWORDS = [
-    "vision-language navigation", "embodied navigation", "visual navigation", "semantic navigation",
-    "object navigation", "object-goal navigation", "point-goal navigation", "room-to-room", "r2r", "rxr",
-    "reverie", "so-on", "habitat", "matterport3d", "ai2-thor", "minigrid", "instruction following",
-    "language grounding", "spatial reasoning", "spatial language understanding", "navigation policy",
-    "planning policy", "reinforcement learning for navigation", "imitation learning for navigation",
-    "exploration policy",
-]
+UAV_MARKERS = ["uav", "drone", "aerial", "unmanned aerial vehicle", "quadrotor", "multirotor", "flight"]
 
-TRADITIONAL_UAV_VLN_KEYWORDS = [
-    "visual navigation", "vision-based navigation", "vision based navigation", "uav visual navigation",
-    "drone visual navigation", "aerial robot navigation", "autonomous navigation", "autonomous uav navigation",
-    "path planning", "trajectory planning", "motion planning", "route planning", "waypoint navigation",
-    "goal navigation", "target navigation", "object goal navigation", "object-goal navigation",
-    "semantic navigation", "map-based navigation", "mapless navigation", "topological navigation",
-    "metric navigation", "slam", "visual slam", "semantic slam", "vslam", "localization and mapping",
-    "obstacle avoidance", "collision avoidance", "exploration", "active perception",
-]
-
-UAV_INSTRUCTION_FOLLOWING_KEYWORDS = [
-    "uav instruction following", "drone instruction following", "aerial instruction following",
-    "language-guided uav", "language guided uav", "language-guided drone", "natural language instruction",
-    "instruction-conditioned policy", "instruction conditioned policy", "language-conditioned control",
-    "language conditioned control", "language-conditioned navigation", "language conditioned navigation",
-    "text-guided navigation", "text conditioned navigation", "grounded instruction following",
-    "spatial instruction following", "aerial language grounding", "language grounding for uav",
-    "human-drone interaction", "human uav interaction",
-]
-
-UAV_VLA_KEYWORDS = [
-    "vision-language-action", "vision language action", "vla", "vision-language-action model",
-    "vision language action model", "visual language action", "multimodal action model",
-    "language-conditioned policy", "language conditioned policy", "vision-language policy",
-    "vision language policy", "robotic foundation model", "robot foundation model",
-    "embodied foundation model", "generalist robot policy", "generalist agent", "action token",
-    "action tokenizer", "action prediction", "action generation", "policy learning", "policy generation",
-    "end-to-end control", "closed-loop control", "openvla", "rt-1", "rt-2", "rt-x",
-    "octo", "pi-zero", "pizero", "diffusion policy", "act policy", "uav vla", "drone vla",
-    "aerial vla", "vision-language-action for uav", "vision language action for uav",
-    "uav foundation model", "drone foundation model", "aerial robot foundation model",
-    "uav language action model", "drone language action model", "language-conditioned drone control",
-    "vision-language drone control", "uav action prediction", "drone action prediction",
-]
-
-UAV_WAM_KEYWORDS = [
-    "world action model", "world-action model", "wam", "action-conditioned world model",
-    "action conditioned world model", "action-controllable world model", "controllable world model",
-    "visual world model", "video world model", "generative world model", "predictive world model",
-    "latent world model", "neural world model", "embodied world model", "robot world model",
-    "uav world model", "drone world model", "aerial world model", "action-conditioned video generation",
-    "action conditioned video generation", "action-driven video generation", "action driven video generation",
-    "future observation prediction", "future frame prediction", "video prediction", "next-state prediction",
-    "next state prediction", "dynamics model", "learned dynamics model", "model-based reinforcement learning",
-    "model based reinforcement learning", "planning with world models", "imagination-based planning",
-    "imagination based planning", "general world model", "generalist world model", "general-purpose world model",
-    "general purpose world model", "universal world model", "foundation world model", "world foundation model",
-    "scalable world model", "multimodal world model", "unified world model", "universal action model",
-    "general action model", "action foundation model", "policy foundation model", "dreamer", "dreamerv2",
-    "dreamerv3", "genie", "gaia-1", "unisim", "cosmos",
-]
-
-UAV_EMBODIED_KEYWORDS = [
-    "embodied ai", "embodied intelligence", "embodied agent", "embodied foundation model",
-    "embodied perception", "embodied planning", "embodied navigation", "aerial embodied intelligence",
-    "aerial embodied agent", "uav embodied intelligence", "drone embodied intelligence", "robotic agent",
-    "autonomous agent", "interactive agent", "multimodal agent", "vision-language agent",
-    "language-guided agent", "physical agent", "situated agent", "agentic navigation",
-]
-
-UAV_MULTIMODAL_PERCEPTION_KEYWORDS = [
-    "multimodal perception", "uav perception", "drone perception", "aerial perception",
-    "vision-language perception", "visual grounding", "language grounding", "referring expression",
-    "object grounding", "spatial grounding", "scene understanding", "semantic scene understanding",
-    "aerial scene understanding", "panoramic perception", "egocentric perception", "first-person view",
-    "fpv", "depth estimation", "lidar", "imu", "gps", "visual inertial odometry", "vio",
-    "multisensor fusion", "sensor fusion", "occupancy prediction", "semantic map", "topological map",
-]
-
-UAV_VLN_DATASET_KEYWORDS = [
-    "uav dataset", "drone dataset", "aerial dataset", "uav benchmark", "drone benchmark",
-    "aerial benchmark", "vision-language navigation dataset", "vln dataset", "embodied navigation dataset",
-    "instruction following dataset", "language-guided navigation dataset", "robot navigation benchmark",
-    "uav simulator", "drone simulator", "aerial simulator", "flight simulator", "airsim",
-    "flightmare", "habitat", "ai2-thor", "isaac sim", "isaac gym", "gazebo", "carla",
-    "unreal engine", "unity", "sim-to-real", "real-to-sim", "synthetic data",
-]
-
-UAV_VLN_EVALUATION_KEYWORDS = [
-    "success rate", "spl", "success weighted by path length", "navigation error", "trajectory error",
-    "path length", "collision rate", "completion rate", "goal success", "instruction following accuracy",
-    "grounding accuracy", "action accuracy", "control error", "tracking error", "planning success",
-    "generalization", "zero-shot navigation", "sim-to-real transfer", "out-of-distribution generalization",
-    "ood generalization",
-]
-
-SURVEY_KEYWORDS = [
-    "survey", "review", "taxonomy", "overview", "comprehensive study", "systematic review",
-]
-
-TOPIC_RULES: Dict[str, List[str]] = {
-    "UAV VLN": UAV_VLN_KEYWORDS,
-    "Navigation Foundation": NAVIGATION_FOUNDATION_KEYWORDS,
-    "Traditional Navigation": TRADITIONAL_UAV_VLN_KEYWORDS,
-    "Instruction Following": UAV_INSTRUCTION_FOLLOWING_KEYWORDS,
-    "Vision-Language-Action": UAV_VLA_KEYWORDS,
-    "World Action Model": UAV_WAM_KEYWORDS,
-    "Embodied AI": UAV_EMBODIED_KEYWORDS,
-    "Multimodal Perception": UAV_MULTIMODAL_PERCEPTION_KEYWORDS,
-    "Dataset / Simulator": UAV_VLN_DATASET_KEYWORDS,
-    "Evaluation": UAV_VLN_EVALUATION_KEYWORDS,
-    "Survey": SURVEY_KEYWORDS,
+TOPIC_RULES: Dict[str, Dict[str, List[str]]] = {
+    "Foundations": {
+        "primary": [
+            "vision-language navigation", "vision language navigation", "vln",
+            "language-guided navigation", "instruction following", "navigation policy",
+            "language grounding", "spatial grounding", "spatial language understanding",
+            "spatial reasoning", "embodied navigation", "object navigation",
+            "object-goal navigation", "point-goal navigation", "goal-oriented navigation",
+        ],
+        "secondary": [
+            "reverie", "room-to-room", "r2r", "rxr", "navigation agent",
+            "grounded instruction", "navigation benchmark", "language-conditioned navigation",
+        ],
+    },
+    "Traditional UAV VLN": {
+        "primary": [
+            "slam", "visual slam", "vslam", "path planning", "trajectory planning",
+            "motion planning", "obstacle avoidance", "collision avoidance",
+            "semantic map", "semantic maps", "visual navigation", "autonomous navigation",
+            "waypoint navigation", "target navigation", "localization and mapping",
+        ],
+        "secondary": [
+            "map-based navigation", "mapless navigation", "topological navigation",
+            "metric navigation", "frontier exploration", "route planning", "state estimation",
+        ],
+    },
+    "UAV VLA": {
+        "primary": [
+            "vision-language-action", "vision language action", "vision-language-action model",
+            "language-conditioned policy", "language conditioned policy", "vision-language policy",
+            "action token", "action tokens", "action tokenizer", "action generation",
+            "action prediction", "policy learning", "policy generation", "openvla",
+            "rt-1", "rt-2", "rt-x", "octo", "diffusion policy", "act policy",
+        ],
+        "secondary": [
+            "robot foundation model", "embodied foundation model", "generalist robot policy",
+            "uav action", "drone action", "language-conditioned control", "closed-loop control",
+        ],
+    },
+    "UAV WAM": {
+        "primary": [
+            "world action model", "action-conditioned world model", "video world model",
+            "visual world model", "generative world model", "predictive world model",
+            "latent world model", "future observation prediction", "future frame prediction",
+            "next-state prediction", "video prediction", "learned dynamics model",
+            "model-based reinforcement learning", "imagination-based planning",
+        ],
+        "secondary": [
+            "dreamer", "dreamerv2", "dreamerv3", "genie", "gaia-1", "unisim",
+            "action-conditioned video generation", "planning with world models",
+        ],
+    },
+    "Datasets & Simulators": {
+        "primary": [
+            "airsim", "flightmare", "habitat", "isaac sim", "isaac gym", "gazebo",
+            "unity", "unreal engine", "instruction-trajectory", "trajectory dataset",
+            "instruction trajectory video", "vln dataset", "uav dataset", "drone dataset",
+            "aerial dataset", "navigation benchmark", "robot navigation benchmark",
+        ],
+        "secondary": [
+            "benchmark dataset", "navigation dataset", "synthetic data", "sim-to-real", "real-to-sim",
+        ],
+    },
+    "Evaluation": {
+        "primary": [
+            "success rate", "spl", "success weighted by path length", "collision rate",
+            "navigation error", "instruction following accuracy", "grounding accuracy",
+            "action accuracy", "trajectory error", "path length", "completion rate",
+            "sim-to-real", "ood generalization", "out-of-distribution generalization",
+        ],
+        "secondary": [
+            "generalization", "zero-shot navigation", "zero shot navigation",
+            "evaluation", "metric", "metrics", "ablation study",
+        ],
+    },
 }
 
 VENUE_RULES: Dict[str, List[str]] = {
@@ -220,8 +144,6 @@ VENUE_RULES: Dict[str, List[str]] = {
     "IROS": ["iros"],
     "RSS": ["robotics: science and systems", "rss"],
 }
-
-UAV_MARKERS = ["uav", "drone", "aerial", "unmanned aerial vehicle", "quadrotor", "flight"]
 
 
 def normalize_text(text: str) -> str:
@@ -239,26 +161,80 @@ def stable_id(title: str, published: str) -> str:
     return hashlib.md5(raw).hexdigest()[:12]
 
 
-def classify_topics(title: str, abstract: str) -> List[str]:
-    haystack = f"{title} {abstract}".lower()
-    topics = []
+def count_hits(text: str, keywords: List[str]) -> int:
+    count = 0
+    for kw in keywords:
+        if kw.lower() in text:
+            count += 1
+    return count
+
+
+def score_topic(title: str, abstract: str, topic: str) -> float:
+    rules = TOPIC_RULES[topic]
+    title_text = title.lower()
+    abstract_text = abstract.lower()
+    full_text = f"{title_text} {abstract_text}"
+    has_uav = any(marker in full_text for marker in UAV_MARKERS)
+
+    primary_title_hits = count_hits(title_text, rules["primary"])
+    primary_abstract_hits = count_hits(abstract_text, rules["primary"])
+    secondary_title_hits = count_hits(title_text, rules["secondary"])
+    secondary_abstract_hits = count_hits(abstract_text, rules["secondary"])
+
+    score = 0.0
+    score += primary_title_hits * 3.0
+    score += primary_abstract_hits * 1.5
+    score += secondary_title_hits * 1.5
+    score += secondary_abstract_hits * 0.75
+
+    if topic in {"Traditional UAV VLN", "UAV VLA", "UAV WAM"} and has_uav:
+        score += 2.0
+    if topic == "Traditional UAV VLN" and any(k in full_text for k in ["slam", "path planning", "visual navigation", "obstacle avoidance", "semantic map"]):
+        score += 1.0
+    if topic == "Foundations" and any(k in full_text for k in ["vision-language navigation", "language grounding", "spatial grounding", "instruction following"]):
+        score += 1.0
+    if topic == "Datasets & Simulators":
+        if any(k in full_text for k in ["airsim", "flightmare", "habitat", "isaac sim", "isaac gym", "gazebo", "unity", "unreal engine"]):
+            score += 2.0
+        if has_uav and any(k in full_text for k in ["dataset", "benchmark", "simulator"]):
+            score += 1.5
+        if "vision-language navigation" in full_text and any(k in full_text for k in ["dataset", "benchmark"]):
+            score += 1.5
+    if topic == "Evaluation" and any(k in full_text for k in ["success rate", "spl", "collision rate", "sim-to-real", "ood generalization", "evaluation"]):
+        score += 1.0
+
+    # avoid weak false positives from generic terms in broad papers
+    if topic == "Evaluation" and score < 3.0:
+        return 0.0
+    if topic == "Datasets & Simulators" and score < 2.5:
+        return 0.0
+    if topic == "Foundations" and score < 2.5:
+        return 0.0
+    if topic in {"Traditional UAV VLN", "UAV VLA", "UAV WAM"} and score < 3.0:
+        return 0.0
+
+    return score
+
+
+def classify_topics(title: str, abstract: str, max_topics: int = 3) -> Tuple[List[str], Dict[str, float]]:
+    scored = []
     for topic in TOPIC_ORDER:
-        if topic in ("Other",):
-            continue
-        keywords = TOPIC_RULES.get(topic, [])
-        if any(k.lower() in haystack for k in keywords):
-            topics.append(topic)
-    if not topics:
-        topics.append("Other")
-    return topics
+        s = score_topic(title, abstract, topic)
+        if s > 0:
+            scored.append((topic, s))
+    scored.sort(key=lambda x: (-x[1], TOPIC_ORDER.index(x[0])))
+    top = scored[:max_topics]
+    topics = [x[0] for x in top]
+    score_map = {topic: round(score, 2) for topic, score in top}
+    return topics, score_map
 
 
 def compute_uav_relevance(title: str, abstract: str, topics: List[str]) -> str:
     text = f"{title} {abstract}".lower()
     has_uav = any(k in text for k in UAV_MARKERS)
-    if "UAV VLN" in topics or (has_uav and any(t in topics for t in ["Vision-Language-Action", "World Action Model", "Instruction Following"])):
+    if has_uav and any(t in topics for t in ["Traditional UAV VLN", "UAV VLA", "UAV WAM"]):
         return "High"
-    if has_uav or any(t in topics for t in ["Navigation Foundation", "Traditional Navigation", "Embodied AI", "Dataset / Simulator"]):
+    if has_uav or any(t in topics for t in ["Foundations", "Datasets & Simulators", "Evaluation"]):
         return "Medium"
     return "Low"
 
@@ -300,8 +276,59 @@ def make_bibtex(paper: Dict) -> str:
     )
 
 
-def fetch_query(query: str, max_results: int, sleep: float = 2.5) -> List[Dict]:
-    # arXiv API supports fielded search. We use all:<query> and restrict to CV/AI/RO/LG/CL.
+def build_paper(entry, query: str) -> Dict:
+    title = normalize_text(entry.get("title", ""))
+    abstract = normalize_text(entry.get("summary", ""))
+    authors = [a.name for a in entry.get("authors", [])]
+    published = entry.get("published", "")
+    updated = entry.get("updated", "")
+    abs_url = entry.get("link", "")
+    arxiv_id = abs_url.rstrip("/").split("/")[-1]
+    pdf_url = f"https://arxiv.org/pdf/{arxiv_id}"
+    year = ""
+    date = ""
+    try:
+        dt = date_parser.parse(published)
+        year = dt.year
+        date = dt.date().isoformat()
+    except Exception:
+        pass
+
+    comment = normalize_text(entry.get("arxiv_comment", ""))
+    journal_ref = normalize_text(entry.get("arxiv_journal_ref", ""))
+    topics, topic_scores = classify_topics(title, abstract)
+    if not topics:
+        return {}
+
+    paper = {
+        "id": stable_id(title, published),
+        "arxiv_id": arxiv_id,
+        "title": title,
+        "authors": authors,
+        "abstract": abstract,
+        "published": published,
+        "updated": updated,
+        "date": date,
+        "year": year,
+        "venue": guess_venue(comment, journal_ref),
+        "topics": topics,
+        "tags": topics,
+        "topic_scores": topic_scores,
+        "query_source": query,
+        "abs_url": abs_url,
+        "pdf_url": pdf_url,
+        "code_url": "",
+        "project_url": "",
+        "uav_relevance": compute_uav_relevance(title, abstract, topics),
+        "comment": comment,
+        "journal_ref": journal_ref,
+    }
+    paper["bibtex_key"] = bibtex_key(authors, published, title)
+    paper["bibtex"] = make_bibtex(paper)
+    return paper
+
+
+def fetch_query(query: str, max_results: int, sleep: float = 2.0) -> List[Dict]:
     category_filter = "(cat:cs.CV OR cat:cs.AI OR cat:cs.RO OR cat:cs.LG OR cat:cs.CL)"
     search_query = f"all:{query} AND {category_filter}"
     url = (
@@ -313,54 +340,10 @@ def fetch_query(query: str, max_results: int, sleep: float = 2.5) -> List[Dict]:
     response.raise_for_status()
     feed = feedparser.parse(response.text)
     papers = []
-
     for entry in feed.entries:
-        title = normalize_text(entry.get("title", ""))
-        abstract = normalize_text(entry.get("summary", ""))
-        authors = [a.name for a in entry.get("authors", [])]
-        published = entry.get("published", "")
-        updated = entry.get("updated", "")
-        abs_url = entry.get("link", "")
-        arxiv_id = abs_url.rstrip("/").split("/")[-1]
-        pdf_url = f"https://arxiv.org/pdf/{arxiv_id}"
-        year = ""
-        date = ""
-        try:
-            dt = date_parser.parse(published)
-            year = dt.year
-            date = dt.date().isoformat()
-        except Exception:
-            pass
-
-        comment = normalize_text(entry.get("arxiv_comment", ""))
-        journal_ref = normalize_text(entry.get("arxiv_journal_ref", ""))
-        topics = classify_topics(title, abstract)
-        paper = {
-            "id": stable_id(title, published),
-            "arxiv_id": arxiv_id,
-            "title": title,
-            "authors": authors,
-            "abstract": abstract,
-            "published": published,
-            "updated": updated,
-            "date": date,
-            "year": year,
-            "venue": guess_venue(comment, journal_ref),
-            "topics": topics,
-            "tags": topics,
-            "query_source": query,
-            "abs_url": abs_url,
-            "pdf_url": pdf_url,
-            "code_url": "",
-            "project_url": "",
-            "uav_relevance": compute_uav_relevance(title, abstract, topics),
-            "comment": comment,
-            "journal_ref": journal_ref,
-        }
-        paper["bibtex_key"] = bibtex_key(authors, published, title)
-        paper["bibtex"] = make_bibtex(paper)
-        papers.append(paper)
-
+        paper = build_paper(entry, query)
+        if paper:
+            papers.append(paper)
     time.sleep(sleep)
     return papers
 
@@ -370,13 +353,19 @@ def merge_existing(existing_path: Path, new_papers: List[Dict]) -> List[Dict]:
     if existing_path.exists():
         with open(existing_path, "r", encoding="utf-8") as f:
             for p in json.load(f):
+                topics, topic_scores = classify_topics(p.get("title", ""), p.get("abstract", ""))
+                if not topics:
+                    continue
+                p["topics"] = topics
+                p["tags"] = topics
+                p["topic_scores"] = topic_scores
+                p["uav_relevance"] = compute_uav_relevance(p.get("title", ""), p.get("abstract", ""), topics)
                 key = p.get("arxiv_id") or p.get("id")
                 merged[key] = p
     for p in new_papers:
         key = p.get("arxiv_id") or p.get("id")
         if key in merged:
             old = merged[key]
-            # Preserve manually curated links while refreshing metadata/topics.
             p["code_url"] = old.get("code_url", p.get("code_url", ""))
             p["project_url"] = old.get("project_url", p.get("project_url", ""))
             p["notes"] = old.get("notes", p.get("notes", ""))
@@ -410,7 +399,8 @@ def write_outputs(papers: List[Dict], output_path: Path) -> None:
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "total_papers": len(papers),
         "topics": TOPIC_ORDER,
-        "source": "arXiv API + manual JSON curation",
+        "source": "arXiv API + score-based six-topic classification",
+        "tag_limit_per_paper": 3,
     }
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
@@ -418,9 +408,9 @@ def write_outputs(papers: List[Dict], output_path: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--max-results", type=int, default=80, help="Max results for each query")
+    parser.add_argument("--max-results", type=int, default=60, help="Max results for each query")
     parser.add_argument("--output", default="data/papers.json", help="Output JSON path")
-    parser.add_argument("--sleep", type=float, default=2.5, help="Sleep seconds between arXiv API calls")
+    parser.add_argument("--sleep", type=float, default=2.0, help="Sleep seconds between arXiv API calls")
     args = parser.parse_args()
 
     output_path = Path(args.output)

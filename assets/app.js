@@ -1,19 +1,13 @@
 const DATA_URL = "data/papers.json";
 const META_URL = "data/meta.json";
-const FAVORITE_KEY = "uav-vln-wam-hub-favorites";
+const FAVORITE_KEY = "uav-vln-awesome-hub-favorites";
 const TOPIC_ORDER = [
-  "UAV VLN",
-  "Navigation Foundation",
-  "Traditional Navigation",
-  "Instruction Following",
-  "Vision-Language-Action",
-  "World Action Model",
-  "Embodied AI",
-  "Multimodal Perception",
-  "Dataset / Simulator",
+  "Foundations",
+  "Traditional UAV VLN",
+  "UAV VLA",
+  "UAV WAM",
+  "Datasets & Simulators",
   "Evaluation",
-  "Survey",
-  "Other",
 ];
 
 let papers = [];
@@ -25,12 +19,12 @@ const els = {
   totalTopics: document.getElementById("totalTopics"),
   lastUpdated: document.getElementById("lastUpdated"),
   visibleCount: document.getElementById("visibleCount"),
-  topicChips: document.getElementById("topicChips"),
+  topicButtons: document.getElementById("topicButtons"),
   topicFilter: document.getElementById("topicFilter"),
   relevanceFilter: document.getElementById("relevanceFilter"),
   searchInput: document.getElementById("searchInput"),
   sortSelect: document.getElementById("sortSelect"),
-  paperList: document.getElementById("paperList"),
+  sectionContainer: document.getElementById("topicSections"),
   template: document.getElementById("paperTemplate"),
   exportCsvBtn: document.getElementById("exportCsvBtn"),
   exportBibBtn: document.getElementById("exportBibBtn"),
@@ -41,25 +35,14 @@ function saveFavorites() {
   localStorage.setItem(FAVORITE_KEY, JSON.stringify([...favorites]));
 }
 
-function allTopics() {
-  const set = new Set();
-  papers.forEach(p => (p.topics || p.tags || []).forEach(t => set.add(t)));
-  return [...set].sort((a, b) => {
-    const ia = TOPIC_ORDER.indexOf(a);
-    const ib = TOPIC_ORDER.indexOf(b);
-    if (ia !== -1 || ib !== -1) return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
-    return a.localeCompare(b);
-  });
-}
-
-function truncate(text, len = 520) {
-  if (!text) return "";
-  return text.length > len ? text.slice(0, len).trim() + "…" : text;
-}
-
 function dateOnly(date) {
   if (!date) return "Unknown date";
   return String(date).slice(0, 10);
+}
+
+function truncate(text, len = 420) {
+  if (!text) return "";
+  return text.length > len ? text.slice(0, len).trim() + "…" : text;
 }
 
 function download(filename, content, type = "text/plain") {
@@ -81,72 +64,54 @@ function toCSV(rows) {
   rows.forEach(p => {
     lines.push(fields.map(f => {
       if (f === "authors") return esc((p.authors || []).join("; "));
-      if (f === "topics") return esc((p.topics || p.tags || []).join("; "));
+      if (f === "topics") return esc((p.topics || []).join("; "));
       return esc(p[f]);
     }).join(","));
   });
   return lines.join("\n");
 }
 
-function renderStats() {
-  const topics = allTopics();
-  els.totalPapers.textContent = papers.length;
-  els.totalTopics.textContent = topics.length;
-  els.lastUpdated.textContent = meta.updated_at ? dateOnly(meta.updated_at) : "local";
-  els.topicChips.innerHTML = "";
-  topics.forEach(topic => {
-    const count = papers.filter(p => (p.topics || p.tags || []).includes(topic)).length;
-    const chip = document.createElement("button");
-    chip.className = "chip";
-    chip.type = "button";
-    chip.textContent = `${topic} ${count}`;
-    chip.addEventListener("click", () => {
-      els.topicFilter.value = topic;
-      renderPapers();
-      document.getElementById("papers").scrollIntoView({ behavior: "smooth" });
-    });
-    els.topicChips.appendChild(chip);
-  });
-
-  els.topicFilter.innerHTML = `<option value="All">All Topics</option>`;
-  topics.forEach(topic => {
-    const option = document.createElement("option");
-    option.value = topic;
-    option.textContent = topic;
-    els.topicFilter.appendChild(option);
-  });
+function topicSlug(topic) {
+  return topic.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
-function getFilteredPapers() {
+function allTopics() {
+  return TOPIC_ORDER.filter(topic => papers.some(p => (p.topics || []).includes(topic)));
+}
+
+function matchesFilters(paper) {
   const q = els.searchInput.value.trim().toLowerCase();
   const topic = els.topicFilter.value;
   const relevance = els.relevanceFilter.value;
+  const topics = paper.topics || [];
+  const text = [
+    paper.title,
+    (paper.authors || []).join(" "),
+    paper.abstract,
+    topics.join(" "),
+    paper.venue,
+    paper.uav_relevance,
+  ].join(" ").toLowerCase();
+
+  const matchQ = !q || text.includes(q);
+  const matchTopic = topic === "All" || topics.includes(topic);
+  const matchRel = relevance === "All" || paper.uav_relevance === relevance;
+  return matchQ && matchTopic && matchRel;
+}
+
+function sortRows(rows) {
   const sort = els.sortSelect.value;
-
-  let rows = papers.filter(p => {
-    const topics = p.topics || p.tags || [];
-    const text = [
-      p.title,
-      (p.authors || []).join(" "),
-      p.abstract,
-      topics.join(" "),
-      p.venue,
-      p.uav_relevance,
-    ].join(" ").toLowerCase();
-    const matchQ = !q || text.includes(q);
-    const matchTopic = topic === "All" || topics.includes(topic);
-    const matchRel = relevance === "All" || p.uav_relevance === relevance;
-    return matchQ && matchTopic && matchRel;
-  });
-
   rows.sort((a, b) => {
     if (sort === "date-asc") return String(a.date || "").localeCompare(String(b.date || ""));
     if (sort === "title-asc") return String(a.title || "").localeCompare(String(b.title || ""));
     if (sort === "favorite") return Number(favorites.has(b.id)) - Number(favorites.has(a.id));
     return String(b.date || "").localeCompare(String(a.date || ""));
   });
-
   return rows;
+}
+
+function getFilteredPapers() {
+  return sortRows(papers.filter(matchesFilters));
 }
 
 function link(label, href) {
@@ -171,50 +136,104 @@ function bibButton(paper) {
   return btn;
 }
 
-function renderPapers() {
+function createPaperCard(p) {
+  const node = els.template.content.cloneNode(true);
+  node.querySelector(".paper-title").textContent = p.title || "Untitled";
+  node.querySelector(".paper-meta").textContent = `${(p.authors || []).slice(0, 6).join(", ")}${(p.authors || []).length > 6 ? ", et al." : ""} · ${dateOnly(p.date || p.published)} · ${p.venue || "arXiv"} · UAV relevance: ${p.uav_relevance || "-"}`;
+  node.querySelector(".paper-abstract").textContent = truncate(p.abstract || "No abstract available.");
+
+  const fav = node.querySelector(".favorite-btn");
+  fav.textContent = favorites.has(p.id) ? "★" : "☆";
+  fav.classList.toggle("active", favorites.has(p.id));
+  fav.addEventListener("click", () => {
+    if (favorites.has(p.id)) favorites.delete(p.id); else favorites.add(p.id);
+    saveFavorites();
+    renderSections();
+  });
+
+  const tagRow = node.querySelector(".tag-row");
+  (p.topics || []).forEach(t => {
+    const tag = document.createElement("span");
+    tag.className = "tag";
+    tag.textContent = t;
+    tagRow.appendChild(tag);
+  });
+
+  const links = node.querySelector(".paper-links");
+  [
+    link("arXiv", p.abs_url),
+    link("PDF", p.pdf_url),
+    link("Code", p.code_url),
+    link("Project", p.project_url),
+  ].filter(Boolean).forEach(x => links.appendChild(x));
+  links.appendChild(bibButton(p));
+
+  return node;
+}
+
+function renderStats() {
+  const topics = allTopics();
+  els.totalPapers.textContent = papers.length;
+  els.totalTopics.textContent = TOPIC_ORDER.length;
+  els.lastUpdated.textContent = meta.updated_at ? dateOnly(meta.updated_at) : "local";
+
+  els.topicButtons.innerHTML = "";
+  TOPIC_ORDER.forEach(topic => {
+    const count = papers.filter(p => (p.topics || []).includes(topic)).length;
+    const btn = document.createElement("button");
+    btn.className = "survey-jump-btn";
+    btn.type = "button";
+    btn.innerHTML = `<strong>${topic}</strong><span>${count} papers</span>`;
+    btn.addEventListener("click", () => {
+      els.topicFilter.value = topic;
+      renderSections();
+      const target = document.getElementById(topicSlug(topic));
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    els.topicButtons.appendChild(btn);
+  });
+
+  els.topicFilter.innerHTML = `<option value="All">All Topics</option>`;
+  TOPIC_ORDER.forEach(topic => {
+    const option = document.createElement("option");
+    option.value = topic;
+    option.textContent = topic;
+    els.topicFilter.appendChild(option);
+  });
+}
+
+function renderSections() {
   const rows = getFilteredPapers();
   els.visibleCount.textContent = rows.length;
-  els.paperList.innerHTML = "";
+  els.sectionContainer.innerHTML = "";
 
-  if (!rows.length) {
-    els.paperList.innerHTML = `<p class="muted">No papers found. Try another keyword or filter.</p>`;
-    return;
-  }
+  const selectedTopic = els.topicFilter.value;
+  const renderTopics = selectedTopic === "All" ? TOPIC_ORDER : [selectedTopic];
 
-  rows.forEach(p => {
-    const node = els.template.content.cloneNode(true);
-    node.querySelector(".paper-title").textContent = p.title || "Untitled";
-    node.querySelector(".paper-meta").textContent = `${(p.authors || []).slice(0, 6).join(", ")}${(p.authors || []).length > 6 ? ", et al." : ""} · ${dateOnly(p.date || p.published)} · ${p.venue || "arXiv"} · UAV relevance: ${p.uav_relevance || "-"}`;
-    node.querySelector(".paper-abstract").textContent = truncate(p.abstract || "No abstract available.");
+  renderTopics.forEach(topic => {
+    const topicRows = rows.filter(p => (p.topics || []).includes(topic));
+    if (!topicRows.length) return;
 
-    const fav = node.querySelector(".favorite-btn");
-    fav.textContent = favorites.has(p.id) ? "★" : "☆";
-    fav.classList.toggle("active", favorites.has(p.id));
-    fav.addEventListener("click", () => {
-      if (favorites.has(p.id)) favorites.delete(p.id); else favorites.add(p.id);
-      saveFavorites();
-      renderPapers();
-    });
+    const section = document.createElement("section");
+    section.className = "topic-section";
+    section.id = topicSlug(topic);
 
-    const tagRow = node.querySelector(".tag-row");
-    (p.topics || p.tags || []).forEach(t => {
-      const tag = document.createElement("span");
-      tag.className = "tag";
-      tag.textContent = t;
-      tagRow.appendChild(tag);
-    });
+    const head = document.createElement("div");
+    head.className = "topic-section-head";
+    head.innerHTML = `<h3>${topic}</h3><span class="count-badge">${topicRows.length} papers</span>`;
+    section.appendChild(head);
 
-    const links = node.querySelector(".paper-links");
-    [
-      link("arXiv", p.abs_url),
-      link("PDF", p.pdf_url),
-      link("Code", p.code_url),
-      link("Project", p.project_url),
-    ].filter(Boolean).forEach(x => links.appendChild(x));
-    links.appendChild(bibButton(p));
+    const list = document.createElement("div");
+    list.className = "paper-list";
+    topicRows.forEach(p => list.appendChild(createPaperCard(p)));
+    section.appendChild(list);
 
-    els.paperList.appendChild(node);
+    els.sectionContainer.appendChild(section);
   });
+
+  if (!els.sectionContainer.children.length) {
+    els.sectionContainer.innerHTML = `<p class="muted">No papers found. Try another keyword or filter.</p>`;
+  }
 }
 
 async function loadData() {
@@ -225,7 +244,7 @@ async function loadData() {
   papers = await paperRes.json();
   meta = metaRes && metaRes.ok ? await metaRes.json() : {};
   renderStats();
-  renderPapers();
+  renderSections();
 }
 
 function initTheme() {
@@ -240,15 +259,15 @@ function initTheme() {
   });
 }
 
-els.searchInput.addEventListener("input", renderPapers);
-els.topicFilter.addEventListener("change", renderPapers);
-els.relevanceFilter.addEventListener("change", renderPapers);
-els.sortSelect.addEventListener("change", renderPapers);
-els.exportCsvBtn.addEventListener("click", () => download("uav-vln-wam-papers.csv", toCSV(getFilteredPapers()), "text/csv"));
-els.exportBibBtn.addEventListener("click", () => download("uav-vln-wam-papers.bib", getFilteredPapers().map(p => p.bibtex || "").join("\n\n"), "text/plain"));
+els.searchInput.addEventListener("input", renderSections);
+els.topicFilter.addEventListener("change", renderSections);
+els.relevanceFilter.addEventListener("change", renderSections);
+els.sortSelect.addEventListener("change", renderSections);
+els.exportCsvBtn.addEventListener("click", () => download("uav-vln-awesome-papers.csv", toCSV(getFilteredPapers()), "text/csv"));
+els.exportBibBtn.addEventListener("click", () => download("uav-vln-awesome-papers.bib", getFilteredPapers().map(p => p.bibtex || "").join("\n\n"), "text/plain"));
 
 initTheme();
 loadData().catch(err => {
   console.error(err);
-  els.paperList.innerHTML = `<p class="muted">Failed to load data/papers.json. Run with a local server, e.g. python -m http.server 8000.</p>`;
+  els.sectionContainer.innerHTML = `<p class="muted">Failed to load data/papers.json. Run with a local server, e.g. python -m http.server 8000.</p>`;
 });
