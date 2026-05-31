@@ -43,7 +43,7 @@
     <section class="panel">
       <h2>Recommended Survey Structure</h2>
       <p class="muted">
-        The hub is strictly organized into the six aspects below. Use the buttons to jump to the corresponding topic section.
+        The hub is strictly organized into the six aspects below. Use the buttons to jump to the corresponding topic section. Each topic is indexed by year and month, with papers inside every month sorted by day.
       </p>
       <div class="roadmap-grid" id="topicButtons"></div>
     </section>
@@ -68,6 +68,10 @@
           <option value="Medium">Medium</option>
           <option value="Low">Low</option>
         </select>
+        <div class="month-control" title="Choose year and month">
+          <input id="monthFilter" type="month" aria-label="Filter by year and month" />
+          <button id="clearMonthBtn" type="button">All Months</button>
+        </div>
         <select id="sortSelect">
           <option value="date-desc">Newest</option>
           <option value="date-asc">Oldest</option>
@@ -89,6 +93,7 @@
   <template id="paperTemplate">
     <article class="paper-card">
       <div class="paper-top">
+        <div class="paper-date-badge"><span class="paper-day">--</span><small>day</small></div>
         <div>
           <h3 class="paper-title"></h3>
           <p class="paper-meta"></p>

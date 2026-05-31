@@ -27,6 +27,16 @@ This version is intentionally strict:
 6. **Evaluation**  
    SR, SPL, collision rate, instruction accuracy, sim-to-real and OOD generalization.
 
+
+## Time Index
+
+The web interface now supports a calendar-style year-month filter:
+
+- use the `Year-Month` picker in the toolbar to filter papers by month;
+- each topic section shows month chips such as `2026.05`;
+- clicking a month chip jumps to that topic and filters the corresponding month;
+- papers inside each month are sorted by day.
+
 ## Features
 
 - arXiv-based update script

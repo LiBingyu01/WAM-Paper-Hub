@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-31T10:54:28.461950+00:00",
-  "total_papers": 240,
+  "updated_at": "2026-05-31T10:37:15.856693+00:00",
+  "total_papers": 809,
   "topics": [
     "Foundations",
     "Traditional UAV VLN",
@@ -9,38 +9,6 @@
     "Datasets & Simulators",
     "Evaluation"
   ],
-  "source": "arXiv API + strict UAV-navigation filtering + score-based six-topic classification",
-  "uav_navigation_only": true,
-  "uav_markers": [
-    "uav",
-    "unmanned aerial vehicle"
-  ],
-  "navigation_markers": [
-    "navigation",
-    "navigate",
-    "navigating",
-    "visual navigation",
-    "vision-based navigation",
-    "vision based navigation",
-    "vision-language navigation",
-    "vision language navigation",
-    "language-guided navigation",
-    "language guided navigation",
-    "instruction navigation",
-    "path planning",
-    "trajectory planning",
-    "motion planning",
-    "route planning",
-    "slam",
-    "visual slam",
-    "vslam",
-    "obstacle avoidance",
-    "collision avoidance",
-    "waypoint",
-    "waypoint navigation",
-    "localization and mapping",
-    "semantic map",
-    "semantic maps"
-  ],
+  "source": "arXiv API + score-based six-topic classification",
   "tag_limit_per_paper": 3
 }
