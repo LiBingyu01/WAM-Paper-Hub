@@ -811,7 +811,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "zhou2026flip",
-    "bibtex": "@article{zhou2026flip,\n  title={FLIP: Real-Time and Resilient Formation Planning for Large-Scale DIstributed Swarms via Point Cloud Registration},\n  author={Yuan Zhou and Guangtong Xu and Zhenyu Hou and Jialiang Hou and Fei Gao},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.29704v1}\n}"
+    "bibtex": "@article{zhou2026flip,\n  title={FLIP: Real-Time and Resilient Formation Planning for Large-Scale DIstributed Swarms via Point Cloud Registration},\n  author={Yuan Zhou and Guangtong Xu and Zhenyu Hou and Jialiang Hou and Fei Gao},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.29704v1}\n}",
+    "notes": ""
   },
   {
     "id": "4b72cc1908a9",
@@ -1179,7 +1180,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "choi2026integrated",
-    "bibtex": "@article{choi2026integrated,\n  title={Integrated Exploration-Aware UAV Route Optimization and Path Planning},\n  author={Jimin Choi and Grant Stagg and Cameron K. Peterson and Max Z. Li},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.28654v1}\n}"
+    "bibtex": "@article{choi2026integrated,\n  title={Integrated Exploration-Aware UAV Route Optimization and Path Planning},\n  author={Jimin Choi and Grant Stagg and Cameron K. Peterson and Max Z. Li},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.28654v1}\n}",
+    "notes": ""
   },
   {
     "id": "c35c8c8f6bf0",
@@ -1750,7 +1752,8 @@
     "comment": "6 pages, 7 figures",
     "journal_ref": "",
     "bibtex_key": "singh2026nightsight",
-    "bibtex": "@article{singh2026nightsight,\n  title={NightSight: Passive Computation for Navigation in Dark Using Events},\n  author={Deepak Singh and Brijan Vaghasiya and Shreyas Khobragade and Nitin Sanket},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.26330v1}\n}"
+    "bibtex": "@article{singh2026nightsight,\n  title={NightSight: Passive Computation for Navigation in Dark Using Events},\n  author={Deepak Singh and Brijan Vaghasiya and Shreyas Khobragade and Nitin Sanket},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.26330v1}\n}",
+    "notes": ""
   },
   {
     "id": "a67e42961210",
@@ -1824,7 +1827,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "xia2026uav",
-    "bibtex": "@article{xia2026uav,\n  title={UAV-OVO: Out-of-Viewpoint Generalization in UAV Action Recognition},\n  author={Yu Xia and Zhengbo Zhang and Shuaihu Zhang and Zhigang Tu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.25615v1}\n}"
+    "bibtex": "@article{xia2026uav,\n  title={UAV-OVO: Out-of-Viewpoint Generalization in UAV Action Recognition},\n  author={Yu Xia and Zhengbo Zhang and Shuaihu Zhang and Zhigang Tu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.25615v1}\n}",
+    "notes": ""
   },
   {
     "id": "94768544f97c",
@@ -3324,7 +3328,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "zhu2026segment",
-    "bibtex": "@article{zhu2026segment,\n  title={Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking},\n  author={Deyi Zhu and Yuji Wang and Yong Liu and Yansong Tang and Bingyao Yu and Jiwen Lu and Jie Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.22538v1}\n}"
+    "bibtex": "@article{zhu2026segment,\n  title={Segment Anything with Motion, Geometry, and Semantic Adaptation for Complex Nonlinear Visual Object Tracking},\n  author={Deyi Zhu and Yuji Wang and Yong Liu and Yansong Tang and Bingyao Yu and Jiwen Lu and Jie Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.22538v1}\n}",
+    "notes": ""
   },
   {
     "id": "8fec2c9c173c",
@@ -3759,7 +3764,8 @@
     "comment": "Submitted to IEEE Transactions on Intelligent Transportation Systems",
     "journal_ref": "",
     "bibtex_key": "sabet2026intent",
-    "bibtex": "@article{sabet2026intent,\n  title={Intent-First Aerial V2V for Tactical Coordination and Separation: Protocol and Performance Under Density and Disturbance},\n  author={Mehrnaz Sabet},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.20595v1}\n}"
+    "bibtex": "@article{sabet2026intent,\n  title={Intent-First Aerial V2V for Tactical Coordination and Separation: Protocol and Performance Under Density and Disturbance},\n  author={Mehrnaz Sabet},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.20595v1}\n}",
+    "notes": ""
   },
   {
     "id": "f4ec0b12f77f",
@@ -4260,7 +4266,8 @@
     "comment": "26 pages,12 figures, 9 tables",
     "journal_ref": "",
     "bibtex_key": "ahn2026geox",
-    "bibtex": "@article{ahn2026geox,\n  title={GeoX: Mastering Geospatial Reasoning Through Self-Play and Verifiable Rewards},\n  author={Kyeongjin Ahn and Seungeon Lee and Krishna P. Gummadi and Meeyoung Cha},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.20006v1}\n}"
+    "bibtex": "@article{ahn2026geox,\n  title={GeoX: Mastering Geospatial Reasoning Through Self-Play and Verifiable Rewards},\n  author={Kyeongjin Ahn and Seungeon Lee and Krishna P. Gummadi and Meeyoung Cha},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.20006v1}\n}",
+    "notes": ""
   },
   {
     "id": "d831fb9d4221",
@@ -4685,7 +4692,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "zhu2026incantation",
-    "bibtex": "@article{zhu2026incantation,\n  title={Incantation: Natural Language as the Action Interface for Multi-Entity Video World Models},\n  author={Shangwen Zhu and Qianyu Peng and Zhao Pu and Zhilei Shu and Xiangrui Ke and Zhaohu Xing and Zizhao Tong and Zeqing Wang and Xinyu Cui and Huangji Wang and Jian Zhao and Yeying Jin and Fan Cheng and Ruili Feng},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.18601v1}\n}"
+    "bibtex": "@article{zhu2026incantation,\n  title={Incantation: Natural Language as the Action Interface for Multi-Entity Video World Models},\n  author={Shangwen Zhu and Qianyu Peng and Zhao Pu and Zhilei Shu and Xiangrui Ke and Zhaohu Xing and Zizhao Tong and Zeqing Wang and Xinyu Cui and Huangji Wang and Jian Zhao and Yeying Jin and Fan Cheng and Ruili Feng},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.18601v1}\n}",
+    "notes": ""
   },
   {
     "id": "122458721cc5",
@@ -5163,7 +5171,8 @@
     "comment": "9 page",
     "journal_ref": "",
     "bibtex_key": "santjoko2026distributed",
-    "bibtex": "@article{santjoko2026distributed,\n  title={Distributed 3D Leader-Follower Formation Control with Field-of-View Safety via Control Barrier Functions},\n  author={Immanuel R. Santjoko and Richie R. Suganda and Miao Pan and Bin Hu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.17533v1}\n}"
+    "bibtex": "@article{santjoko2026distributed,\n  title={Distributed 3D Leader-Follower Formation Control with Field-of-View Safety via Control Barrier Functions},\n  author={Immanuel R. Santjoko and Richie R. Suganda and Miao Pan and Bin Hu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.17533v1}\n}",
+    "notes": ""
   },
   {
     "id": "ad82d33832eb",
@@ -5637,7 +5646,8 @@
     "comment": "28 pages, 14 figures",
     "journal_ref": "",
     "bibtex_key": "dazbez2026optimizing",
-    "bibtex": "@article{dazbez2026optimizing,\n  title={Optimizing Line Segment Inspection with Limited-Range Drones},\n  author={José-Miguel Díaz-Báñez and José-Manuel Higes and Alina Kasiuk and Inmaculada Ventura},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15765v1}\n}"
+    "bibtex": "@article{dazbez2026optimizing,\n  title={Optimizing Line Segment Inspection with Limited-Range Drones},\n  author={José-Miguel Díaz-Báñez and José-Manuel Higes and Alina Kasiuk and Inmaculada Ventura},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15765v1}\n}",
+    "notes": ""
   },
   {
     "id": "7cc808928c00",
@@ -5672,7 +5682,8 @@
     "comment": "Accepted for publication at IEEE International Conference on Robotics and Automation (ICRA 2026) held in Vienna",
     "journal_ref": "IEEE International Conference on Robotics and Automation (ICRA 2026) held in Vienna",
     "bibtex_key": "morando2026wind",
-    "bibtex": "@article{morando2026wind,\n  title={Wind-Aware Optimal Trajectory Planning for Efficient Gliding of Fixed-Wing Aerial Systems},\n  author={Luca Morando and Nishanth Bobbili and Giuseppe Loianno},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15619v1}\n}"
+    "bibtex": "@article{morando2026wind,\n  title={Wind-Aware Optimal Trajectory Planning for Efficient Gliding of Fixed-Wing Aerial Systems},\n  author={Luca Morando and Nishanth Bobbili and Giuseppe Loianno},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15619v1}\n}",
+    "notes": ""
   },
   {
     "id": "cbab5f91e334",
@@ -5707,7 +5718,8 @@
     "comment": "",
     "journal_ref": "2026 International Conference on Unmanned Aircraft Systems (ICUAS)",
     "bibtex_key": "ye2026a",
-    "bibtex": "@article{ye2026a,\n  title={A Topology-Aware Spatiotemporal Handover Framework for Continuous Multi-UAV Tracking},\n  author={Jianlin Ye and Christos Kyrkou and Panayiotis Kolios},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15779v1}\n}"
+    "bibtex": "@article{ye2026a,\n  title={A Topology-Aware Spatiotemporal Handover Framework for Continuous Multi-UAV Tracking},\n  author={Jianlin Ye and Christos Kyrkou and Panayiotis Kolios},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15779v1}\n}",
+    "notes": ""
   },
   {
     "id": "60412f154c08",
@@ -6047,7 +6059,8 @@
     "comment": "12 pages, 5 figures. Project page : https://pdi-bench.github.io/",
     "journal_ref": "",
     "bibtex_key": "wu2026quantitative",
-    "bibtex": "@article{wu2026quantitative,\n  title={Quantitative Video World Model Evaluation for Geometric-Consistency},\n  author={Jiaxin Wu and Yihao Pi and Yinling Zhang and Yuheng Li and Xueyan Zou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15185v1}\n}"
+    "bibtex": "@article{wu2026quantitative,\n  title={Quantitative Video World Model Evaluation for Geometric-Consistency},\n  author={Jiaxin Wu and Yihao Pi and Yinling Zhang and Yuheng Li and Xueyan Zou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15185v1}\n}",
+    "notes": ""
   },
   {
     "id": "0016a06ba6f6",
@@ -6083,7 +6096,8 @@
     "comment": "Work in progress version accepted to the Recent Advances in Robotic Perception for Forestry",
     "journal_ref": "",
     "bibtex_key": "dunnett2026where",
-    "bibtex": "@article{dunnett2026where,\n  title={Where to Perch in a Tree: Vision-Guidance for Tree-Grasping Drones},\n  author={Alex Dunnett and Leonie Bottomley and Mirko Kovac and Basaran Bahadir Kocer},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15430v1}\n}"
+    "bibtex": "@article{dunnett2026where,\n  title={Where to Perch in a Tree: Vision-Guidance for Tree-Grasping Drones},\n  author={Alex Dunnett and Leonie Bottomley and Mirko Kovac and Basaran Bahadir Kocer},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15430v1}\n}",
+    "notes": ""
   },
   {
     "id": "7aff7946573f",
@@ -6699,7 +6713,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "delama2026galilean",
-    "bibtex": "@article{delama2026galilean,\n  title={Galilean State Estimation for Inertial Navigation Systems with Unknown Time Delay},\n  author={Giulio Delama and Martin Scheiber and Yixiao Ge and Tarek Hamel and Stephan Weiss and Robert Mahony},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.13266v1}\n}"
+    "bibtex": "@article{delama2026galilean,\n  title={Galilean State Estimation for Inertial Navigation Systems with Unknown Time Delay},\n  author={Giulio Delama and Martin Scheiber and Yixiao Ge and Tarek Hamel and Stephan Weiss and Robert Mahony},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.13266v1}\n}",
+    "notes": ""
   },
   {
     "id": "ac3e4058f9ae",
@@ -6735,7 +6750,8 @@
     "comment": "Poster at 2026 AI-Driven Safe Aerial Robotics Workshop",
     "journal_ref": "",
     "bibtex_key": "diller2026lmpath",
-    "bibtex": "@article{diller2026lmpath,\n  title={LMPath: Language-Mediated Priors and Path Generation for Aerial Exploration},\n  author={Jonathan A. Diller and Fernando Cladera and Camillo J. Taylor and Vijay Kumar},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.13782v1}\n}"
+    "bibtex": "@article{diller2026lmpath,\n  title={LMPath: Language-Mediated Priors and Path Generation for Aerial Exploration},\n  author={Jonathan A. Diller and Fernando Cladera and Camillo J. Taylor and Vijay Kumar},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.13782v1}\n}",
+    "notes": ""
   },
   {
     "id": "422e68a80d48",
@@ -6821,7 +6837,8 @@
     "comment": "Preprint; 12 pages, 7 figures, 10 tables",
     "journal_ref": "",
     "bibtex_key": "liu2026omnilidar",
-    "bibtex": "@article{liu2026omnilidar,\n  title={OmniLiDAR: A Unified Diffusion Framework for Multi-Domain 3D LiDAR Generation},\n  author={Youquan Liu and Weidong Yang and Ao Liang and Xiang Xu and Lingdong Kong and Yang Wu and Dekai Zhu and Xin Li and Runnan Chen and Ben Fei and Tongliang Liu and Wanli Ouyang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.13815v1}\n}"
+    "bibtex": "@article{liu2026omnilidar,\n  title={OmniLiDAR: A Unified Diffusion Framework for Multi-Domain 3D LiDAR Generation},\n  author={Youquan Liu and Weidong Yang and Ao Liang and Xiang Xu and Lingdong Kong and Yang Wu and Dekai Zhu and Xin Li and Runnan Chen and Ben Fei and Tongliang Liu and Wanli Ouyang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.13815v1}\n}",
+    "notes": ""
   },
   {
     "id": "259d637ded55",
@@ -7169,7 +7186,8 @@
     "comment": "Submission for possible publication",
     "journal_ref": "",
     "bibtex_key": "yan2026hierarchical",
-    "bibtex": "@article{yan2026hierarchical,\n  title={Hierarchical LLM-Driven Control for HAPS-Assisted UAV Networks: Joint Optimization of Flight and Connectivity},\n  author={Zijiang Yan and Hao Zhou and Wael Jaafar and Jianhua Pei and Ping Wang and Halim Yanikomeroglu and Hina Tabassum},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.11509v1}\n}"
+    "bibtex": "@article{yan2026hierarchical,\n  title={Hierarchical LLM-Driven Control for HAPS-Assisted UAV Networks: Joint Optimization of Flight and Connectivity},\n  author={Zijiang Yan and Hao Zhou and Wael Jaafar and Jianhua Pei and Ping Wang and Halim Yanikomeroglu and Hina Tabassum},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.11509v1}\n}",
+    "notes": ""
   },
   {
     "id": "a6fc09e5ba26",
@@ -7473,7 +7491,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "yan2026m",
-    "bibtex": "@article{yan2026m,\n  title={M$^2$E-UAV: A Benchmark and Analysis for Onboard Motion-on-Motion Event-Based Tiny UAV Detection},\n  author={Weiqi Yan and Lixin Chen and Xiangrui Hou and Zhipeng Cai and Youbiao Wang and Yangyang Shi and Yu Zang and Cheng Wang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.10496v2}\n}"
+    "bibtex": "@article{yan2026m,\n  title={M$^2$E-UAV: A Benchmark and Analysis for Onboard Motion-on-Motion Event-Based Tiny UAV Detection},\n  author={Weiqi Yan and Lixin Chen and Xiangrui Hou and Zhipeng Cai and Youbiao Wang and Yangyang Shi and Yu Zang and Cheng Wang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.10496v2}\n}",
+    "notes": ""
   },
   {
     "id": "5587f0809b77",
@@ -7983,7 +8002,8 @@
     "comment": "8 pages, 4 figures",
     "journal_ref": "",
     "bibtex_key": "burkhardt2026aero",
-    "bibtex": "@article{burkhardt2026aero,\n  title={AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM},\n  author={Yannick Burkhardt and Sebastián Barbas Laina and Simon Boche and Leonard Freißmuth and Stefan Leutenegger},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.07885v1}\n}"
+    "bibtex": "@article{burkhardt2026aero,\n  title={AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM},\n  author={Yannick Burkhardt and Sebastián Barbas Laina and Simon Boche and Leonard Freißmuth and Stefan Leutenegger},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.07885v1}\n}",
+    "notes": ""
   },
   {
     "id": "007fbb45cb4d",
@@ -8021,7 +8041,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "wang2026palm",
-    "bibtex": "@article{wang2026palm,\n  title={Palm-sized Omnidirectional Vision-Based UAV Exploration with Sparse Topological Map Guidance},\n  author={Zirui Wang and Xinjia Luo and Haotian Sun and Jun Ma and Jian Guo and Boyu Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.07275v1}\n}"
+    "bibtex": "@article{wang2026palm,\n  title={Palm-sized Omnidirectional Vision-Based UAV Exploration with Sparse Topological Map Guidance},\n  author={Zirui Wang and Xinjia Luo and Haotian Sun and Jun Ma and Jian Guo and Boyu Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.07275v1}\n}",
+    "notes": ""
   },
   {
     "id": "06973b6835ec",
@@ -8392,7 +8413,8 @@
     "comment": "For DARS 2026",
     "journal_ref": "",
     "bibtex_key": "cai2026ga3t",
-    "bibtex": "@article{cai2026ga3t,\n  title={GA3T: A Ground-Aerial Terrain Traversability Dataset for Heterogeneous Robot Teams in Unstructured Environments},\n  author={Siwei Cai and Knut Peterson and Quan Tran and Christian Ricks and Dhanush Parthasarathy and Amir Kaidarov and Neil Deshpande and Sukaina Najm and David Han and Lifeng Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.06478v1}\n}"
+    "bibtex": "@article{cai2026ga3t,\n  title={GA3T: A Ground-Aerial Terrain Traversability Dataset for Heterogeneous Robot Teams in Unstructured Environments},\n  author={Siwei Cai and Knut Peterson and Quan Tran and Christian Ricks and Dhanush Parthasarathy and Amir Kaidarov and Neil Deshpande and Sukaina Najm and David Han and Lifeng Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.06478v1}\n}",
+    "notes": ""
   },
   {
     "id": "edf340052828",
@@ -8515,7 +8537,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "wu2026roboalign",
-    "bibtex": "@article{wu2026roboalign,\n  title={RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models},\n  author={Hao Wu and Yuqi Li and Yuan Gao and Fan Xu and Fan Zhang and Kun Wang and Penghao Zhao and Qiufeng Wang and Yizhou Zhao and Weiyan Wang and Yingli Tian and Xian Wu and Xiaomeng Huang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.03821v1}\n}"
+    "bibtex": "@article{wu2026roboalign,\n  title={RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models},\n  author={Hao Wu and Yuqi Li and Yuan Gao and Fan Xu and Fan Zhang and Kun Wang and Penghao Zhao and Qiufeng Wang and Yizhou Zhao and Weiyan Wang and Yingli Tian and Xian Wu and Xiaomeng Huang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.03821v1}\n}",
+    "notes": ""
   },
   {
     "id": "bc519c5b41a1",
@@ -8712,7 +8735,8 @@
     "comment": "25 pages, 2 figures",
     "journal_ref": "",
     "bibtex_key": "kar2026runtime",
-    "bibtex": "@article{kar2026runtime,\n  title={Runtime Evaluation of Procedural Content Generation in an Endless Runner Game Using Autonomous Agents},\n  author={Rishabh Kar},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.01783v1}\n}"
+    "bibtex": "@article{kar2026runtime,\n  title={Runtime Evaluation of Procedural Content Generation in an Endless Runner Game Using Autonomous Agents},\n  author={Rishabh Kar},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.01783v1}\n}",
+    "notes": ""
   },
   {
     "id": "e2b847464608",
@@ -8789,7 +8813,8 @@
     "comment": "20 pages, 7 figures",
     "journal_ref": "",
     "bibtex_key": "zhang2026esarbench",
-    "bibtex": "@article{zhang2026esarbench,\n  title={ESARBench: A Benchmark for Agentic UAV Embodied Search and Rescue},\n  author={Daoxuan Zhang and Ping Chen and Jianyi Zhou and Shuo Yang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.01371v1}\n}"
+    "bibtex": "@article{zhang2026esarbench,\n  title={ESARBench: A Benchmark for Agentic UAV Embodied Search and Rescue},\n  author={Daoxuan Zhang and Ping Chen and Jianyi Zhou and Shuo Yang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.01371v1}\n}",
+    "notes": ""
   },
   {
     "id": "a63db8b0c0b8",
@@ -9107,7 +9132,8 @@
     "comment": "11 figures, 7 tables, 53 pages",
     "journal_ref": "",
     "bibtex_key": "gamage2026real",
-    "bibtex": "@article{gamage2026real,\n  title={Real-Time Frame- and Event-based Object Detection with Spiking Neural Networks on Edge Neuromorphic Hardware: Design, Deployment and Benchmark},\n  author={Udayanga G. W. K. N. Gamage and Yan Zeng and Cesar Cadena and Matteo Fumagalli and Silvia Tolu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.00146v1}\n}"
+    "bibtex": "@article{gamage2026real,\n  title={Real-Time Frame- and Event-based Object Detection with Spiking Neural Networks on Edge Neuromorphic Hardware: Design, Deployment and Benchmark},\n  author={Udayanga G. W. K. N. Gamage and Yan Zeng and Cesar Cadena and Matteo Fumagalli and Silvia Tolu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.00146v1}\n}",
+    "notes": ""
   },
   {
     "id": "9939632725a6",
@@ -9144,7 +9170,8 @@
     "comment": "Submitted to IEEE journal",
     "journal_ref": "",
     "bibtex_key": "arshid2026flying",
-    "bibtex": "@article{arshid2026flying,\n  title={Flying by Inference: Active Inference World Models for Adaptive UAV Swarms},\n  author={Kaleem Arshid and Ali Krayani and Lucio Marcenaro and David Martin Gomez and Carlo Regazzoni},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.27935v1}\n}"
+    "bibtex": "@article{arshid2026flying,\n  title={Flying by Inference: Active Inference World Models for Adaptive UAV Swarms},\n  author={Kaleem Arshid and Ali Krayani and Lucio Marcenaro and David Martin Gomez and Carlo Regazzoni},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.27935v1}\n}",
+    "notes": ""
   },
   {
     "id": "aa2d93f49103",
@@ -9492,7 +9519,8 @@
     "comment": "Withdrawn by the authors due to an error in Section V.D in the competitive-ratio proof for the UGV-UAV case. The proof incorrectly uses $1+2\\frac{v_A}{v_G+v_A}(k-1)\\le 2\\frac{v_A}{v_G+v_A}k-1$, which does not hold in general and affects the stated bound",
     "journal_ref": "",
     "bibtex_key": "nguyen2026optimal",
-    "bibtex": "@article{nguyen2026optimal,\n  title={Optimal UGV-UAV Cooperative Partitioning and Inspection of Shortest Paths},\n  author={Ninh Nguyen and Srinivas Akella},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.25284v2}\n}"
+    "bibtex": "@article{nguyen2026optimal,\n  title={Optimal UGV-UAV Cooperative Partitioning and Inspection of Shortest Paths},\n  author={Ninh Nguyen and Srinivas Akella},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.25284v2}\n}",
+    "notes": ""
   },
   {
     "id": "7cfecf1f0e90",
@@ -9571,7 +9599,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "sawarkar2026sliding",
-    "bibtex": "@article{sawarkar2026sliding,\n  title={Sliding Mode Control for Safe Trajectory Tracking with Moving Obstacles Avoidance: Experimental Validation on Planar Robots},\n  author={Shubham Sawarkar and P Sangeerth and S Saharsh and Pushpak Jagtap},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.24518v1}\n}"
+    "bibtex": "@article{sawarkar2026sliding,\n  title={Sliding Mode Control for Safe Trajectory Tracking with Moving Obstacles Avoidance: Experimental Validation on Planar Robots},\n  author={Shubham Sawarkar and P Sangeerth and S Saharsh and Pushpak Jagtap},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.24518v1}\n}",
+    "notes": ""
   },
   {
     "id": "b2395afdd83f",
@@ -9607,7 +9636,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "williams2026litevla",
-    "bibtex": "@article{williams2026litevla,\n  title={LiteVLA-H: Dual-Rate Vision-Language-Action Inference for Onboard Aerial Guidance and Semantic Perception},\n  author={Justin williams and Kishor Datta Gupta and Roy George and Mrinmoy Sarkar},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.00884v2}\n}"
+    "bibtex": "@article{williams2026litevla,\n  title={LiteVLA-H: Dual-Rate Vision-Language-Action Inference for Onboard Aerial Guidance and Semantic Perception},\n  author={Justin williams and Kishor Datta Gupta and Roy George and Mrinmoy Sarkar},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.00884v2}\n}",
+    "notes": ""
   },
   {
     "id": "4d7eb2a6cc13",
@@ -9725,7 +9755,8 @@
     "comment": "Accepted in \" Robotics and Automation Letters (RAL)\"",
     "journal_ref": "",
     "bibtex_key": "raxit2026energy",
-    "bibtex": "@article{raxit2026energy,\n  title={Energy-Efficient Multi-Robot Coverage Path Planning of Non-Convex Regions of Interests},\n  author={Sourav Raxit and Jose Fuentes and Paulo Padrao and Abdullah Al Redwan Newaz and Md Tamjidul Hoque and Mark Kulp and Leonardo Bobadilla},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.22189v2}\n}"
+    "bibtex": "@article{raxit2026energy,\n  title={Energy-Efficient Multi-Robot Coverage Path Planning of Non-Convex Regions of Interests},\n  author={Sourav Raxit and Jose Fuentes and Paulo Padrao and Abdullah Al Redwan Newaz and Md Tamjidul Hoque and Mark Kulp and Leonardo Bobadilla},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.22189v2}\n}",
+    "notes": ""
   },
   {
     "id": "a8961ce5c7b7",
@@ -9809,7 +9840,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "xu2026worldmark",
-    "bibtex": "@article{xu2026worldmark,\n  title={WorldMark: A Unified Benchmark Suite for Interactive Video World Models},\n  author={Xiaojie Xu and Zhengyuan Lin and Kang He and Yukang Feng and Xiaofeng Mao and Yuanyang Yin and Kaipeng Zhang and Yongtao Ge},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.21686v1}\n}"
+    "bibtex": "@article{xu2026worldmark,\n  title={WorldMark: A Unified Benchmark Suite for Interactive Video World Models},\n  author={Xiaojie Xu and Zhengyuan Lin and Kang He and Yukang Feng and Xiaofeng Mao and Yuanyang Yin and Kaipeng Zhang and Yongtao Ge},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.21686v1}\n}",
+    "notes": ""
   },
   {
     "id": "0b1c1dce8be3",
@@ -10101,7 +10133,8 @@
     "comment": "Submitted to T-RO",
     "journal_ref": "",
     "bibtex_key": "ayala2026self",
-    "bibtex": "@article{ayala2026self,\n  title={Self-Predictive Representation for Autonomous UAV Object-Goal Navigation},\n  author={Angel Ayala and Donling Sui and Francisco Cruz and Mitchell Torok and Mohammad Deghat and Bruno J. T. Fernandes},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.21130v1}\n}"
+    "bibtex": "@article{ayala2026self,\n  title={Self-Predictive Representation for Autonomous UAV Object-Goal Navigation},\n  author={Angel Ayala and Donling Sui and Francisco Cruz and Mitchell Torok and Mohammad Deghat and Bruno J. T. Fernandes},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.21130v1}\n}",
+    "notes": ""
   },
   {
     "id": "e41f4c09d869",
@@ -10588,7 +10621,8 @@
     "comment": "Incomplete results were found in the paper",
     "journal_ref": "",
     "bibtex_key": "tsunoda2026shepherding",
-    "bibtex": "@article{tsunoda2026shepherding,\n  title={Shepherding UAV Swarm with Action Prediction Based on Movement Constraints},\n  author={Yusuke Tsunoda and Yusuke Goto and Takao Sato},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.17189v2}\n}"
+    "bibtex": "@article{tsunoda2026shepherding,\n  title={Shepherding UAV Swarm with Action Prediction Based on Movement Constraints},\n  author={Yusuke Tsunoda and Yusuke Goto and Takao Sato},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.17189v2}\n}",
+    "notes": ""
   },
   {
     "id": "5e9416c741f5",
@@ -10893,7 +10927,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "perezsaura2026dual",
-    "bibtex": "@article{perezsaura2026dual,\n  title={Dual Pose-Graph Semantic Localization for Vision-Based Autonomous Drone Racing},\n  author={David Perez-Saura and Miguel Fernandez-Cortizas and Alvaro J. Gaona and Pascual Campoy},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.15168v1}\n}"
+    "bibtex": "@article{perezsaura2026dual,\n  title={Dual Pose-Graph Semantic Localization for Vision-Based Autonomous Drone Racing},\n  author={David Perez-Saura and Miguel Fernandez-Cortizas and Alvaro J. Gaona and Pascual Campoy},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.15168v1}\n}",
+    "notes": ""
   },
   {
     "id": "0d919e56d37c",
@@ -10930,7 +10965,8 @@
     "comment": "30 pages, 7 figures",
     "journal_ref": "",
     "bibtex_key": "chang2026a",
-    "bibtex": "@article{chang2026a,\n  title={A multi-platform LiDAR dataset for standardized forest inventory measurement at long term ecological monitoring sites},\n  author={Michael R. Chang and Anna Candotti and Karl von Ellenrieder and Enrico Tomelleri and Marco Camurri},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.14635v1}\n}"
+    "bibtex": "@article{chang2026a,\n  title={A multi-platform LiDAR dataset for standardized forest inventory measurement at long term ecological monitoring sites},\n  author={Michael R. Chang and Anna Candotti and Karl von Ellenrieder and Enrico Tomelleri and Marco Camurri},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.14635v1}\n}",
+    "notes": ""
   },
   {
     "id": "9787f7195583",
@@ -12072,7 +12108,8 @@
     "comment": "This manuscript was submitted in June 2025. The first revision was submitted in November 2025. The second revision was submitted in February 2026. The first two authors contributed equally to this work",
     "journal_ref": "",
     "bibtex_key": "wu2026precise",
-    "bibtex": "@article{wu2026precise,\n  title={Precise Aggressive Aerial Maneuvers with Sensorimotor Policies},\n  author={Tianyue Wu and Guangtong Xu and Zihan Wang and Junxiao Lin and Tianyang Chen and Yuze Wu and Zhichao Han and Zhiyang Liu and Fei Gao},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.05828v2}\n}"
+    "bibtex": "@article{wu2026precise,\n  title={Precise Aggressive Aerial Maneuvers with Sensorimotor Policies},\n  author={Tianyue Wu and Guangtong Xu and Zihan Wang and Junxiao Lin and Tianyang Chen and Yuze Wu and Zhichao Han and Zhiyang Liu and Fei Gao},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.05828v2}\n}",
+    "notes": ""
   },
   {
     "id": "a23d3191757c",
@@ -12296,7 +12333,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "iz2026zed",
-    "bibtex": "@article{iz2026zed,\n  title={ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging},\n  author={Selim Ahmet Iz and Francesco Nex and Norman Kerle and Henry Meissner and Ralf Berger},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.04667v2}\n}"
+    "bibtex": "@article{iz2026zed,\n  title={ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging},\n  author={Selim Ahmet Iz and Francesco Nex and Norman Kerle and Henry Meissner and Ralf Berger},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.04667v2}\n}",
+    "notes": ""
   },
   {
     "id": "e57b87792463",
@@ -12461,7 +12499,8 @@
     "comment": "9 pages, 8 figures",
     "journal_ref": "",
     "bibtex_key": "zoula2026orientation",
-    "bibtex": "@article{zoula2026orientation,\n  title={Orientation Matters: Learning Radiation Patterns of Multi-Rotor UAVs In-Flight to Enhance Communication Availability Modeling},\n  author={Martin Zoula and Daniel Bonilla Licea and Jan Faigl and Václav Navrátil and Martin Saska},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.02827v1}\n}"
+    "bibtex": "@article{zoula2026orientation,\n  title={Orientation Matters: Learning Radiation Patterns of Multi-Rotor UAVs In-Flight to Enhance Communication Availability Modeling},\n  author={Martin Zoula and Daniel Bonilla Licea and Jan Faigl and Václav Navrátil and Martin Saska},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.02827v1}\n}",
+    "notes": ""
   },
   {
     "id": "ac61096d8674",
@@ -12582,7 +12621,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "zhang2026uav",
-    "bibtex": "@article{zhang2026uav,\n  title={UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models},\n  author={Qiyao Zhang and Shuhua Zheng and Jianli Sun and Chengxiang Li and Xianke Wu and Zihan Song and Zhiyong Cui and Yisheng Lv and Yonglin Tian},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.02241v2}\n}"
+    "bibtex": "@article{zhang2026uav,\n  title={UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models},\n  author={Qiyao Zhang and Shuhua Zheng and Jianli Sun and Chengxiang Li and Xianke Wu and Zihan Song and Zhiyong Cui and Yisheng Lv and Yonglin Tian},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.02241v2}\n}",
+    "notes": ""
   },
   {
     "id": "9653364d004b",
@@ -12696,7 +12736,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "wu2026panoair",
-    "bibtex": "@article{wu2026panoair,\n  title={PanoAir: A Panoramic Visual-Inertial SLAM with Cross-Time Real-World UAV Dataset},\n  author={Yiyang Wu and Xiaohu Zhang and Yanjin Du and Tongsu Zhang and Chujun Li and Siyang Chen and Guoyi Zhang and Xiangpeng Xu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.00852v1}\n}"
+    "bibtex": "@article{wu2026panoair,\n  title={PanoAir: A Panoramic Visual-Inertial SLAM with Cross-Time Real-World UAV Dataset},\n  author={Yiyang Wu and Xiaohu Zhang and Yanjin Du and Tongsu Zhang and Chujun Li and Siyang Chen and Guoyi Zhang and Xiangpeng Xu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.00852v1}\n}",
+    "notes": ""
   },
   {
     "id": "3a720ca88174",
@@ -12948,7 +12989,8 @@
     "comment": "\\c{opyright} 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works",
     "journal_ref": "IEEE Transactions on Emerging Topics in Computational Intelligence, 9(2), 1238-1252 (2025)",
     "bibtex_key": "chen2026a",
-    "bibtex": "@article{chen2026a,\n  title={A Novel Immune Algorithm for Multiparty Multiobjective Optimization},\n  author={Kesheng Chen and Wenjian Luo and Qi Zhou and Yujiang liu and Peilan Xu and Yuhui Shi},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.27541v1}\n}"
+    "bibtex": "@article{chen2026a,\n  title={A Novel Immune Algorithm for Multiparty Multiobjective Optimization},\n  author={Kesheng Chen and Wenjian Luo and Qi Zhou and Yujiang liu and Peilan Xu and Yuhui Shi},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.27541v1}\n}",
+    "notes": ""
   },
   {
     "id": "c17faf4d7c06",
@@ -13022,7 +13064,8 @@
     "comment": "7 pages, 10 figures",
     "journal_ref": "",
     "bibtex_key": "shang2026an",
-    "bibtex": "@article{shang2026an,\n  title={An End-to-end Flight Control Network for High-speed UAV Obstacle Avoidance based on Event-Depth Fusion},\n  author={Dikai Shang and Jingyue Zhao and Shi Xu and Nanyang Ye and Lei Wang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.27181v1}\n}"
+    "bibtex": "@article{shang2026an,\n  title={An End-to-end Flight Control Network for High-speed UAV Obstacle Avoidance based on Event-Depth Fusion},\n  author={Dikai Shang and Jingyue Zhao and Shi Xu and Nanyang Ye and Lei Wang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.27181v1}\n}",
+    "notes": ""
   },
   {
     "id": "2290803e2642",
@@ -13094,7 +13137,8 @@
     "comment": "Resubmission following accepted appeal (MOD-78958). Resubmitting to cs.RO with cross-lists cs.MA and cs.AI as advised by arXiv Support",
     "journal_ref": "",
     "bibtex_key": "alqudsi2026integrated",
-    "bibtex": "@article{alqudsi2026integrated,\n  title={Integrated Multi-Drone Task Allocation, Sequencing, and Optimal Trajectory Generation in Obstacle-Rich 3D Environments},\n  author={Yunes Alqudsi and Murat Makaraci},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.24908v1}\n}"
+    "bibtex": "@article{alqudsi2026integrated,\n  title={Integrated Multi-Drone Task Allocation, Sequencing, and Optimal Trajectory Generation in Obstacle-Rich 3D Environments},\n  author={Yunes Alqudsi and Murat Makaraci},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.24908v1}\n}",
+    "notes": ""
   },
   {
     "id": "e110a17bc0c2",
@@ -13139,7 +13183,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "tucker2026but",
-    "bibtex": "@article{tucker2026but,\n  title={$π$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation},\n  author={Johnathan Tucker and Denis Liu and Aiden Swann and Allen Ren and Javier Yu and Jiankai Sun and Brandon Kim and Lachlain McGranahan and Quan Vuong and Mac Schwager},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.25038v1}\n}"
+    "bibtex": "@article{tucker2026but,\n  title={$π$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation},\n  author={Johnathan Tucker and Denis Liu and Aiden Swann and Allen Ren and Javier Yu and Jiankai Sun and Brandon Kim and Lachlain McGranahan and Quan Vuong and Mac Schwager},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.25038v1}\n}",
+    "notes": ""
   },
   {
     "id": "760a7d0b556a",
@@ -13224,7 +13269,8 @@
     "comment": "",
     "journal_ref": "Science Robotics Vol 11, Issue 112, eadz9609 (2026)",
     "bibtex_key": "velmurugan2026saranga",
-    "bibtex": "@article{velmurugan2026saranga,\n  title={Saranga: MilliWatt Ultrasound for Navigation in Visually Degraded Environments on Palm-Sized Aerial Robots},\n  author={Manoj Velmurugan and Phillip Brush and Colin Balfour and Richard J. Przybyla and Nitin J. Sanket},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.24699v1}\n}"
+    "bibtex": "@article{velmurugan2026saranga,\n  title={Saranga: MilliWatt Ultrasound for Navigation in Visually Degraded Environments on Palm-Sized Aerial Robots},\n  author={Manoj Velmurugan and Phillip Brush and Colin Balfour and Richard J. Przybyla and Nitin J. Sanket},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.24699v1}\n}",
+    "notes": ""
   },
   {
     "id": "583f7d7b09d8",
@@ -13259,7 +13305,8 @@
     "comment": "8 pages, 7 figures",
     "journal_ref": "",
     "bibtex_key": "sheng2026robust",
-    "bibtex": "@article{sheng2026robust,\n  title={Robust Distributed Cooperative Path-Following and Local Replanning for Multi-UAVs Under Differentiated Low-Altitude Paths},\n  author={Zimao Sheng and Zirui Yu and Hong'an Yang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.23968v1}\n}"
+    "bibtex": "@article{sheng2026robust,\n  title={Robust Distributed Cooperative Path-Following and Local Replanning for Multi-UAVs Under Differentiated Low-Altitude Paths},\n  author={Zimao Sheng and Zirui Yu and Hong'an Yang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.23968v1}\n}",
+    "notes": ""
   },
   {
     "id": "8af29ec645c4",
@@ -13505,7 +13552,8 @@
     "comment": "\\c{opyright} 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works",
     "journal_ref": "Chen, K., Luo, W., Lin, X., Song, Z., & Chang, Y. (2024). Evolutionary biparty multiobjective UAV path planning: Problems and empirical comparisons. IEEE Transactions on Emerging Topics in Computational Intelligence, 8(3), 2433-2445",
     "bibtex_key": "chen2026evolutionary",
-    "bibtex": "@article{chen2026evolutionary,\n  title={Evolutionary Biparty Multiobjective UAV Path Planning: Problems and Empirical Comparisons},\n  author={Kesheng Chen and Wenjian Luo and Xin Lin and Zhen Song and Yatong Chang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.21544v1}\n}"
+    "bibtex": "@article{chen2026evolutionary,\n  title={Evolutionary Biparty Multiobjective UAV Path Planning: Problems and Empirical Comparisons},\n  author={Kesheng Chen and Wenjian Luo and Xin Lin and Zhen Song and Yatong Chang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.21544v1}\n}",
+    "notes": ""
   },
   {
     "id": "f59768a51506",
@@ -13653,7 +13701,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "temesgen2026architecture",
-    "bibtex": "@article{temesgen2026architecture,\n  title={Architecture for Multi-Unmanned Aerial Vehicles based Autonomous Precision Agriculture Systems},\n  author={Ebasa Temesgen and Nathnael Minyelshowa and Lebsework Negash},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.21183v1}\n}"
+    "bibtex": "@article{temesgen2026architecture,\n  title={Architecture for Multi-Unmanned Aerial Vehicles based Autonomous Precision Agriculture Systems},\n  author={Ebasa Temesgen and Nathnael Minyelshowa and Lebsework Negash},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.21183v1}\n}",
+    "notes": ""
   },
   {
     "id": "0b856908693d",
@@ -14172,7 +14221,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "gross2026safeland",
-    "bibtex": "@article{gross2026safeland,\n  title={SafeLand: Safe Autonomous Landing in Unknown Environments with Bayesian Semantic Mapping},\n  author={Markus Gross and Andreas Greiner and Sai Bharadhwaj Matha and Felix Soest and Daniel Cremers and Henri Meeß},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.17430v1}\n}"
+    "bibtex": "@article{gross2026safeland,\n  title={SafeLand: Safe Autonomous Landing in Unknown Environments with Bayesian Semantic Mapping},\n  author={Markus Gross and Andreas Greiner and Sai Bharadhwaj Matha and Felix Soest and Daniel Cremers and Henri Meeß},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.17430v1}\n}",
+    "notes": ""
   },
   {
     "id": "0019572e692e",
@@ -14535,7 +14585,8 @@
     "comment": "8 pages, 8 figures, 2 table",
     "journal_ref": "",
     "bibtex_key": "ahin2026thermal",
-    "bibtex": "@article{ahin2026thermal,\n  title={Thermal Image Refinement with Depth Estimation using Recurrent Networks for Monocular ORB-SLAM3},\n  author={Hürkan Şahin and Huy Xuan Pham and Van Huyen Dang and Alper Yegenoglu and Erdal Kayacan},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.14998v1}\n}"
+    "bibtex": "@article{ahin2026thermal,\n  title={Thermal Image Refinement with Depth Estimation using Recurrent Networks for Monocular ORB-SLAM3},\n  author={Hürkan Şahin and Huy Xuan Pham and Van Huyen Dang and Alper Yegenoglu and Erdal Kayacan},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.14998v1}\n}",
+    "notes": ""
   },
   {
     "id": "2f0c99888eca",
@@ -14616,7 +14667,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "lee2026seeing",
-    "bibtex": "@article{lee2026seeing,\n  title={Seeing Where to Deploy: Metric RGB-Based Traversability Analysis for Aerial-to-Ground Hidden Space Inspection},\n  author={Seoyoung Lee and Shaekh Mohammad Shithil and Durgakant Pushp and Lantao Liu and Zhangyang Wang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.14639v1}\n}"
+    "bibtex": "@article{lee2026seeing,\n  title={Seeing Where to Deploy: Metric RGB-Based Traversability Analysis for Aerial-to-Ground Hidden Space Inspection},\n  author={Seoyoung Lee and Shaekh Mohammad Shithil and Durgakant Pushp and Lantao Liu and Zhangyang Wang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.14639v1}\n}",
+    "notes": ""
   },
   {
     "id": "f6e0afad69f0",
@@ -15133,7 +15185,8 @@
     "comment": "This is paper is under review",
     "journal_ref": "",
     "bibtex_key": "batool2026impedancediffusion",
-    "bibtex": "@article{batool2026impedancediffusion,\n  title={ImpedanceDiffusion: Diffusion-Based Global Path Planning for UAV Swarm Navigation with Generative Impedance Control},\n  author={Faryal Batool and Yasheerah Yaqoot and Muhammad Ahsan Mustafa and Roohan Ahmed Khan and Aleksey Fedoseev and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.09031v1}\n}"
+    "bibtex": "@article{batool2026impedancediffusion,\n  title={ImpedanceDiffusion: Diffusion-Based Global Path Planning for UAV Swarm Navigation with Generative Impedance Control},\n  author={Faryal Batool and Yasheerah Yaqoot and Muhammad Ahsan Mustafa and Roohan Ahmed Khan and Aleksey Fedoseev and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.09031v1}\n}",
+    "notes": ""
   },
   {
     "id": "bedee0d4dfd5",
@@ -15293,7 +15346,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "alaaeldin2026real",
-    "bibtex": "@article{alaaeldin2026real,\n  title={Real-Time Monocular Scene Analysis for UAV in Outdoor Environments},\n  author={Yara AlaaEldin},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.13368v1}\n}"
+    "bibtex": "@article{alaaeldin2026real,\n  title={Real-Time Monocular Scene Analysis for UAV in Outdoor Environments},\n  author={Yara AlaaEldin},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.13368v1}\n}",
+    "notes": ""
   },
   {
     "id": "fcf997490fb7",
@@ -15329,7 +15383,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "boldrer2026perception",
-    "bibtex": "@article{boldrer2026perception,\n  title={Perception-Aware Communication-Free Multi-UAV Coordination in the Wild},\n  author={Manuel Boldrer and Michal Kamler and Afzal Ahmad and Martin Saska},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.08379v1}\n}"
+    "bibtex": "@article{boldrer2026perception,\n  title={Perception-Aware Communication-Free Multi-UAV Coordination in the Wild},\n  author={Manuel Boldrer and Michal Kamler and Afzal Ahmad and Martin Saska},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.08379v1}\n}",
+    "notes": ""
   },
   {
     "id": "44fac29eb266",
@@ -15374,7 +15429,8 @@
     "comment": "8 pages, 7 figures, RAL 2026 March",
     "journal_ref": "",
     "bibtex_key": "su2026vector",
-    "bibtex": "@article{su2026vector,\n  title={Vector Field Augmented Differentiable Policy Learning for Vision-Based Drone Racing},\n  author={Yang Su and Feng Yu and Yu Hu and Xinze Niu and Linzuo Zhang and Fangyu Sun and Danping Zou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.08019v1}\n}"
+    "bibtex": "@article{su2026vector,\n  title={Vector Field Augmented Differentiable Policy Learning for Vision-Based Drone Racing},\n  author={Yang Su and Feng Yu and Yu Hu and Xinze Niu and Linzuo Zhang and Fangyu Sun and Danping Zou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.08019v1}\n}",
+    "notes": ""
   },
   {
     "id": "97bf79f8a0a4",
@@ -15411,7 +15467,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "mishra2026aeroplace",
-    "bibtex": "@article{mishra2026aeroplace,\n  title={AeroPlace-Flow: Language-Grounded Object Placement for Aerial Manipulators via Visual Foresight and Object Flow},\n  author={Sarthak Mishra and Rishabh Dev Yadav and Naveen Nair and Wei Pan and Spandan Roy},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.07744v1}\n}"
+    "bibtex": "@article{mishra2026aeroplace,\n  title={AeroPlace-Flow: Language-Grounded Object Placement for Aerial Manipulators via Visual Foresight and Object Flow},\n  author={Sarthak Mishra and Rishabh Dev Yadav and Naveen Nair and Wei Pan and Spandan Roy},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.07744v1}\n}",
+    "notes": ""
   },
   {
     "id": "13ebe42ac4fc",
@@ -15676,7 +15733,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "deng2026collaborative",
-    "bibtex": "@article{deng2026collaborative,\n  title={Collaborative Planning with Concurrent Synchronization for Operationally Constrained UAV-UGV Teams},\n  author={Zihao Deng and Qianhuang Li and Peng Gao and Maggie Wigness and John Rogers and Donghyun Kim and Hao Zhang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.06898v1}\n}"
+    "bibtex": "@article{deng2026collaborative,\n  title={Collaborative Planning with Concurrent Synchronization for Operationally Constrained UAV-UGV Teams},\n  author={Zihao Deng and Qianhuang Li and Peng Gao and Maggie Wigness and John Rogers and Donghyun Kim and Hao Zhang},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.06898v1}\n}",
+    "notes": ""
   },
   {
     "id": "4baee9de703e",
@@ -15716,7 +15774,8 @@
     "comment": "16 pages, 10 figures",
     "journal_ref": "",
     "bibtex_key": "zhang2026fly360",
-    "bibtex": "@article{zhang2026fly360,\n  title={Fly360: Omnidirectional Obstacle Avoidance within Drone View},\n  author={Xiangkai Zhang and Dizhe Zhang and WenZhuo Cao and Zhaoliang Wan and Yingjie Niu and Lu Qi and Xu Yang and Zhiyong Liu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.06573v1}\n}"
+    "bibtex": "@article{zhang2026fly360,\n  title={Fly360: Omnidirectional Obstacle Avoidance within Drone View},\n  author={Xiangkai Zhang and Dizhe Zhang and WenZhuo Cao and Zhaoliang Wan and Yingjie Niu and Lu Qi and Xu Yang and Zhiyong Liu},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.06573v1}\n}",
+    "notes": ""
   },
   {
     "id": "685dfbbe03d5",
@@ -15986,7 +16045,8 @@
     "comment": "The code for this paper is open-sourced and released at: https://github.com/ntnu-arl/gbplanner_ros/tree/gbplanner3",
     "journal_ref": "",
     "bibtex_key": "zacharia2026omniplanner",
-    "bibtex": "@article{zacharia2026omniplanner,\n  title={OmniPlanner: Universal Exploration and Inspection Path Planning across Robot Morphologies},\n  author={Angelos Zacharia and Mihir Dharmadhikari and Mohit Singh and Kostas Alexis},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.04284v1}\n}"
+    "bibtex": "@article{zacharia2026omniplanner,\n  title={OmniPlanner: Universal Exploration and Inspection Path Planning across Robot Morphologies},\n  author={Angelos Zacharia and Mihir Dharmadhikari and Mohit Singh and Kostas Alexis},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.04284v1}\n}",
+    "notes": ""
   },
   {
     "id": "3254d6df7269",
@@ -16375,7 +16435,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "sun2026curriculum",
-    "bibtex": "@article{sun2026curriculum,\n  title={Curriculum Reinforcement Learning for Quadrotor Racing with Random Obstacles},\n  author={Fangyu Sun and Fanxing Li and Yu Hu and Linzuo Zhang and Yueqian Liu and Wenxian Yu and Danping Zou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.24030v1}\n}"
+    "bibtex": "@article{sun2026curriculum,\n  title={Curriculum Reinforcement Learning for Quadrotor Racing with Random Obstacles},\n  author={Fangyu Sun and Fanxing Li and Yu Hu and Linzuo Zhang and Yueqian Liu and Wenxian Yu and Danping Zou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.24030v1}\n}",
+    "notes": ""
   },
   {
     "id": "bbf0947db7e2",
@@ -16528,7 +16589,8 @@
     "comment": "Accepted for publication in Applied Computer Science (2026)",
     "journal_ref": "Applied Computer Science, Vol. 22, No. 1, 2026",
     "bibtex_key": "jung2026a",
-    "bibtex": "@article{jung2026a,\n  title={A Text-Guided Vision Model for Enhanced Recognition of Small Instances},\n  author={Hyun-Ki Jung},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.19503v1}\n}"
+    "bibtex": "@article{jung2026a,\n  title={A Text-Guided Vision Model for Enhanced Recognition of Small Instances},\n  author={Hyun-Ki Jung},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.19503v1}\n}",
+    "notes": ""
   },
   {
     "id": "4580d989fe8e",
@@ -16566,7 +16628,8 @@
     "comment": "Accepted to the 9th IEEE-RAS International Conference on Soft Robotics (RoboSoft) 2026",
     "journal_ref": "",
     "bibtex_key": "supa2026bumper",
-    "bibtex": "@article{supa2026bumper,\n  title={Bumper Drone: Elastic Morphology Design for Aerial Physical Interaction},\n  author={Pongporn Supa and Alex Dunnett and Feng Xiao and Rui Wu and Mirko Kovac and Basaran Bahadir Kocer},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.18976v1}\n}"
+    "bibtex": "@article{supa2026bumper,\n  title={Bumper Drone: Elastic Morphology Design for Aerial Physical Interaction},\n  author={Pongporn Supa and Alex Dunnett and Feng Xiao and Rui Wu and Mirko Kovac and Basaran Bahadir Kocer},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.18976v1}\n}",
+    "notes": ""
   },
   {
     "id": "5f4437d903b9",
@@ -16800,7 +16863,8 @@
     "comment": "20 pages, submitted to a Journal",
     "journal_ref": "",
     "bibtex_key": "conceio2026path",
-    "bibtex": "@article{conceio2026path,\n  title={Path Planning Optimisation for SParse, AwaRe and Cooperative Networked Aerial Robot Teams (SpArC-NARTs): Optimisation Tool and Ground Sensing Coverage Use Cases},\n  author={Maria Conceição and António Grilo and Meysam Basiri},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.14247v1}\n}"
+    "bibtex": "@article{conceio2026path,\n  title={Path Planning Optimisation for SParse, AwaRe and Cooperative Networked Aerial Robot Teams (SpArC-NARTs): Optimisation Tool and Ground Sensing Coverage Use Cases},\n  author={Maria Conceição and António Grilo and Meysam Basiri},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.14247v1}\n}",
+    "notes": ""
   },
   {
     "id": "75103b826d2a",
@@ -16868,7 +16932,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "mohamadi2026skysurf",
-    "bibtex": "@article{mohamadi2026skysurf,\n  title={SKYSURF: A Self-learning Framework for Persistent Surveillance using Cooperative Aerial Gliders},\n  author={Houssem Eddine Mohamadi and Nadjia Kara},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.12838v1}\n}"
+    "bibtex": "@article{mohamadi2026skysurf,\n  title={SKYSURF: A Self-learning Framework for Persistent Surveillance using Cooperative Aerial Gliders},\n  author={Houssem Eddine Mohamadi and Nadjia Kara},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.12838v1}\n}",
+    "notes": ""
   },
   {
     "id": "62fbe6147269",
@@ -17080,7 +17145,8 @@
     "comment": "AAMAS 2026 accepted paper",
     "journal_ref": "",
     "bibtex_key": "sow2026multi",
-    "bibtex": "@article{sow2026multi,\n  title={Multi UAVs Preflight Planning in a Shared and Dynamic Airspace},\n  author={Amath Sow and Mauricio Rodriguez Cesen and Fabiola Martins Campos de Oliveira and Mariusz Wzorek and Daniel de Leng and Mattias Tiger and Fredrik Heintz and Christian Esteve Rothenberg},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.12055v1}\n}"
+    "bibtex": "@article{sow2026multi,\n  title={Multi UAVs Preflight Planning in a Shared and Dynamic Airspace},\n  author={Amath Sow and Mauricio Rodriguez Cesen and Fabiola Martins Campos de Oliveira and Mariusz Wzorek and Daniel de Leng and Mattias Tiger and Fredrik Heintz and Christian Esteve Rothenberg},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.12055v1}\n}",
+    "notes": ""
   },
   {
     "id": "4f38b74134e5",
@@ -17120,7 +17186,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "liu2026ac",
-    "bibtex": "@article{liu2026ac,\n  title={AC-MASAC: An Attentive Curriculum Learning Framework for Heterogeneous UAV Swarm Coordination},\n  author={Wanhao Liu and Junhong Dai and Yixuan Zhang and Shengyun Yin and Panshuo Li},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.11735v1}\n}"
+    "bibtex": "@article{liu2026ac,\n  title={AC-MASAC: An Attentive Curriculum Learning Framework for Heterogeneous UAV Swarm Coordination},\n  author={Wanhao Liu and Junhong Dai and Yixuan Zhang and Shengyun Yin and Panshuo Li},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.11735v1}\n}",
+    "notes": ""
   },
   {
     "id": "c56d6813f3fd",
@@ -17368,7 +17435,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "zhang2026high",
-    "bibtex": "@article{zhang2026high,\n  title={High-Speed Vision-Based Flight in Clutter with Safety-Shielded Reinforcement Learning},\n  author={Jiarui Zhang and Chengyong Lei and Chengjiang Dai and Lijie Wang and Zhichao Han and Fei Gao},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.08653v1}\n}"
+    "bibtex": "@article{zhang2026high,\n  title={High-Speed Vision-Based Flight in Clutter with Safety-Shielded Reinforcement Learning},\n  author={Jiarui Zhang and Chengyong Lei and Chengjiang Dai and Lijie Wang and Zhichao Han and Fei Gao},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2602.08653v1}\n}",
+    "notes": ""
   },
   {
     "id": "ea54825d9a4a",
@@ -18098,7 +18166,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "sun2026air",
-    "bibtex": "@article{sun2026air,\n  title={AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation},\n  author={Jianli Sun and Bin Tian and Qiyao Zhang and Chengxiang Li and Zihan Song and Zhiyong Cui and Yisheng Lv and Yonglin Tian},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.21602v2}\n}"
+    "bibtex": "@article{sun2026air,\n  title={AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation},\n  author={Jianli Sun and Bin Tian and Qiyao Zhang and Chengxiang Li and Zihan Song and Zhiyong Cui and Yisheng Lv and Yonglin Tian},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.21602v2}\n}",
+    "notes": ""
   },
   {
     "id": "fd019628991c",
@@ -18333,7 +18402,8 @@
     "comment": "This paper has been accepted for publication at LBR of HRI 2026 conference",
     "journal_ref": "",
     "bibtex_key": "mehboob2026dronevla",
-    "bibtex": "@article{mehboob2026dronevla,\n  title={DroneVLA: VLA based Aerial Manipulation},\n  author={Fawad Mehboob and Monijesu James and Amir Habel and Jeffrin Sam and Miguel Altamirano Cabrera and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.13809v2}\n}"
+    "bibtex": "@article{mehboob2026dronevla,\n  title={DroneVLA: VLA based Aerial Manipulation},\n  author={Fawad Mehboob and Monijesu James and Amir Habel and Jeffrin Sam and Miguel Altamirano Cabrera and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.13809v2}\n}",
+    "notes": ""
   },
   {
     "id": "ed8ca2fa6258",
@@ -18370,7 +18440,8 @@
     "comment": "This paper has been accepted for presentation at the 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing (IEEE ICASSP 2026) Workshop: 'Multi-Modal Signal Processing and AI for Communications and Sensing in 6G and Beyond (MuSiC-6GB)'",
     "journal_ref": "",
     "bibtex_key": "arshid2026active",
-    "bibtex": "@article{arshid2026active,\n  title={Active Inference-Driven World Modeling for Adaptive UAV Swarm Trajectory Design},\n  author={Kaleem Arshid and Ali Krayani and Lucio Marcenaro and David Martin Gomez and Carlo Regazzoni},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.12939v1}\n}"
+    "bibtex": "@article{arshid2026active,\n  title={Active Inference-Driven World Modeling for Adaptive UAV Swarm Trajectory Design},\n  author={Kaleem Arshid and Ali Krayani and Lucio Marcenaro and David Martin Gomez and Carlo Regazzoni},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.12939v1}\n}",
+    "notes": ""
   },
   {
     "id": "b0c821f1f84b",
@@ -18768,7 +18839,8 @@
     "comment": "Official IROS 2025 RoboSense Challenge Report; 51 pages, 37 figures, 5 tables; Competition Website at https://robosense2025.github.io/",
     "journal_ref": "",
     "bibtex_key": "kong2026the",
-    "bibtex": "@article{kong2026the,\n  title={The RoboSense Challenge: Sense Anything, Navigate Anywhere, Adapt Across Platforms},\n  author={Lingdong Kong and Shaoyuan Xie and Zeying Gong and Ye Li and Meng Chu and Ao Liang and Yuhao Dong and Tianshuai Hu and Ronghe Qiu and Rong Li and Hanjiang Hu and Dongyue Lu and Wei Yin and Wenhao Ding and Linfeng Li and Hang Song and Wenwei Zhang and Yuexin Ma and Junwei Liang and Zhedong Zheng and Lai Xing Ng and Benoit R. Cottereau and Wei Tsang Ooi and Ziwei Liu and Zhanpeng Zhang and Weichao Qiu and Wei Zhang and Ji Ao and Jiangpeng Zheng and Siyu Wang and Guang Yang and Zihao Zhang and Yu Zhong and Enzhu Gao and Xinhan Zheng and Xueting Wang and Shouming Li and Yunkai Gao and Siming Lan and Mingfei Han and Xing Hu and Dusan Malic and Christian Fruhwirth-Reisinger and Alexander Prutsch and Wei Lin and Samuel Schulter and Horst Possegger and Linfeng Li and Jian Zhao and Zepeng Yang and Yuhang Song and Bojun Lin and Tianle Zhang and Yuchen Yuan and Chi Zhang and Xuelong Li and Youngseok Kim and Sihwan Hwang and Hyeonjun Jeong and Aodi Wu and Xubo Luo and Erjia Xiao and Lingfeng Zhang and Yingbo Tang and Hao Cheng and Renjing Xu and Wenbo Ding and Lei Zhou and Long Chen and Hangjun Ye and Xiaoshuai Hao and Shuangzhi Li and Junlong Shen and Xingyu Li and Hao Ruan and Jinliang Lin and Zhiming Luo and Yu Zang and Cheng Wang and Hanshi Wang and Xijie Gong and Yixiang Yang and Qianli Ma and Zhipeng Zhang and Wenxiang Shi and Jingmeng Zhou and Weijun Zeng and Kexin Xu and Yuchen Zhang and Haoxiang Fu and Ruibin Hu and Yanbiao Ma and Xiyan Feng and Wenbo Zhang and Lu Zhang and Yunzhi Zhuge and Huchuan Lu and You He and Seungjun Yu and Junsung Park and Youngsun Lim and Hyunjung Shim and Faduo Liang and Zihang Wang and Yiming Peng and Guanyu Zong and Xu Li and Binghao Wang and Hao Wei and Yongxin Ma and Yunke Shi and Shuaipeng Liu and Dong Kong and Yongchun Lin and Huitong Yang and Liang Lei and Haoang Li and Xinliang Zhang and Zhiyong Wang and Xiaofeng Wang and Yuxia Fu and Yadan Luo and Djamahl Etchegaray and Yang Li and Congfei Li and Yuxiang Sun and Wenkai Zhu and Wang Xu and Linru Li and Longjie Liao and Jun Yan and Benwu Wang and Xueliang Ren and Xiaoyu Yue and Jixian Zheng and Jinfeng Wu and Shurui Qin and Wei Cong and Yao He},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.05014v1}\n}"
+    "bibtex": "@article{kong2026the,\n  title={The RoboSense Challenge: Sense Anything, Navigate Anywhere, Adapt Across Platforms},\n  author={Lingdong Kong and Shaoyuan Xie and Zeying Gong and Ye Li and Meng Chu and Ao Liang and Yuhao Dong and Tianshuai Hu and Ronghe Qiu and Rong Li and Hanjiang Hu and Dongyue Lu and Wei Yin and Wenhao Ding and Linfeng Li and Hang Song and Wenwei Zhang and Yuexin Ma and Junwei Liang and Zhedong Zheng and Lai Xing Ng and Benoit R. Cottereau and Wei Tsang Ooi and Ziwei Liu and Zhanpeng Zhang and Weichao Qiu and Wei Zhang and Ji Ao and Jiangpeng Zheng and Siyu Wang and Guang Yang and Zihao Zhang and Yu Zhong and Enzhu Gao and Xinhan Zheng and Xueting Wang and Shouming Li and Yunkai Gao and Siming Lan and Mingfei Han and Xing Hu and Dusan Malic and Christian Fruhwirth-Reisinger and Alexander Prutsch and Wei Lin and Samuel Schulter and Horst Possegger and Linfeng Li and Jian Zhao and Zepeng Yang and Yuhang Song and Bojun Lin and Tianle Zhang and Yuchen Yuan and Chi Zhang and Xuelong Li and Youngseok Kim and Sihwan Hwang and Hyeonjun Jeong and Aodi Wu and Xubo Luo and Erjia Xiao and Lingfeng Zhang and Yingbo Tang and Hao Cheng and Renjing Xu and Wenbo Ding and Lei Zhou and Long Chen and Hangjun Ye and Xiaoshuai Hao and Shuangzhi Li and Junlong Shen and Xingyu Li and Hao Ruan and Jinliang Lin and Zhiming Luo and Yu Zang and Cheng Wang and Hanshi Wang and Xijie Gong and Yixiang Yang and Qianli Ma and Zhipeng Zhang and Wenxiang Shi and Jingmeng Zhou and Weijun Zeng and Kexin Xu and Yuchen Zhang and Haoxiang Fu and Ruibin Hu and Yanbiao Ma and Xiyan Feng and Wenbo Zhang and Lu Zhang and Yunzhi Zhuge and Huchuan Lu and You He and Seungjun Yu and Junsung Park and Youngsun Lim and Hyunjung Shim and Faduo Liang and Zihang Wang and Yiming Peng and Guanyu Zong and Xu Li and Binghao Wang and Hao Wei and Yongxin Ma and Yunke Shi and Shuaipeng Liu and Dong Kong and Yongchun Lin and Huitong Yang and Liang Lei and Haoang Li and Xinliang Zhang and Zhiyong Wang and Xiaofeng Wang and Yuxia Fu and Yadan Luo and Djamahl Etchegaray and Yang Li and Congfei Li and Yuxiang Sun and Wenkai Zhu and Wang Xu and Linru Li and Longjie Liao and Jun Yan and Benwu Wang and Xueliang Ren and Xiaoyu Yue and Jixian Zheng and Jinfeng Wu and Shurui Qin and Wei Cong and Yao He},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.05014v1}\n}",
+    "notes": ""
   },
   {
     "id": "cd67ef28f7ef",
@@ -21040,7 +21112,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "lee2025weakly",
-    "bibtex": "@article{lee2025weakly,\n  title={Weakly-supervised Latent Models for Task-specific Visual-Language Control},\n  author={Xian Yeow Lee and Lasitha Vidyaratne and Gregory Sin and Ahmed Farahat and Chetan Gupta},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2511.18319v1}\n}"
+    "bibtex": "@article{lee2025weakly,\n  title={Weakly-supervised Latent Models for Task-specific Visual-Language Control},\n  author={Xian Yeow Lee and Lasitha Vidyaratne and Gregory Sin and Ahmed Farahat and Chetan Gupta},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2511.18319v1}\n}",
+    "notes": ""
   },
   {
     "id": "d67c126da61f",
@@ -24002,7 +24075,8 @@
     "comment": "21 pages. 9 figures",
     "journal_ref": "",
     "bibtex_key": "zhao2025edge",
-    "bibtex": "@article{zhao2025edge,\n  title={Edge General Intelligence Through World Models and Agentic AI: Fundamentals, Solutions, and Challenges},\n  author={Changyuan Zhao and Guangyuan Liu and Ruichen Zhang and Yinqiu Liu and Jiacheng Wang and Jiawen Kang and Dusit Niyato and Zan Li and Xuemin and Shen and Zhu Han and Sumei Sun and Chau Yuen and Dong In Kim},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2508.09561v1}\n}"
+    "bibtex": "@article{zhao2025edge,\n  title={Edge General Intelligence Through World Models and Agentic AI: Fundamentals, Solutions, and Challenges},\n  author={Changyuan Zhao and Guangyuan Liu and Ruichen Zhang and Yinqiu Liu and Jiacheng Wang and Jiawen Kang and Dusit Niyato and Zan Li and Xuemin and Shen and Zhu Han and Sumei Sun and Chau Yuen and Dong In Kim},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2508.09561v1}\n}",
+    "notes": ""
   },
   {
     "id": "27f68bd60cb4",
@@ -24954,7 +25028,8 @@
     "comment": "This paper is accepted to RA-L 2026",
     "journal_ref": "",
     "bibtex_key": "sun2025view",
-    "bibtex": "@article{sun2025view,\n  title={View Invariant Learning for Vision-Language Navigation in Continuous Environments},\n  author={Josh Qixuan Sun and Huaiyuan Weng and Xiaoying Xing and Chul Min Yeum and Mark Crowley},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2507.08831v4}\n}"
+    "bibtex": "@article{sun2025view,\n  title={View Invariant Learning for Vision-Language Navigation in Continuous Environments},\n  author={Josh Qixuan Sun and Huaiyuan Weng and Xiaoying Xing and Chul Min Yeum and Mark Crowley},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2507.08831v4}\n}",
+    "notes": ""
   },
   {
     "id": "3bc3efd2740a",
@@ -25449,7 +25524,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "zhang2025grounded",
-    "bibtex": "@article{zhang2025grounded,\n  title={Grounded Vision-Language Navigation for UAVs with Open-Vocabulary Goal Understanding},\n  author={Yuhang Zhang and Haosheng Yu and Jiaping Xiao and Mir Feroskhan},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.10756v1}\n}"
+    "bibtex": "@article{zhang2025grounded,\n  title={Grounded Vision-Language Navigation for UAVs with Open-Vocabulary Goal Understanding},\n  author={Yuhang Zhang and Haosheng Yu and Jiaping Xiao and Mir Feroskhan},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.10756v1}\n}",
+    "notes": ""
   },
   {
     "id": "0049e92ec3ea",
@@ -25532,7 +25608,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "ko2025active",
-    "bibtex": "@article{ko2025active,\n  title={Active Test-time Vision-Language Navigation},\n  author={Heeju Ko and Sungjune Kim and Gyeongrok Oh and Jeongyoon Yoon and Honglak Lee and Sujin Jang and Seungryong Kim and Sangpil Kim},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.06630v1}\n}"
+    "bibtex": "@article{ko2025active,\n  title={Active Test-time Vision-Language Navigation},\n  author={Heeju Ko and Sungjune Kim and Gyeongrok Oh and Jeongyoon Yoon and Honglak Lee and Sujin Jang and Seungryong Kim and Sangpil Kim},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.06630v1}\n}",
+    "notes": ""
   },
   {
     "id": "becb648203cd",
@@ -25567,7 +25644,8 @@
     "comment": "Accepted at Workshop on Foundation Models Meet Embodied Agents at CVPR 2025 (Non-archival Track)",
     "journal_ref": "",
     "bibtex_key": "sikdar2025aethervision",
-    "bibtex": "@article{sikdar2025aethervision,\n  title={AetherVision-Bench: An Open-Vocabulary RGB-Infrared Benchmark for Multi-Angle Segmentation across Aerial and Ground Perspectives},\n  author={Aniruddh Sikdar and Aditya Gandhamal and Suresh Sundaram},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.03709v1}\n}"
+    "bibtex": "@article{sikdar2025aethervision,\n  title={AetherVision-Bench: An Open-Vocabulary RGB-Infrared Benchmark for Multi-Angle Segmentation across Aerial and Ground Perspectives},\n  author={Aniruddh Sikdar and Aditya Gandhamal and Suresh Sundaram},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.03709v1}\n}",
+    "notes": ""
   },
   {
     "id": "ae0f53ec5d71",
@@ -25798,7 +25876,8 @@
     "comment": "7 pages, 4 figures",
     "journal_ref": "",
     "bibtex_key": "zhao2025world",
-    "bibtex": "@article{zhao2025world,\n  title={World Models for Cognitive Agents: Transforming Edge Intelligence in Future Networks},\n  author={Changyuan Zhao and Ruichen Zhang and Jiacheng Wang and Gaosheng Zhao and Dusit Niyato and Geng Sun and Shiwen Mao and Dong In Kim},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.00417v1}\n}"
+    "bibtex": "@article{zhao2025world,\n  title={World Models for Cognitive Agents: Transforming Edge Intelligence in Future Networks},\n  author={Changyuan Zhao and Ruichen Zhang and Jiacheng Wang and Gaosheng Zhao and Dusit Niyato and Geng Sun and Shiwen Mao and Dong In Kim},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2506.00417v1}\n}",
+    "notes": ""
   },
   {
     "id": "a4be8e707766",
@@ -26189,7 +26268,8 @@
     "comment": "",
     "journal_ref": "NeurIPS 2025",
     "bibtex_key": "wang2025aux",
-    "bibtex": "@article{wang2025aux,\n  title={Aux-Think: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation},\n  author={Shuo Wang and Yongcai Wang and Wanting Li and Xudong Cai and Yucheng Wang and Maiyue Chen and Kaihui Wang and Zhizhong Su and Deying Li and Zhaoxin Fan},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2505.11886v4}\n}"
+    "bibtex": "@article{wang2025aux,\n  title={Aux-Think: Exploring Reasoning Strategies for Data-Efficient Vision-Language Navigation},\n  author={Shuo Wang and Yongcai Wang and Wanting Li and Xudong Cai and Yucheng Wang and Maiyue Chen and Kaihui Wang and Zhizhong Su and Deying Li and Zhaoxin Fan},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2505.11886v4}\n}",
+    "notes": ""
   },
   {
     "id": "574d2d404a87",
@@ -27366,7 +27446,8 @@
     "comment": "Paper submitted to the IEEE conference",
     "journal_ref": "",
     "bibtex_key": "lykov2025cognitivedrone",
-    "bibtex": "@article{lykov2025cognitivedrone,\n  title={CognitiveDrone: A VLA Model and Evaluation Benchmark for Real-Time Cognitive Task Solving and Reasoning in UAVs},\n  author={Artem Lykov and Valerii Serpiva and Muhammad Haris Khan and Oleg Sautenkov and Artyom Myshlyaev and Grik Tadevosyan and Yasheerah Yaqoot and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2503.01378v1}\n}"
+    "bibtex": "@article{lykov2025cognitivedrone,\n  title={CognitiveDrone: A VLA Model and Evaluation Benchmark for Real-Time Cognitive Task Solving and Reasoning in UAVs},\n  author={Artem Lykov and Valerii Serpiva and Muhammad Haris Khan and Oleg Sautenkov and Artyom Myshlyaev and Grik Tadevosyan and Yasheerah Yaqoot and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2503.01378v1}\n}",
+    "notes": ""
   },
   {
     "id": "058fbb0fa4ee",
@@ -28077,7 +28158,8 @@
     "comment": "8 pages, 5 figures, magazine paper",
     "journal_ref": "",
     "bibtex_key": "liu2025generative",
-    "bibtex": "@article{liu2025generative,\n  title={Generative AI for Lyapunov Optimization Theory in UAV-based Low-Altitude Economy Networking},\n  author={Zhang Liu and Dusit Niyato and Jiacheng Wang and Geng Sun and Lianfen Huang and Zhibin Gao and Xianbin Wang},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2501.15928v1}\n}"
+    "bibtex": "@article{liu2025generative,\n  title={Generative AI for Lyapunov Optimization Theory in UAV-based Low-Altitude Economy Networking},\n  author={Zhang Liu and Dusit Niyato and Jiacheng Wang and Geng Sun and Lianfen Huang and Zhibin Gao and Xianbin Wang},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2501.15928v1}\n}",
+    "notes": ""
   },
   {
     "id": "21a77bbd8937",
@@ -28114,7 +28196,8 @@
     "comment": "8 pages, 6 Figures, accepted to IEEE ICRA 2026",
     "journal_ref": "",
     "bibtex_key": "romero2025dream",
-    "bibtex": "@article{romero2025dream,\n  title={Dream to Fly: Model-Based Reinforcement Learning for Vision-Based Drone Flight},\n  author={Angel Romero and Ashwin Shenai and Ismail Geles and Elie Aljalbout and Davide Scaramuzza},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2501.14377v2}\n}"
+    "bibtex": "@article{romero2025dream,\n  title={Dream to Fly: Model-Based Reinforcement Learning for Vision-Based Drone Flight},\n  author={Angel Romero and Ashwin Shenai and Ismail Geles and Elie Aljalbout and Davide Scaramuzza},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2501.14377v2}\n}",
+    "notes": ""
   },
   {
     "id": "5186f7c91ddc",
@@ -28191,7 +28274,8 @@
     "comment": "HRI 2025",
     "journal_ref": "",
     "bibtex_key": "sautenkov2025uav",
-    "bibtex": "@article{sautenkov2025uav,\n  title={UAV-VLA: Vision-Language-Action System for Large Scale Aerial Mission Generation},\n  author={Oleg Sautenkov and Yasheerah Yaqoot and Artem Lykov and Muhammad Ahsan Mustafa and Grik Tadevosyan and Aibek Akhmetkazy and Miguel Altamirano Cabrera and Mikhail Martynov and Sausar Karaf and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2501.05014v2}\n}"
+    "bibtex": "@article{sautenkov2025uav,\n  title={UAV-VLA: Vision-Language-Action System for Large Scale Aerial Mission Generation},\n  author={Oleg Sautenkov and Yasheerah Yaqoot and Artem Lykov and Muhammad Ahsan Mustafa and Grik Tadevosyan and Aibek Akhmetkazy and Miguel Altamirano Cabrera and Mikhail Martynov and Sausar Karaf and Dzmitry Tsetserukou},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2501.05014v2}\n}",
+    "notes": ""
   },
   {
     "id": "0eda369875eb",
@@ -28851,7 +28935,8 @@
     "comment": "Accepted to the The 3rd International Conference on Assured Autonomy",
     "journal_ref": "",
     "bibtex_key": "zhang2024shrinking",
-    "bibtex": "@article{zhang2024shrinking,\n  title={Shrinking POMCP: A Framework for Real-Time UAV Search and Rescue},\n  author={Yunuo Zhang and Baiting Luo and Ayan Mukhopadhyay and Daniel Stojcsics and Daniel Elenius and Anirban Roy and Susmit Jha and Miklos Maroti and Xenofon Koutsoukos and Gabor Karsai and Abhishek Dubey},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2411.12967v1}\n}"
+    "bibtex": "@article{zhang2024shrinking,\n  title={Shrinking POMCP: A Framework for Real-Time UAV Search and Rescue},\n  author={Yunuo Zhang and Baiting Luo and Ayan Mukhopadhyay and Daniel Stojcsics and Daniel Elenius and Anirban Roy and Susmit Jha and Miklos Maroti and Xenofon Koutsoukos and Gabor Karsai and Abhishek Dubey},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2411.12967v1}\n}",
+    "notes": ""
   },
   {
     "id": "98e0a92ba4b5",
@@ -28933,7 +29018,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "raychaudhuri2024zero",
-    "bibtex": "@article{raychaudhuri2024zero,\n  title={Zero-shot Object-Centric Instruction Following: Integrating Foundation Models with Traditional Navigation},\n  author={Sonia Raychaudhuri and Duy Ta and Katrina Ashton and Angel X. Chang and Jiuguang Wang and Bernadette Bucher},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2411.07848v3}\n}"
+    "bibtex": "@article{raychaudhuri2024zero,\n  title={Zero-shot Object-Centric Instruction Following: Integrating Foundation Models with Traditional Navigation},\n  author={Sonia Raychaudhuri and Duy Ta and Katrina Ashton and Angel X. Chang and Jiuguang Wang and Bernadette Bucher},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2411.07848v3}\n}",
+    "notes": ""
   },
   {
     "id": "eaab97d0a957",
@@ -29316,7 +29402,8 @@
     "comment": "Published at ICINCO 2024",
     "journal_ref": "In Proceedings of the 21st International Conference on Informatics in Control, Automation and Robotics (ICINCO 2024)",
     "bibtex_key": "olivares2024model",
-    "bibtex": "@article{olivares2024model,\n  title={Model-Free versus Model-Based Reinforcement Learning for Fixed-Wing UAV Attitude Control Under Varying Wind Conditions},\n  author={David Olivares and Pierre Fournier and Pavan Vasishta and Julien Marzat},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2409.17896v1}\n}"
+    "bibtex": "@article{olivares2024model,\n  title={Model-Free versus Model-Based Reinforcement Learning for Fixed-Wing UAV Attitude Control Under Varying Wind Conditions},\n  author={David Olivares and Pierre Fournier and Pavan Vasishta and Julien Marzat},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2409.17896v1}\n}",
+    "notes": ""
   },
   {
     "id": "e0e1c88d56e7",
@@ -29483,7 +29570,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "cai2024neusis",
-    "bibtex": "@article{cai2024neusis,\n  title={NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception, Reasoning, and Planning in Complex UAV Search Missions},\n  author={Zhixi Cai and Cristian Rojas Cardenas and Kevin Leo and Chenyuan Zhang and Kal Backman and Hanbing Li and Boying Li and Mahsa Ghorbanali and Stavya Datta and Lizhen Qu and Julian Gutierrez Santiago and Alexey Ignatiev and Yuan-Fang Li and Mor Vered and Peter J Stuckey and Maria Garcia de la Banda and Hamid Rezatofighi},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2409.10196v1}\n}"
+    "bibtex": "@article{cai2024neusis,\n  title={NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception, Reasoning, and Planning in Complex UAV Search Missions},\n  author={Zhixi Cai and Cristian Rojas Cardenas and Kevin Leo and Chenyuan Zhang and Kal Backman and Hanbing Li and Boying Li and Mahsa Ghorbanali and Stavya Datta and Lizhen Qu and Julian Gutierrez Santiago and Alexey Ignatiev and Yuan-Fang Li and Mor Vered and Peter J Stuckey and Maria Garcia de la Banda and Hamid Rezatofighi},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2409.10196v1}\n}",
+    "notes": ""
   },
   {
     "id": "6d63354c65a9",
@@ -29640,7 +29728,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "yao2024aeroverse",
-    "bibtex": "@article{yao2024aeroverse,\n  title={AeroVerse: UAV-Agent Benchmark Suite for Simulating, Pre-training, Finetuning, and Evaluating Aerospace Embodied World Models},\n  author={Fanglong Yao and Yuanchang Yue and Youzhi Liu and Xian Sun and Kun Fu},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2408.15511v2}\n}"
+    "bibtex": "@article{yao2024aeroverse,\n  title={AeroVerse: UAV-Agent Benchmark Suite for Simulating, Pre-training, Finetuning, and Evaluating Aerospace Embodied World Models},\n  author={Fanglong Yao and Yuanchang Yue and Youzhi Liu and Xian Sun and Kun Fu},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2408.15511v2}\n}",
+    "notes": ""
   },
   {
     "id": "0d490e6b5728",
@@ -29909,7 +29998,8 @@
     "comment": "Accepted for publication in IEEE Intelligent Vehicle Symposium (IV 2024)",
     "journal_ref": "",
     "bibtex_key": "schofield2024vectorized",
-    "bibtex": "@article{schofield2024vectorized,\n  title={Vectorized Representation Dreamer (VRD): Dreaming-Assisted Multi-Agent Motion-Forecasting},\n  author={Hunter Schofield and Hamidreza Mirkhani and Mohammed Elmahgiubi and Kasra Rezaee and Jinjun Shan},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2406.14415v1}\n}"
+    "bibtex": "@article{schofield2024vectorized,\n  title={Vectorized Representation Dreamer (VRD): Dreaming-Assisted Multi-Agent Motion-Forecasting},\n  author={Hunter Schofield and Hamidreza Mirkhani and Mohammed Elmahgiubi and Kasra Rezaee and Jinjun Shan},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2406.14415v1}\n}",
+    "notes": ""
   },
   {
     "id": "d84ecdb9b62b",
@@ -30057,7 +30147,8 @@
     "comment": "Accepted for publication in the 2024 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024)",
     "journal_ref": "",
     "bibtex_key": "krayani2024self",
-    "bibtex": "@article{krayani2024self,\n  title={Self-Supervised Path Planning in UAV-aided Wireless Networks based on Active Inference},\n  author={Ali Krayani and Khalid Khan and Lucio Marcenaro and Mario Marchese and Carlo Regazzoni},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2403.13827v1}\n}"
+    "bibtex": "@article{krayani2024self,\n  title={Self-Supervised Path Planning in UAV-aided Wireless Networks based on Active Inference},\n  author={Ali Krayani and Khalid Khan and Lucio Marcenaro and Mario Marchese and Carlo Regazzoni},\n  journal={arXiv preprint},\n  year={2024},\n  url={https://arxiv.org/pdf/2403.13827v1}\n}",
+    "notes": ""
   },
   {
     "id": "74326a9c1f01",
@@ -30884,7 +30975,8 @@
     "comment": "Will appear in PMLR, CoRL 2022",
     "journal_ref": "",
     "bibtex_key": "mirchev2022prism",
-    "bibtex": "@article{mirchev2022prism,\n  title={PRISM: Probabilistic Real-Time Inference in Spatial World Models},\n  author={Atanas Mirchev and Baris Kayalibay and Ahmed Agha and Patrick van der Smagt and Daniel Cremers and Justin Bayer},\n  journal={arXiv preprint},\n  year={2022},\n  url={https://arxiv.org/pdf/2212.02988v1}\n}"
+    "bibtex": "@article{mirchev2022prism,\n  title={PRISM: Probabilistic Real-Time Inference in Spatial World Models},\n  author={Atanas Mirchev and Baris Kayalibay and Ahmed Agha and Patrick van der Smagt and Daniel Cremers and Justin Bayer},\n  journal={arXiv preprint},\n  year={2022},\n  url={https://arxiv.org/pdf/2212.02988v1}\n}",
+    "notes": ""
   },
   {
     "id": "ddcfec477408",
@@ -31861,7 +31953,8 @@
     "comment": "11 pages, 12 figures, 3 table; Added acknowledgements. 30th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN), 2021",
     "journal_ref": "",
     "bibtex_key": "zheng2020spatial",
-    "bibtex": "@article{zheng2020spatial,\n  title={Spatial Language Understanding for Object Search in Partially Observed City-scale Environments},\n  author={Kaiyu Zheng and Deniz Bayazit and Rebecca Mathew and Ellie Pavlick and Stefanie Tellex},\n  journal={arXiv preprint},\n  year={2020},\n  url={https://arxiv.org/pdf/2012.02705v3}\n}"
+    "bibtex": "@article{zheng2020spatial,\n  title={Spatial Language Understanding for Object Search in Partially Observed City-scale Environments},\n  author={Kaiyu Zheng and Deniz Bayazit and Rebecca Mathew and Ellie Pavlick and Stefanie Tellex},\n  journal={arXiv preprint},\n  year={2020},\n  url={https://arxiv.org/pdf/2012.02705v3}\n}",
+    "notes": ""
   },
   {
     "id": "17ef5080a528",
@@ -32085,7 +32178,8 @@
     "comment": "7 pages, 1 page appendix",
     "journal_ref": "IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 455-461, April 2021",
     "bibtex_key": "lambert2020nonholonomic",
-    "bibtex": "@article{lambert2020nonholonomic,\n  title={Nonholonomic Yaw Control of an Underactuated Flying Robot with Model-based Reinforcement Learning},\n  author={Nathan Lambert and Craig Schindler and Daniel Drew and Kristofer Pister},\n  journal={arXiv preprint},\n  year={2020},\n  url={https://arxiv.org/pdf/2009.01221v2}\n}"
+    "bibtex": "@article{lambert2020nonholonomic,\n  title={Nonholonomic Yaw Control of an Underactuated Flying Robot with Model-based Reinforcement Learning},\n  author={Nathan Lambert and Craig Schindler and Daniel Drew and Kristofer Pister},\n  journal={arXiv preprint},\n  year={2020},\n  url={https://arxiv.org/pdf/2009.01221v2}\n}",
+    "notes": ""
   },
   {
     "id": "d9b336a648f0",
@@ -32268,7 +32362,8 @@
     "comment": "",
     "journal_ref": "",
     "bibtex_key": "beckerehmck2020learning",
-    "bibtex": "@article{beckerehmck2020learning,\n  title={Learning to Fly via Deep Model-Based Reinforcement Learning},\n  author={Philip Becker-Ehmck and Maximilian Karl and Jan Peters and Patrick van der Smagt},\n  journal={arXiv preprint},\n  year={2020},\n  url={https://arxiv.org/pdf/2003.08876v3}\n}"
+    "bibtex": "@article{beckerehmck2020learning,\n  title={Learning to Fly via Deep Model-Based Reinforcement Learning},\n  author={Philip Becker-Ehmck and Maximilian Karl and Jan Peters and Patrick van der Smagt},\n  journal={arXiv preprint},\n  year={2020},\n  url={https://arxiv.org/pdf/2003.08876v3}\n}",
+    "notes": ""
   },
   {
     "id": "88efdbfa2401",
