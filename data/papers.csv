@@ -1,0 +1,4 @@
+id,arxiv_id,title,authors,date,year,venue,topics,uav_relevance,abs_url,pdf_url,code_url,project_url,query_source
+seed-uav-vln-survey-map,,Seed Example: UAV Vision-Language Navigation Survey Map,Replace Me,2026-01-01,2026,Seed,UAV VLN; Navigation Foundation; Instruction Following; Survey,High,,,,,seed
+seed-uav-vla,,Seed Example: Vision-Language-Action Models for Aerial Navigation,Replace Me,2026-01-02,2026,Seed,Vision-Language-Action; Instruction Following; Embodied AI,High,,,,,seed
+seed-uav-wam,,Seed Example: World Action Models for UAV Future Observation Prediction,Replace Me,2026-01-03,2026,Seed,World Action Model; Embodied AI; Evaluation,High,,,,,seed

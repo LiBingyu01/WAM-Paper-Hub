@@ -1,0 +1,100 @@
+[
+  {
+    "id": "seed-uav-vln-survey-map",
+    "arxiv_id": "",
+    "title": "Seed Example: UAV Vision-Language Navigation Survey Map",
+    "authors": [
+      "Replace Me"
+    ],
+    "abstract": "This is a seed example entry used to test the website. Run scripts/fetch_arxiv.py to replace it with real arXiv papers. It represents UAV vision-language navigation, instruction following, spatial language grounding, and aerial navigation.",
+    "published": "2026-01-01T00:00:00Z",
+    "updated": "2026-01-01T00:00:00Z",
+    "date": "2026-01-01",
+    "year": 2026,
+    "venue": "Seed",
+    "topics": [
+      "UAV VLN",
+      "Navigation Foundation",
+      "Instruction Following",
+      "Survey"
+    ],
+    "tags": [
+      "UAV VLN",
+      "Navigation Foundation",
+      "Instruction Following",
+      "Survey"
+    ],
+    "query_source": "seed",
+    "abs_url": "",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "uav_relevance": "High",
+    "bibtex_key": "seed2026uavvln",
+    "bibtex": "@article{seed2026uavvln,\n  title={Seed Example: UAV Vision-Language Navigation Survey Map},\n  author={Replace Me},\n  journal={Seed data},\n  year={2026}\n}"
+  },
+  {
+    "id": "seed-uav-vla",
+    "arxiv_id": "",
+    "title": "Seed Example: Vision-Language-Action Models for Aerial Navigation",
+    "authors": [
+      "Replace Me"
+    ],
+    "abstract": "This seed example represents UAV VLA papers where visual observations and natural language instructions are mapped to action tokens, control policies, or navigation commands.",
+    "published": "2026-01-02T00:00:00Z",
+    "updated": "2026-01-02T00:00:00Z",
+    "date": "2026-01-02",
+    "year": 2026,
+    "venue": "Seed",
+    "topics": [
+      "Vision-Language-Action",
+      "Instruction Following",
+      "Embodied AI"
+    ],
+    "tags": [
+      "Vision-Language-Action",
+      "Instruction Following",
+      "Embodied AI"
+    ],
+    "query_source": "seed",
+    "abs_url": "",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "uav_relevance": "High",
+    "bibtex_key": "seed2026vla",
+    "bibtex": "@article{seed2026vla,\n  title={Seed Example: Vision-Language-Action Models for Aerial Navigation},\n  author={Replace Me},\n  journal={Seed data},\n  year={2026}\n}"
+  },
+  {
+    "id": "seed-uav-wam",
+    "arxiv_id": "",
+    "title": "Seed Example: World Action Models for UAV Future Observation Prediction",
+    "authors": [
+      "Replace Me"
+    ],
+    "abstract": "This seed example represents UAV WAM papers where observations and actions are used to predict future observations or future world states for imagination-based planning.",
+    "published": "2026-01-03T00:00:00Z",
+    "updated": "2026-01-03T00:00:00Z",
+    "date": "2026-01-03",
+    "year": 2026,
+    "venue": "Seed",
+    "topics": [
+      "World Action Model",
+      "Embodied AI",
+      "Evaluation"
+    ],
+    "tags": [
+      "World Action Model",
+      "Embodied AI",
+      "Evaluation"
+    ],
+    "query_source": "seed",
+    "abs_url": "",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "uav_relevance": "High",
+    "bibtex_key": "seed2026wam",
+    "bibtex": "@article{seed2026wam,\n  title={Seed Example: World Action Models for UAV Future Observation Prediction},\n  author={Replace Me},\n  journal={Seed data},\n  year={2026}\n}"
+  }
+]

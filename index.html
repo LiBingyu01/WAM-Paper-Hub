@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UAV-VLN-WAM-Paper-Hub</title>
+  <meta name="description" content="A curated survey-oriented paper hub for UAV Vision-Language Navigation, Vision-Language-Action models, and World Action Models." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">UAV-VLN-WAM-Paper-Hub</div>
+      <div class="nav-links">
+        <a href="https://github.com/LiBingyu01/WAM-Paper-Hub" target="_blank" rel="noreferrer">GitHub</a>
+        <button id="themeToggle" class="ghost-btn" type="button">Dark</button>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <div>
+        <p class="eyebrow">UAV VLN · Traditional Navigation · VLA · WAM · Embodied AI</p>
+        <h1>UAV Vision-Language Navigation Survey Hub</h1>
+        <p class="subtitle">
+          A curated and continuously updated paper hub for UAV Vision-Language Navigation, from
+          traditional navigation and instruction following to Vision-Language-Action models and
+          World Action Models for aerial embodied intelligence.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#papers">Browse Papers</a>
+          <button class="secondary-btn" id="exportCsvBtn" type="button">Export CSV</button>
+          <button class="secondary-btn" id="exportBibBtn" type="button">Export BibTeX</button>
+        </div>
+      </div>
+      <div class="stats-card">
+        <div class="stat"><span id="totalPapers">0</span><label>Total Papers</label></div>
+        <div class="stat"><span id="totalTopics">0</span><label>Topics</label></div>
+        <div class="stat"><span id="lastUpdated">-</span><label>Updated</label></div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Survey-Oriented Research Map</h2>
+      <p class="muted">
+        This hub organizes UAV VLN literature into three main lines: traditional UAV navigation,
+        Vision-Language-Action policy learning, and World Action Models that predict future observations
+        or world states for planning. It also tracks navigation foundations, datasets, simulators,
+        multimodal perception, evaluation metrics, and surveys.
+      </p>
+      <div id="topicChips" class="chips"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Recommended Survey Structure</h2>
+      <div class="roadmap-grid">
+        <div class="roadmap-card"><strong>1. Foundations</strong><span>VLN formulation, spatial grounding, navigation policy, instruction following.</span></div>
+        <div class="roadmap-card"><strong>2. Traditional UAV VLN</strong><span>SLAM, path planning, semantic maps, obstacle avoidance, visual navigation.</span></div>
+        <div class="roadmap-card"><strong>3. UAV VLA</strong><span>Vision + language → action, action tokens, language-conditioned policy learning.</span></div>
+        <div class="roadmap-card"><strong>4. UAV WAM</strong><span>Observation + action → future observation/state for imagination-based planning.</span></div>
+        <div class="roadmap-card"><strong>5. Datasets & Simulators</strong><span>AirSim, Flightmare, Habitat, Isaac Sim, instruction-trajectory-video data.</span></div>
+        <div class="roadmap-card"><strong>6. Evaluation</strong><span>SR, SPL, collision rate, instruction accuracy, sim-to-real and OOD generalization.</span></div>
+      </div>
+    </section>
+
+    <section id="papers" class="panel">
+      <div class="section-head">
+        <div>
+          <h2>Papers</h2>
+          <p class="muted">Search, filter, sort, collect favorites, and export references.</p>
+        </div>
+        <div class="count-badge"><span id="visibleCount">0</span> shown</div>
+      </div>
+
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="Search title, abstract, author, tag..." />
+        <select id="topicFilter">
+          <option value="All">All Topics</option>
+        </select>
+        <select id="relevanceFilter">
+          <option value="All">All UAV Relevance</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <select id="sortSelect">
+          <option value="date-desc">Newest</option>
+          <option value="date-asc">Oldest</option>
+          <option value="title-asc">Title A-Z</option>
+          <option value="favorite">Favorites First</option>
+        </select>
+      </div>
+
+      <div id="paperList" class="paper-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Built for UAV VLN survey tracking. Data source can be arXiv API or manually edited JSON.
+    </p>
+  </footer>
+
+  <template id="paperTemplate">
+    <article class="paper-card">
+      <div class="paper-top">
+        <div>
+          <h3 class="paper-title"></h3>
+          <p class="paper-meta"></p>
+        </div>
+        <button class="favorite-btn" type="button" title="Save to local favorites">☆</button>
+      </div>
+      <p class="paper-abstract"></p>
+      <div class="tag-row"></div>
+      <div class="paper-links"></div>
+    </article>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
