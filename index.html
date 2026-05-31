@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WAM-Paper-Hub</title>
+  <meta name="description" content="A curated paper hub for World Models, World Action Models, Embodied AI, UAV Navigation, Robotics, and Video Generation." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">WAM-Paper-Hub</div>
+      <div class="nav-links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <button id="themeToggle" class="ghost-btn" type="button">Dark</button>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <div>
+        <p class="eyebrow">World Model · World Action Model · UAV · Embodied AI</p>
+        <h1>World Model Paper Hub for Embodied and Aerial Intelligence</h1>
+        <p class="subtitle">
+          A curated and continuously updated paper hub for World Models, World Action Models,
+          Vision-Language-Action models, UAV navigation, robotics, autonomous driving, and video generation.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#papers">Browse Papers</a>
+          <button class="secondary-btn" id="exportCsvBtn" type="button">Export CSV</button>
+          <button class="secondary-btn" id="exportBibBtn" type="button">Export BibTeX</button>
+        </div>
+      </div>
+      <div class="stats-card">
+        <div class="stat"><span id="totalPapers">0</span><label>Total Papers</label></div>
+        <div class="stat"><span id="totalTopics">0</span><label>Topics</label></div>
+        <div class="stat"><span id="lastUpdated">-</span><label>Updated</label></div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Research Map</h2>
+      <p class="muted">
+        The hub organizes papers by capability: perception, dynamics prediction, action-conditioned generation,
+        planning, policy learning, simulation, and UAV-oriented embodied intelligence.
+      </p>
+      <div id="topicChips" class="chips"></div>
+    </section>
+
+    <section id="papers" class="panel">
+      <div class="section-head">
+        <div>
+          <h2>Papers</h2>
+          <p class="muted">Search, filter, sort, collect favorites, and export references.</p>
+        </div>
+        <div class="count-badge"><span id="visibleCount">0</span> shown</div>
+      </div>
+
+      <div class="toolbar">
+        <input id="searchInput" type="search" placeholder="Search title, abstract, author, tag..." />
+        <select id="topicFilter">
+          <option value="All">All Topics</option>
+        </select>
+        <select id="relevanceFilter">
+          <option value="All">All UAV Relevance</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <select id="sortSelect">
+          <option value="date-desc">Newest</option>
+          <option value="date-asc">Oldest</option>
+          <option value="title-asc">Title A-Z</option>
+          <option value="favorite">Favorites First</option>
+        </select>
+      </div>
+
+      <div id="paperList" class="paper-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Built for WAM / World Model literature tracking. Data source can be arXiv API or manually edited JSON.
+    </p>
+  </footer>
+
+  <template id="paperTemplate">
+    <article class="paper-card">
+      <div class="paper-top">
+        <div>
+          <h3 class="paper-title"></h3>
+          <p class="paper-meta"></p>
+        </div>
+        <button class="favorite-btn" type="button" title="Save to local favorites">☆</button>
+      </div>
+      <p class="paper-abstract"></p>
+      <div class="tag-row"></div>
+      <div class="paper-links"></div>
+    </article>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
