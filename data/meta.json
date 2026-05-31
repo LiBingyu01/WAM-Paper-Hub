@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-01-01T00:00:00Z",
-  "total_papers": 3,
+  "updated_at": "2026-05-31T09:36:38.111694+00:00",
+  "total_papers": 1211,
   "topics": [
     "UAV VLN",
     "Navigation Foundation",
@@ -15,5 +15,5 @@
     "Survey",
     "Other"
   ],
-  "source": "seed data; run scripts/fetch_arxiv.py to fetch real arXiv papers"
+  "source": "arXiv API + manual JSON curation"
 }
