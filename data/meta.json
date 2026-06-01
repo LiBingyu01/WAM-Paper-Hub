@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-31T10:54:28.461950+00:00",
-  "total_papers": 240,
+  "updated_at": "2026-06-01T02:51:09.063151+00:00",
+  "total_papers": 83,
   "topics": [
     "Foundations",
     "Traditional UAV VLN",
@@ -9,38 +9,44 @@
     "Datasets & Simulators",
     "Evaluation"
   ],
-  "source": "arXiv API + strict UAV-navigation filtering + score-based six-topic classification",
-  "uav_navigation_only": true,
-  "uav_markers": [
+  "source": "arXiv API + focused UAV/Aerial VLN keyword filtering",
+  "tag_limit_per_paper": 3,
+  "core_uav_vln_terms": [
     "uav",
-    "unmanned aerial vehicle"
+    "unmanned aerial vehicle",
+    "uav-vln",
+    "uav vln",
+    "aerial vln",
+    "aerial vision-language navigation",
+    "aerial vision language navigation",
+    "aerial navigation"
   ],
-  "navigation_markers": [
+  "core_navigation_terms": [
     "navigation",
-    "navigate",
-    "navigating",
-    "visual navigation",
-    "vision-based navigation",
-    "vision based navigation",
     "vision-language navigation",
     "vision language navigation",
     "language-guided navigation",
     "language guided navigation",
-    "instruction navigation",
+    "instruction following",
+    "object goal navigation",
+    "object-goal navigation",
+    "open-world navigation",
     "path planning",
-    "trajectory planning",
-    "motion planning",
-    "route planning",
-    "slam",
-    "visual slam",
-    "vslam",
     "obstacle avoidance",
-    "collision avoidance",
-    "waypoint",
-    "waypoint navigation",
-    "localization and mapping",
-    "semantic map",
-    "semantic maps"
+    "visual navigation"
   ],
-  "tag_limit_per_paper": 3
+  "special_keep_terms": [
+    "aerialvln",
+    "traveluav",
+    "airnav",
+    "openvln",
+    "skyvln",
+    "worldvln",
+    "uav-flow",
+    "uav-on",
+    "aerialvla",
+    "vla-an",
+    "autofly",
+    "fly360"
+  ]
 }
