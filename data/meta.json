@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-01T02:51:09.063151+00:00",
-  "total_papers": 83,
+  "updated_at": "2026-06-01T03:27:21.562042+00:00",
+  "total_papers": 125,
   "topics": [
     "Foundations",
     "Traditional UAV VLN",
@@ -9,7 +9,12 @@
     "Datasets & Simulators",
     "Evaluation"
   ],
-  "source": "arXiv API + focused UAV/Aerial VLN keyword filtering",
+  "source": "arXiv + Semantic Scholar + OpenAlex",
+  "source_counts_before_merge": {
+    "arXiv": 0,
+    "SemanticScholar": 19,
+    "OpenAlex": 124
+  },
   "tag_limit_per_paper": 3,
   "core_uav_vln_terms": [
     "uav",

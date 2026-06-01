@@ -1,5 +1,139 @@
 [
   {
+    "id": "e55eddcd04e5",
+    "dedup_key": "crgwo dwa a structured global local collaborative planning framework for smooth uav navigation in dynamic environments",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162788929",
+    "doi": "https://doi.org/10.1038/s41598-026-55898-8",
+    "title": "CRGWO-DWA: A structured global–local collaborative planning framework for smooth UAV navigation in dynamic environments",
+    "authors": [
+      "Yong He",
+      "Qiang Gao",
+      "Qing Huang",
+      "Boji Huang"
+    ],
+    "abstract": "UAV path planning in dynamic environments requires balancing global path quality, local obstacle avoidance, and motion smoothness. To address the premature convergence and unsmooth paths of the Grey Wolf Optimizer (GWO) and the local-optimum tendency and evaluation imbalance of the Dynamic Window Approach (DWA), this paper proposes CRGWO-DWA, a structured global-local collaborative planning framework. In the global planning stage, CRGWO enhances population diversity and search performance through piecewise linear chaotic initialization, periodic regeneration of the control parameter, and adaptive leadership weighting, while cubic spline interpolation is used to generate a smooth reference path. In the local planning stage, DWA is improved using min-max normalized evaluation and redesigned weighting to enhance trajectory discrimination and responsiveness under dynamic obstacle interference. Experimental results show that CRGWO achieves the best or tied-best performance in most reported benchmark metrics, reduces path length and redundant turning nodes in static environments, and produces more compact and smoother paths in three-dimensional scenarios. In dynamic multi-obstacle environments, CRGWO-DWA enables safe and smooth UAV navigation with stable velocity profiles. These results indicate that the proposed framework provides an effective solution for UAV path planning in dynamic environments.",
+    "published": "2026-05-29",
+    "updated": "",
+    "date": "2026-05-29",
+    "year": "2026",
+    "venue": "Scientific Reports",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "UAV visual navigation",
+    "abs_url": "https://doi.org/10.1038/s41598-026-55898-8",
+    "pdf_url": "https://www.nature.com/articles/s41598-026-55898-8_reference.pdf",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "he2026crgwo",
+    "bibtex": "@article{he2026crgwo,\n  title={CRGWO-DWA: A structured global–local collaborative planning framework for smooth UAV navigation in dynamic environments},\n  author={Yong He and Qiang Gao and Qing Huang and Boji Huang},\n  journal={Scientific Reports},\n  year={2026},\n  url={https://www.nature.com/articles/s41598-026-55898-8_reference.pdf}\n}"
+  },
+  {
+    "id": "24616f5d72ec",
+    "dedup_key": "knowledge aware path planning for uav parcel delivery and road monitoring",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162752074",
+    "doi": "https://doi.org/10.1016/j.trc.2026.105780",
+    "title": "Knowledge-aware path planning for UAV parcel delivery and road monitoring",
+    "authors": [
+      "Meng Xu",
+      "Nikolas Geroliminis"
+    ],
+    "abstract": "",
+    "published": "2026-05-29",
+    "updated": "",
+    "date": "2026-05-29",
+    "year": "2026",
+    "venue": "Transportation Research Part C Emerging Technologies",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "UAV path planning",
+    "abs_url": "https://doi.org/10.1016/j.trc.2026.105780",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "xu2026knowledge",
+    "bibtex": "@article{xu2026knowledge,\n  title={Knowledge-aware path planning for UAV parcel delivery and road monitoring},\n  author={Meng Xu and Nikolas Geroliminis},\n  journal={Transportation Research Part C Emerging Technologies},\n  year={2026},\n  url={https://doi.org/10.1016/j.trc.2026.105780}\n}"
+  },
+  {
+    "id": "cea5c62d109e",
+    "dedup_key": "a hierarchical cooperative interception framework for multi uav defense against large scale swarm intrusions",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162759195",
+    "doi": "https://doi.org/10.3390/drones10060418",
+    "title": "A Hierarchical Cooperative Interception Framework for Multi-UAV Defense Against Large-Scale Swarm Intrusions",
+    "authors": [
+      "Lei Zuo",
+      "Ying Wang",
+      "Jialu Liu",
+      "Yu Lu",
+      "Ruiwen Gu"
+    ],
+    "abstract": "To address the challenges of unbalanced task allocation, high inter-UAV collision risks, and lagging interception guidance in multi-UAV cooperative missions within complex urban low-altitude environments, a cooperative interception strategy integrating load-balanced allocation, k-nearest neighbor (k-NN) cooperative obstacle avoidance, and adaptive predictive guidance is proposed. First, a load-balanced Hungarian algorithm is developed at the task allocation layer. The integration of a multi-dimensional distance-angle threat assessment model and a nonlinear load penalty mechanism resolves the issues of resource idling and target overloading inherent in traditional one-to-one allocation, thereby achieving optimal resource configuration for saturated cooperative interception. Second, at the path planning layer, a cooperative obstacle avoidance algorithm based on k-NN nonlinear repulsion is introduced. By exclusively considering the dynamic repulsive fields of local nearest neighbors alongside scale-adaptive parameter regulation, this approach maintains safe formation spacing while reducing the computational complexity from O(n2) to O(k)(k≪n), significantly enhancing flight robustness in dense airspaces. Finally, at the terminal guidance layer, an adaptive look-ahead guidance model incorporating motion prediction is constructed to mitigate the overshoot and lag defects associated with classical pure pursuit algorithms during the interception of highly maneuverable targets. The implementation of linear extrapolation and dynamic gain regulation facilitates a paradigm shift from “passive pursuit” to “active interception.” Simulation results demonstrate that the proposed algorithm yields substantial improvements in task allocation efficiency, collision risk mitigation, and overall success rates across red-blue UAV swarm confrontation scenarios of varying scales. These findings provide a viable cooperative defense framework against large-scale, highly maneuverable unmanned aerial vehicle (UAV) swarm intrusions.",
+    "published": "2026-05-28",
+    "updated": "",
+    "date": "2026-05-28",
+    "year": "2026",
+    "venue": "Drones",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "UAV path planning",
+    "abs_url": "https://doi.org/10.3390/drones10060418",
+    "pdf_url": "https://doi.org/10.3390/drones10060418",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "zuo2026a",
+    "bibtex": "@article{zuo2026a,\n  title={A Hierarchical Cooperative Interception Framework for Multi-UAV Defense Against Large-Scale Swarm Intrusions},\n  author={Lei Zuo and Ying Wang and Jialu Liu and Yu Lu and Ruiwen Gu},\n  journal={Drones},\n  year={2026},\n  url={https://doi.org/10.3390/drones10060418}\n}"
+  },
+  {
     "id": "59d2b54741c2",
     "arxiv_id": "2605.28654v1",
     "title": "Integrated Exploration-Aware UAV Route Optimization and Path Planning",
@@ -35,6 +169,440 @@
     "bibtex_key": "choi2026integrated",
     "bibtex": "@article{choi2026integrated,\n  title={Integrated Exploration-Aware UAV Route Optimization and Path Planning},\n  author={Jimin Choi and Grant Stagg and Cameron K. Peterson and Max Z. Li},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.28654v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "c8dbba35fd85",
+    "dedup_key": "untitled ite",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162507308",
+    "doi": "https://doi.org/10.6084/m9.figshare.32414559.v1",
+    "title": "Untitled Ite",
+    "authors": [
+      "Myth Samanta Sarker"
+    ],
+    "abstract": "This research presents the conceptual design and system analysis of an AI-powered autonomous UAV platform intended for smart monitoring, urban planning analysis, environmental observation, and intelligent mission operations. The proposed system integrates autonomous decision-making algorithms, GPS-based navigation, radio frequency communication systems, and remote operation capabilities through Raspberry Pi-based architecture to improve operational flexibility and monitoring efficiency.The project focuses on developing a multi-functional UAV framework capable of autonomous object following, real-time data transmission, mission planning, and adaptive flight control in dynamic environmental conditions. The research also analyzes critical engineering factors including structural stability, vibration effects, weight distribution, communication reliability, safety redundancy, fault tolerance, and environmental impacts such as wind, humidity, and dust.In addition, the study discusses the role of Ground Control Stations (GCS), AI-assisted navigation systems, and intelligent operational management for future smart-city and disaster-response applications. Ethical, regulatory, and security considerations related to autonomous UAV deployment are also examined to ensure responsible technological development.The objective of this research is not to present a fully completed commercial system, but to propose and analyze an advanced intelligent UAV framework that can support future innovation in autonomous aerial systems, smart infrastructure analysis, and next-generation monitoring technologies, particularly for developing regions like Bangladesh.Although the proposed Multi-Functional UAV framework presents several advanced concepts related to autonomous operations, intelligent coordination, mission planning, and smart monitoring, the current research remains primarily conceptual and analytical in nature. Some system components discussed throughout the study have not yet undergone full-scale real-world implementation or experimental validation.Several simulations, architectural models, and theoretical analyses were used to evaluate system behavior under different operational conditions. However, large-scale field testing involving multiple autonomous UAV units, complex environmental conditions, and long-duration missions remains outside the present scope of this research.Hardware limitations, computational constraints, communication delays, and environmental uncertainties may affect actual real-world performance differently from theoretical expectations. In addition, certain AI-based decision-making and swarm coordination mechanisms discussed in this study require further training, optimization, and validation using real datasets and operational testing platforms.The research also does not include classified military technologies, weaponized systems, or fully certified aviation-grade safety implementations. Regulatory approval processes, cross-border operational policies, and advanced cybersecurity protections may introduce additional challenges during future deployment stages.Despite these limitations, the study establishes a foundational framework for future development of intelligent UAV systems focused on smart monitoring, disaster response, urban analysis, and autonomous mission operations. Future work will involve prototype refinement, real-world testing, performance benchmarking, and integration of advanced AI-driven operational capabilities.",
+    "published": "2026-05-27",
+    "updated": "",
+    "date": "2026-05-27",
+    "year": "2026",
+    "venue": "Figshare",
+    "topics": [
+      "Datasets & Simulators"
+    ],
+    "tags": [
+      "Datasets & Simulators"
+    ],
+    "topic_scores": {
+      "Datasets & Simulators": 3.5
+    },
+    "query_source": "UAV world model navigation",
+    "abs_url": "https://doi.org/10.6084/m9.figshare.32414559.v1",
+    "pdf_url": "https://doi.org/10.6084/m9.figshare.32414559.v1",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "sarker2026untitled",
+    "bibtex": "@article{sarker2026untitled,\n  title={Untitled Ite},\n  author={Myth Samanta Sarker},\n  journal={Figshare},\n  year={2026},\n  url={https://doi.org/10.6084/m9.figshare.32414559.v1}\n}"
+  },
+  {
+    "id": "a1bbb31e7714",
+    "dedup_key": "a i comprehensive study i on b unmanned aerial vehicles b uavs",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162510803",
+    "doi": "https://doi.org/10.6084/m9.figshare.32414559",
+    "title": "A <i>Comprehensive Study</i> on <b>Unmanned Aerial Vehicles</b> (UAVs)",
+    "authors": [
+      "Myth Samanta Sarker"
+    ],
+    "abstract": "This research presents the conceptual design and system analysis of an AI-powered autonomous UAV platform intended for smart monitoring, urban planning analysis, environmental observation, and intelligent mission operations. The proposed system integrates autonomous decision-making algorithms, GPS-based navigation, radio frequency communication systems, and remote operation capabilities through Raspberry Pi-based architecture to improve operational flexibility and monitoring efficiency.The project focuses on developing a multi-functional UAV framework capable of autonomous object following, real-time data transmission, mission planning, and adaptive flight control in dynamic environmental conditions. The research also analyzes critical engineering factors including structural stability, vibration effects, weight distribution, communication reliability, safety redundancy, fault tolerance, and environmental impacts such as wind, humidity, and dust.In addition, the study discusses the role of Ground Control Stations (GCS), AI-assisted navigation systems, and intelligent operational management for future smart-city and disaster-response applications. Ethical, regulatory, and security considerations related to autonomous UAV deployment are also examined to ensure responsible technological development.The objective of this research is not to present a fully completed commercial system, but to propose and analyze an advanced intelligent UAV framework that can support future innovation in autonomous aerial systems, smart infrastructure analysis, and next-generation monitoring technologies, particularly for developing regions like Bangladesh.Although the proposed Multi-Functional UAV framework presents several advanced concepts related to autonomous operations, intelligent coordination, mission planning, and smart monitoring, the current research remains primarily conceptual and analytical in nature. Some system components discussed throughout the study have not yet undergone full-scale real-world implementation or experimental validation.Several simulations, architectural models, and theoretical analyses were used to evaluate system behavior under different operational conditions. However, large-scale field testing involving multiple autonomous UAV units, complex environmental conditions, and long-duration missions remains outside the present scope of this research.Hardware limitations, computational constraints, communication delays, and environmental uncertainties may affect actual real-world performance differently from theoretical expectations. In addition, certain AI-based decision-making and swarm coordination mechanisms discussed in this study require further training, optimization, and validation using real datasets and operational testing platforms.The research also does not include classified military technologies, weaponized systems, or fully certified aviation-grade safety implementations. Regulatory approval processes, cross-border operational policies, and advanced cybersecurity protections may introduce additional challenges during future deployment stages.Despite these limitations, the study establishes a foundational framework for future development of intelligent UAV systems focused on smart monitoring, disaster response, urban analysis, and autonomous mission operations. Future work will involve prototype refinement, real-world testing, performance benchmarking, and integration of advanced AI-driven operational capabilities.",
+    "published": "2026-05-27",
+    "updated": "",
+    "date": "2026-05-27",
+    "year": "2026",
+    "venue": "Figshare",
+    "topics": [
+      "Datasets & Simulators"
+    ],
+    "tags": [
+      "Datasets & Simulators"
+    ],
+    "topic_scores": {
+      "Datasets & Simulators": 3.5
+    },
+    "query_source": "UAV world model navigation",
+    "abs_url": "https://doi.org/10.6084/m9.figshare.32414559",
+    "pdf_url": "https://doi.org/10.6084/m9.figshare.32414559",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "sarker2026a",
+    "bibtex": "@article{sarker2026a,\n  title={A <i>Comprehensive Study</i> on <b>Unmanned Aerial Vehicles</b> (UAVs)},\n  author={Myth Samanta Sarker},\n  journal={Figshare},\n  year={2026},\n  url={https://doi.org/10.6084/m9.figshare.32414559}\n}"
+  },
+  {
+    "id": "1f32110ff640",
+    "dedup_key": "research and application of lightweight fully autonomous uav inspection technology for power distribution lines based on intelligent vision",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162426003",
+    "doi": "https://doi.org/10.1117/12.3116217",
+    "title": "Research and application of lightweight, fully autonomous UAV inspection technology for power distribution lines based on intelligent vision",
+    "authors": [
+      "Yong Li",
+      "Wenjie Liu",
+      "Jianzhong Li",
+      "Yan Song",
+      "Xinyi He"
+    ],
+    "abstract": "Aiming at the complex inspection environment of power distribution lines, the low efficiency of traditional manual inspection, and the limitations of UAV payload and computing power, a lightweight, fully autonomous UAV inspection technology for power distribution lines based on intelligent vision is proposed. This technology centers on lightweight intelligent visual detection. By improving the YOLO series model and integrating GhostConv, group convolution, and hierarchical dependency-aware pruning algorithms, it reduces the model’s parameter count and computational complexity while maintaining detection accuracy. Combined with optimized path planning algorithms such as IS-RRT* and RRT-Dubins, it achieves fully autonomous trajectory generation in complex terrain and obstacle environments. A lightweight SLAM system for dynamic scenes is introduced, which enhances positioning and navigation robustness under strong electromagnetic interference and dynamic target scenarios through semantic segmentation and dynamic feature point removal. Experimental results show that the proposed lightweight detection model improves mAP50 by over 5.3% compared to the original model while reducing parameters by more than 35%. The fully autonomous inspection path length is shortened by 8.6% to 32.4% compared to traditional algorithms, with planning efficiency improved by 18% to 86%. This significantly enhances inspection efficiency, reduces operational costs and safety risks, and provides an efficient solution for the intelligent operation and maintenance of power distribution lines.",
+    "published": "2026-05-26",
+    "updated": "",
+    "date": "2026-05-26",
+    "year": "2026",
+    "venue": "Unknown",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "UAV visual navigation",
+    "abs_url": "https://doi.org/10.1117/12.3116217",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "li2026research",
+    "bibtex": "@article{li2026research,\n  title={Research and application of lightweight, fully autonomous UAV inspection technology for power distribution lines based on intelligent vision},\n  author={Yong Li and Wenjie Liu and Jianzhong Li and Yan Song and Xinyi He},\n  journal={Unknown},\n  year={2026},\n  url={https://doi.org/10.1117/12.3116217}\n}"
+  },
+  {
+    "id": "66d379d531b2",
+    "dedup_key": "scp a scp direction guided dung beetle optimizer for cooperative multi scp uav scp path planning in dynamic environments",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162292626",
+    "doi": "https://doi.org/10.1002/cpe.70767",
+    "title": "<scp>A</scp> Direction Guided Dung Beetle Optimizer for Cooperative Multi‐ <scp>UAV</scp> Path Planning in Dynamic Environments",
+    "authors": [
+      "Ziyi Wang",
+      "Lei Wang",
+      "Jingcao Cai",
+      "Haoran Xu",
+      "Tongbin Zhang",
+      "Qiangqiang Xia"
+    ],
+    "abstract": "ABSTRACT Cooperative multi‐UAV path planning in dynamic environments faces severe challenges from high‐dimensional state spaces, strongly coupled spatiotemporal constraints, and the difficulty of simultaneously ensuring inter‐UAV collision avoidance and dynamic obstacle avoidance. To address these challenges, this paper proposes the direction guided dung beetle optimizer (DGDBO). Within a unified multi‐level directional regulation framework, an adaptive centripetal–centrifugal search strategy, a triangular deflection walk, and a quadratic interpolation‐based refinement operator are integrated to systematically coordinate exploration, local optima escape, and fine‐grained exploitation across different optimization stages. Furthermore, a continuous collision detection model based on spatiotemporal line segments unifies inter‐UAV and dynamic obstacle avoidance within a single analytical framework, ensuring flight safety while maintaining solution space connectivity. Evaluations on the CEC2017 benchmark suite show that DGDBO ranks first overall via the Friedman test, achieving optimal results on 25 of 29 functions with an average ranking of 1.172, outperforming the second‐best algorithm by approximately 1.97 in average ranking. In four dynamic multi‐UAV simulation scenarios of increasing complexity, DGDBO achieves the lowest mean path cost and smallest standard deviation among all six compared algorithms. Compared with the other competitor algorithms, DGDBO reduces mean path cost by an average of 16.4% and improves convergence stability by an average of 64%, with all performance advantages statistically confirmed by the Wilcoxon rank‐sum test. These results demonstrate that DGDBO provides a robust and efficient optimization solution for cooperative multi‐UAV path planning under complex dynamic constraints.",
+    "published": "2026-05-25",
+    "updated": "",
+    "date": "2026-05-25",
+    "year": "2026",
+    "venue": "Concurrency and Computation Practice and Experience",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 6.0
+    },
+    "query_source": "UAV obstacle avoidance",
+    "abs_url": "https://doi.org/10.1002/cpe.70767",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "wang2026scp",
+    "bibtex": "@article{wang2026scp,\n  title={<scp>A</scp> Direction Guided Dung Beetle Optimizer for Cooperative Multi‐ <scp>UAV</scp> Path Planning in Dynamic Environments},\n  author={Ziyi Wang and Lei Wang and Jingcao Cai and Haoran Xu and Tongbin Zhang and Qiangqiang Xia},\n  journal={Concurrency and Computation Practice and Experience},\n  year={2026},\n  url={https://doi.org/10.1002/cpe.70767}\n}"
+  },
+  {
+    "id": "ec3ad0db523e",
+    "dedup_key": "a charging aware hybrid deep q learning framework for energy efficient path planning of a single uav",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162303500",
+    "doi": "https://doi.org/10.1002/cpe.70765",
+    "title": "A Charging‐Aware Hybrid Deep Q‐Learning Framework for Energy‐Efficient Path Planning of a Single UAV",
+    "authors": [
+      "Vikash Chandra Sharma",
+      "Saugata Roy"
+    ],
+    "abstract": "ABSTRACT This paper proposes a charging‐aware hybrid deep Q‐learning (HDQL) framework for intelligent and energy‐efficient path planning of unmanned aerial vehicles (UAVs) in grid‐based industrial environments. The proposed HDQL model integrates three key components: A*‐guided heuristic reward shaping, battery‐aware decision‐making, and adaptive charging strategy, to ensure reliable navigation under strict energy constraints. A dynamic state‐dependent reward shaping mechanism is designed to consider residual battery level, goal distance, and charger proximity, enabling the UAV to balance path optimality and energy consumption. Extensive experiments were conducted in grid environments of sizes , , and . The experimental results demonstrate that the proposed HDQL framework outperforms baseline algorithms (DQL, HR‐DQL, and HR‐DQL+charging) in terms of success rate, average reward, and path efficiency. The proposed method achieves success rates of 89.44%, 58.70%, and 29.37% for , , and grid environments, respectively. The results also show that HDQL provides faster convergence, shorter navigation paths, and more stable learning performance compared to baseline methods. Additional experiments including sensitivity analysis of the reward shaping parameter, computational time analysis, ablation study, and multi‐charger scenario evaluation further demonstrate the robustness, scalability, and practical applicability of the proposed HDQL framework. Overall, the proposed HDQL framework provides a reliable and energy‐aware solution for UAV path planning in smart industrial environments with energy constraints.",
+    "published": "2026-05-24",
+    "updated": "",
+    "date": "2026-05-24",
+    "year": "2026",
+    "venue": "Concurrency and Computation Practice and Experience",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle path planning navigation",
+    "abs_url": "https://doi.org/10.1002/cpe.70765",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "sharma2026a",
+    "bibtex": "@article{sharma2026a,\n  title={A Charging‐Aware Hybrid Deep Q‐Learning Framework for Energy‐Efficient Path Planning of a Single UAV},\n  author={Vikash Chandra Sharma and Saugata Roy},\n  journal={Concurrency and Computation Practice and Experience},\n  year={2026},\n  url={https://doi.org/10.1002/cpe.70765}\n}"
+  },
+  {
+    "id": "b4d95cd0df05",
+    "dedup_key": "uav rf 3d rubble localization dataset",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162211974",
+    "doi": "https://doi.org/10.21227/z952-bf34",
+    "title": "\"UAV-RF 3D Rubble Localization Dataset\"",
+    "authors": [
+      "Yi Shiqi"
+    ],
+    "abstract": "\"This dataset provides simulation data for UAV-enabled RF source localization and active sensing path planning in three-dimensional urban rubble environments. The dataset contains JSON files describing sparse and dense urban scenarios, including city map information, obstacle configurations, UAV parameters, and scenario settings. It is designed to support the evaluation of UAV trajectory optimization algorithms under complex line-of-sight and non-line-of-sight propagation conditions. The data can be used to test active sensing strategies, wireless source localization methods, path planning algorithms, and information-driven trajectory optimization frameworks. In particular, the dataset supports research on RF localization using received signal strength measurements, probabilistic LoS\\/NLoS channel modeling, Fisher information analysis, and Cramer-Rao lower bound based performance evaluation. The sparse and dense scenarios provide different levels of environmental complexity, enabling comparative experiments on localization accuracy, collision avoidance, trajectory smoothness, and computational efficiency.\"",
+    "published": "2026-05-23",
+    "updated": "",
+    "date": "2026-05-23",
+    "year": "2026",
+    "venue": "IEEE DataPort",
+    "topics": [
+      "Datasets & Simulators"
+    ],
+    "tags": [
+      "Datasets & Simulators"
+    ],
+    "topic_scores": {
+      "Datasets & Simulators": 5.0
+    },
+    "query_source": "UAV obstacle avoidance",
+    "abs_url": "https://doi.org/10.21227/z952-bf34",
+    "pdf_url": "https://doi.org/10.21227/z952-bf34",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "shiqi2026uav",
+    "bibtex": "@article{shiqi2026uav,\n  title={\"UAV-RF 3D Rubble Localization Dataset\"},\n  author={Yi Shiqi},\n  journal={IEEE DataPort},\n  year={2026},\n  url={https://doi.org/10.21227/z952-bf34}\n}"
+  },
+  {
+    "id": "1811811956d3",
+    "dedup_key": "guided search and edge yolo benchmarking for uav based maritime vessel inspection a perception driven navigation strategy",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162110875",
+    "doi": "https://doi.org/10.1016/j.oceaneng.2026.126119",
+    "title": "Guided search and edge YOLO benchmarking for UAV-based maritime vessel inspection: A perception-driven navigation strategy",
+    "authors": [
+      "Zhi-Bo Cao"
+    ],
+    "abstract": "",
+    "published": "2026-05-23",
+    "updated": "",
+    "date": "2026-05-23",
+    "year": "2026",
+    "venue": "Ocean Engineering",
+    "topics": [
+      "Datasets & Simulators"
+    ],
+    "tags": [
+      "Datasets & Simulators"
+    ],
+    "topic_scores": {
+      "Datasets & Simulators": 3.0
+    },
+    "query_source": "UAV navigation benchmark",
+    "abs_url": "https://doi.org/10.1016/j.oceaneng.2026.126119",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "cao2026guided",
+    "bibtex": "@article{cao2026guided,\n  title={Guided search and edge YOLO benchmarking for UAV-based maritime vessel inspection: A perception-driven navigation strategy},\n  author={Zhi-Bo Cao},\n  journal={Ocean Engineering},\n  year={2026},\n  url={https://doi.org/10.1016/j.oceaneng.2026.126119}\n}"
+  },
+  {
+    "id": "4f28abfd9238",
+    "dedup_key": "ugv path optimization in uav assisted environments using visibility aware path simplification",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162143079",
+    "doi": "https://doi.org/10.3390/jsan15030041",
+    "title": "UGV Path Optimization in UAV-Assisted Environments Using Visibility-Aware Path Simplification",
+    "authors": [
+      "Isuru Munasinghe",
+      "Asanka Perera",
+      "Sreenatha Anavatti",
+      "Matt Garratt"
+    ],
+    "abstract": "This study proposes a modular path optimization framework for uncrewed ground vehicles (UGVs) in uncrewed aerial vehicle (UAV)-assisted navigation environments to improve the efficiency, smoothness, and executability of paths generated by classical grid-based path planning algorithms. The principal innovation of this work is the Visibility and Line-of-Sight Path Simplification (VLoSPS) algorithm, an algorithm-independent post-processing method that removes redundant waypoints through long-range axis-aligned visibility analysis while preserving path feasibility. VLoSPS is integrated with the Direction-Aware Path Planning Approach (DAPPA) to reduce angular deviations and improve directional continuity. The proposed framework is applicable to standard algorithms, including A*, Dijkstra, Breadth-First Search (BFS), and Depth-First Search (DFS), without modifying their internal search mechanisms. The main academic contributions comprise the formulation of a generalized post-processing architecture for UAV-derived occupancy maps, the introduction of a visibility-aware waypoint reduction strategy, and extensive validation using two synthetic maze datasets and three UAV-derived semantically segmented real-world datasets. On the Göttingen Maze Dataset, the VLoSPS and DAPPA pipeline reduced the average path lengths of A*, Dijkstra, BFS, and DFS by 5.42%, 9.46%, 10.44%, and 86.00%, respectively. The consistent improvements across real-world datasets demonstrate the effectiveness, computational feasibility, and general applicability of the proposed framework for UAV-assisted UGV path planning. The implementation code and benchmark resources developed in this study are publicly released to promote reproducibility and facilitate future research.",
+    "published": "2026-05-22",
+    "updated": "",
+    "date": "2026-05-22",
+    "year": "2026",
+    "venue": "Journal of Sensor and Actuator Networks",
+    "topics": [
+      "Datasets & Simulators"
+    ],
+    "tags": [
+      "Datasets & Simulators"
+    ],
+    "topic_scores": {
+      "Datasets & Simulators": 4.5
+    },
+    "query_source": "UAV semantic map navigation",
+    "abs_url": "https://doi.org/10.3390/jsan15030041",
+    "pdf_url": "https://doi.org/10.3390/jsan15030041",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "munasinghe2026ugv",
+    "bibtex": "@article{munasinghe2026ugv,\n  title={UGV Path Optimization in UAV-Assisted Environments Using Visibility-Aware Path Simplification},\n  author={Isuru Munasinghe and Asanka Perera and Sreenatha Anavatti and Matt Garratt},\n  journal={Journal of Sensor and Actuator Networks},\n  year={2026},\n  url={https://doi.org/10.3390/jsan15030041}\n}"
+  },
+  {
+    "id": "7e5589a40c47",
+    "dedup_key": "real time autonomous uav navigation with slam based mapping and direction oriented exploration in forest like gnss denied scenarios",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7162081264",
+    "doi": "https://doi.org/10.3390/drones10060399",
+    "title": "Real-Time Autonomous UAV Navigation with SLAM-Based Mapping and Direction-Oriented Exploration in Forest-like GNSS-Denied Scenarios",
+    "authors": [
+      "Yuan-Ting Wu",
+      "Yi‐Cheng Huang"
+    ],
+    "abstract": "In environments where GNSS signals are unavailable—such as indoor spaces, underground facilities, and forested areas—autonomous UAV navigation faces challenges related to localization uncertainty and limited onboard sensing capability. This study proposes a lightweight navigation framework using a single Intel RealSense D435i depth camera, integrating RTAB-Map SLAM, DWA-based local planning, and a direction-oriented frontier exploration strategy. The proposed exploration strategy introduces heading consistency into frontier target selection to support navigation in directionally constrained environments. The system is implemented within the ROS framework and evaluated in Gazebo/ArduPilot SITL simulation environments under low-, medium-, and high-density obstacle configurations. The results show that the system successfully completed autonomous traversal and return-to-home missions across all scenarios, with traversal RMSE values of 0.195 m, 0.197 m, and 0.420 m and return RMSE values of 0.295 m, 0.474 m, and 1.084 m, respectively. Qualitative dynamic-obstacle tests further demonstrate the system’s capability for local map updating and replanning. It should be noted that the current evaluation is primarily simulation-based and conducted in simplified environments. Therefore, the results are interpreted as initial system-level validation rather than full real-world deployment verification. The proposed system should not be directly interpreted as a ready-to-deploy real-world UAV navigation solution. Future work will focus on physical UAV experiments and more realistic GNSS-denied environments.",
+    "published": "2026-05-22",
+    "updated": "",
+    "date": "2026-05-22",
+    "year": "2026",
+    "venue": "Drones",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "UAV SLAM navigation",
+    "abs_url": "https://doi.org/10.3390/drones10060399",
+    "pdf_url": "https://doi.org/10.3390/drones10060399",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "wu2026real",
+    "bibtex": "@article{wu2026real,\n  title={Real-Time Autonomous UAV Navigation with SLAM-Based Mapping and Direction-Oriented Exploration in Forest-like GNSS-Denied Scenarios},\n  author={Yuan-Ting Wu and Yi‐Cheng Huang},\n  journal={Drones},\n  year={2026},\n  url={https://doi.org/10.3390/drones10060399}\n}"
+  },
+  {
+    "id": "3543015ba8b4",
+    "dedup_key": "uav vla multimodal vision language action pretraining for autonomous drone navigation",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7161829627",
+    "doi": "https://doi.org/10.5281/zenodo.20313605",
+    "title": "UAV-VLA: Multimodal Vision-Language-Action Pretraining for Autonomous Drone Navigation",
+    "authors": [
+      "Haotian Gu"
+    ],
+    "abstract": "Vision-Language-Action (VLA) models have recently demonstrated strong generalization capabilities in robotic manipulation by integrating multimodal perception, semantic reasoning, and action generation within unified transformer-based architectures. However, existing VLA systems primarily focus on ground-based manipulation tasks and remain limited in aerial embodied navigation scenarios, where unmanned aerial vehicles (UAVs) must operate under dynamic motion constraints, partial observability, and real-time control requirements. In this paper, we present UAV-VLM-NAV, a unified Vision-Language-Action framework for semantic UAV navigation that integrates visual perception, language grounding, temporal action modeling, and simulation pretraining into a single multimodal architecture. The proposed framework combines CLIP-based visual-language encoding, temporal transformer reasoning, action tokenization, and multi-objective learning to enable language-conditioned UAV trajectory generation and long-horizon semantic navigation. To improve generalization and scalability, we further introduce a simulation pretraining pipeline based on AirSim that automatically generates multimodal trajectory datasets containing RGB observations, UAV states, language instructions, semantic goal representations, and action sequences. Additionally, we formulate a multi-objective training strategy that jointly optimizes action prediction, semantic alignment, temporal smoothness, and autoregressive action-token objectives. Experimental results demonstrate that UAV-VLM-NAV achieves improved navigation success rate, trajectory consistency, and semantic goal understanding compared with conventional imitation-learning and reactive navigation baselines. The proposed framework highlights the potential of extending Vision-Language-Action learning from robotic manipulation toward aerial embodied intelligence and autonomous UAV navigation.",
+    "published": "2026-05-20",
+    "updated": "",
+    "date": "2026-05-20",
+    "year": "2026",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "topics": [
+      "UAV VLA"
+    ],
+    "tags": [
+      "UAV VLA"
+    ],
+    "topic_scores": {
+      "UAV VLA": 6.5
+    },
+    "query_source": "UAV vision-language navigation",
+    "abs_url": "https://doi.org/10.5281/zenodo.20313605",
+    "pdf_url": "https://doi.org/10.5281/zenodo.20313605",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "gu2026uav",
+    "bibtex": "@article{gu2026uav,\n  title={UAV-VLA: Multimodal Vision-Language-Action Pretraining for Autonomous Drone Navigation},\n  author={Haotian Gu},\n  journal={Zenodo (CERN European Organization for Nuclear Research)},\n  year={2026},\n  url={https://doi.org/10.5281/zenodo.20313605}\n}"
   },
   {
     "id": "294798b8e023",
@@ -77,7 +645,13 @@
     "journal_ref": "",
     "bibtex_key": "li2026flymirage",
     "bibtex": "@article{li2026flymirage,\n  title={FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model},\n  author={Jinhan Li and Xijie Huang and Zhaoqi Wang and Yijin Wang and Weiqi Ge and Qiyi He and Mo Zhu and Fei Gao and Yuze Wu and Xin Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.19600v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7161816773",
+    "doi": "https://doi.org/10.48550/arxiv.2605.19600",
+    "citation_count": 0
   },
   {
     "id": "4fa1600866a8",
@@ -120,7 +694,13 @@
     "journal_ref": "",
     "bibtex_key": "wang2026cosfly",
     "bibtex": "@article{wang2026cosfly,\n  title={CosFly-Track: A Large-Scale Multi-Modal Dataset for UAV Visual Tracking via Multi-Constraint Trajectory Optimization},\n  author={Xiangyue Wang and Hanxuan Chen and Songsheng Cheng and Ruilong Ren and Jie Zheng and Shuai Yuan and Tianle Zeng and Hanzhong Guo and Kangli Wang and Ji Pei},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.17776v2}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7161915885",
+    "citation_count": 0,
+    "doi": "https://doi.org/10.48550/arxiv.2605.17776"
   },
   {
     "id": "7215cf18e30f",
@@ -175,7 +755,13 @@
     "journal_ref": "",
     "bibtex_key": "zhao2026worldvln",
     "bibtex": "@article{zhao2026worldvln,\n  title={WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation},\n  author={Baining Zhao and Jiacheng Xu and Weicheng Feng and Xin Zhang and Zhaolu Wang and Haoyang Wang and Shilong Ji and Ziyou Wang and Jianjie Fang and Zhiheng Zheng and Weichen Zhang and Yu Shang and Wei Wu and Chen Gao and Xinlei Chen and Yong Li},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.15964v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7161655341",
+    "citation_count": 0,
+    "doi": "https://doi.org/10.48550/arxiv.2605.15964"
   },
   {
     "id": "a6fc09e5ba26",
@@ -211,6 +797,188 @@
     "bibtex_key": "bong2026safe",
     "bibtex": "@article{bong2026safe,\n  title={Safe Aerial 3D Path Planning for Autonomous UAVs using Magnetic Potential Fields},\n  author={Haechan Mark Bong and Giovanni Beltrame},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2605.10880v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "c12181eeac57",
+    "dedup_key": "multi strategy sea horse optimization algorithm for uav path planning",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7160849416",
+    "doi": "https://doi.org/10.3389/frobt.2026.1792384",
+    "title": "Multi-strategy Sea Horse Optimization algorithm for UAV path planning",
+    "authors": [
+      "Amir Seyyedabbasi",
+      "Bahman Arasteh",
+      "Ahmet Gürhanlı",
+      "Jawad Rasheed"
+    ],
+    "abstract": "Unmanned aerial vehicle (UAV) path planning is a challenging constrained optimization problem and a key component of autonomous navigation. Traditional optimization techniques frequently encounter difficulties in handling the complex constraints of UAV path planning, and even metaheuristic algorithms may suffer from premature convergence to local optima. A modified variant of the Sea Horse Optimization algorithm (SHO), denoted as moSHO, is introduced for threat-aware UAV path planning. The proposed algorithm extends the original SHO's movement, predation, and reproduction mechanisms through three cooperative strategies. First, a fish-aggregating device (FAD) mechanism promotes behavioral diversity through adaptive, range-aware perturbations. Second, a best-worst position mutation (BWPM) operator applies fine-grained Gaussian adjustments to the best-performing individuals while simultaneously guiding the worst individuals toward the current best using a differential update with Cauchy perturbation. Third, quasi-reflection-based learning (QRBL) introduces quasi-opposite candidates to strengthen exploration and population diversity. The integration of these strategies strengthens the exploration capability without reducing exploitation, resulting in a more balanced optimization process. An evaluation of 23 benchmark functions demonstrates the robustness of moSHO. Moreover, experiments on the UAV path planning model under threat environments prove its reliability in identifying safe, feasible paths.",
+    "published": "2026-05-11",
+    "updated": "",
+    "date": "2026-05-11",
+    "year": "2026",
+    "venue": "Frontiers in Robotics and AI",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 5.0
+    },
+    "query_source": "unmanned aerial vehicle language-guided navigation",
+    "abs_url": "https://doi.org/10.3389/frobt.2026.1792384",
+    "pdf_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1792384/pdf",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "seyyedabbasi2026multi",
+    "bibtex": "@article{seyyedabbasi2026multi,\n  title={Multi-strategy Sea Horse Optimization algorithm for UAV path planning},\n  author={Amir Seyyedabbasi and Bahman Arasteh and Ahmet Gürhanlı and Jawad Rasheed},\n  journal={Frontiers in Robotics and AI},\n  year={2026},\n  url={https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1792384/pdf}\n}"
+  },
+  {
+    "id": "7697bccde7cd",
+    "dedup_key": "urban air mobility and unmanned aerial vehicle path planning in dynamic urban environments a review",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7160836995",
+    "doi": "https://doi.org/10.3390/electronics15101998",
+    "title": "Urban Air Mobility and Unmanned Aerial Vehicle Path Planning in Dynamic Urban Environments: A Review",
+    "authors": [
+      "Yang Xu",
+      "Xiang Lu",
+      "Jie Yang",
+      "Chuan Sun",
+      "Shucai Xu",
+      "Zhixiong Li"
+    ],
+    "abstract": "The complexity of three-dimensional (3D) dynamic urban environments poses new challenges to emerging unmanned aerial vehicle (UAV) path planning, especially in dense buildings, dynamic obstacles, and multi-UAV collaboration. This paper reviews mainstream 3D path planning algorithms (including RRT, PRM, the ant colony algorithm, the artificial potential field method, and A*) and analyzes their core principles, applicable scenarios, advantages, and disadvantages. The study finds that each algorithm has its disadvantages: RRT lacks optimality, PRM has high computational cost, the ant colony algorithm is poor in real-time performance, APF is prone to local optima, and A* performs well in static environments. Future research should explore hybrid strategies combining multiple algorithms to improve adaptability in dynamic complex environments, providing efficient solutions for urban low-altitude UAV operations.",
+    "published": "2026-05-08",
+    "updated": "",
+    "date": "2026-05-08",
+    "year": "2026",
+    "venue": "Electronics",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "aerial VLN",
+    "abs_url": "https://doi.org/10.3390/electronics15101998",
+    "pdf_url": "https://www.mdpi.com/2079-9292/15/10/1998/pdf?version=1778244279",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "xu2026urban",
+    "bibtex": "@article{xu2026urban,\n  title={Urban Air Mobility and Unmanned Aerial Vehicle Path Planning in Dynamic Urban Environments: A Review},\n  author={Yang Xu and Xiang Lu and Jie Yang and Chuan Sun and Shucai Xu and Zhixiong Li},\n  journal={Electronics},\n  year={2026},\n  url={https://www.mdpi.com/2079-9292/15/10/1998/pdf?version=1778244279}\n}"
+  },
+  {
+    "id": "c7820bcff696",
+    "dedup_key": "aqgto adaptive q learning guided gorilla troops optimizer for 3d uav path planning in precision agriculture",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7160644799",
+    "doi": "https://doi.org/10.3390/drones10050357",
+    "title": "AQGTO: Adaptive Q-Learning-Guided Gorilla Troops Optimizer for 3D UAV Path Planning in Precision Agriculture",
+    "authors": [
+      "Tahar Bendouma",
+      "Saida Sarra Boudouh",
+      "Chaker Abdelaziz Kerrache",
+      "Jorge Herrera-Tapia"
+    ],
+    "abstract": "Unmanned Aerial Vehicles (UAVs) have become a key technology in precision agriculture, enabling efficient monitoring, inspection, and targeted interventions. However, effective UAV path planning in such environments requires the generation of safe, energy-efficient, and smooth trajectories in complex three-dimensional spaces. This paper proposes an Adaptive Q-Learning Guided Gorilla Troops Optimizer (AQGTO) for 3D UAV path planning. The proposed method integrates a state-aware Q-learning mechanism into the Gorilla Troops Optimizer (GTO), enabling the optimizer to adaptively select exploration, exploitation, and diversification strategies according to the current optimization state. A multi-objective cost function is formulated to simultaneously minimize path length, an energy-related surrogate cost, obstacle proximity, path smoothness, and altitude variation. In addition, a feasibility repair mechanism is introduced to ensure collision-free trajectories in environments with cylindrical obstacles. The proposed approach is evaluated in three representative agricultural scenarios: row-crop fields, orchard environments, and hilly terrains. Experimental results show that AQGTO achieves competitive and improved performance compared with classical A*, Particle Swarm Optimization (PSO), Grey Wolf Optimizer (GWO), Whale Optimization Algorithm (WOA), and the original GTO in terms of trajectory cost, path efficiency, and stability. Furthermore, an ablation study confirms that the integration of Q-learning significantly enhances optimization performance. These results suggest that AQGTO provides an effective and robust solution for UAV path planning in complex agricultural environments.",
+    "published": "2026-05-08",
+    "updated": "",
+    "date": "2026-05-08",
+    "year": "2026",
+    "venue": "Drones",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle instruction following navigation",
+    "abs_url": "https://doi.org/10.3390/drones10050357",
+    "pdf_url": "https://www.mdpi.com/2504-446X/10/5/357/pdf?version=1778245321",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "bendouma2026aqgto",
+    "bibtex": "@article{bendouma2026aqgto,\n  title={AQGTO: Adaptive Q-Learning-Guided Gorilla Troops Optimizer for 3D UAV Path Planning in Precision Agriculture},\n  author={Tahar Bendouma and Saida Sarra Boudouh and Chaker Abdelaziz Kerrache and Jorge Herrera-Tapia},\n  journal={Drones},\n  year={2026},\n  url={https://www.mdpi.com/2504-446X/10/5/357/pdf?version=1778245321}\n}"
+  },
+  {
+    "id": "2263252a0fb1",
+    "dedup_key": "a survey of risk calibrated certifiably safe and resource aware rcsr path planning for unmanned aerial vehicles",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7160552853",
+    "doi": "https://doi.org/10.3390/drones10050351",
+    "title": "A Survey of Risk-Calibrated Certifiably Safe and Resource-Aware (RCSR) Path Planning for Unmanned Aerial Vehicles",
+    "authors": [
+      "Nathan Johnson",
+      "Sima Shafaei",
+      "Andrew Karem",
+      "Sayani Sarkar"
+    ],
+    "abstract": "Effective mission planning, path search, and path following are critical for unmanned aerial vehicles (UAVs) operating in complex, dynamic, and resource-constrained environments. Classical path planning approaches, including graph-based search, sampling-based methods, and trajectory optimization, provide structured solutions with performance guarantees but often exhibit limited adaptability to uncertainty, environmental disturbances, and evolving mission constraints. Reinforcement learning (RL) offers a complementary capability by enabling adaptive decision-making and online response to dynamic obstacles and partial observability. This paper examines UAV path planning and navigation within a Risk-Calibrated, Certifiably Safe, and Resource-Aware (RCSR) framework, with emphasis on its implications for mission planning, path search, and path following. Classical planning techniques are reviewed alongside recent advances in RL-based navigation for single-UAV and multi-UAV systems. Particular attention is given to safe reinforcement learning, constrained optimization, and runtime assurance mechanisms that address safety, regulatory compliance, and resource limitations in real-world deployments. Through a comparative analysis of classical, learning-based, and hybrid planning architectures, this work highlights key trade-offs among adaptability, safety, computational cost, and energy efficiency. The paper concludes by identifying hybrid learning–planning approaches as a practical direction for scalable, reliable, and deployable UAV mission planning systems.",
+    "published": "2026-05-07",
+    "updated": "",
+    "date": "2026-05-07",
+    "year": "2026",
+    "venue": "Drones",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "aerial VLN",
+    "abs_url": "https://doi.org/10.3390/drones10050351",
+    "pdf_url": "https://www.mdpi.com/2504-446X/10/5/351/pdf?version=1778155835",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "johnson2026a",
+    "bibtex": "@article{johnson2026a,\n  title={A Survey of Risk-Calibrated Certifiably Safe and Resource-Aware (RCSR) Path Planning for Unmanned Aerial Vehicles},\n  author={Nathan Johnson and Sima Shafaei and Andrew Karem and Sayani Sarkar},\n  journal={Drones},\n  year={2026},\n  url={https://www.mdpi.com/2504-446X/10/5/351/pdf?version=1778155835}\n}"
   },
   {
     "id": "8880a9e13079",
@@ -363,8 +1131,14 @@
     "comment": "Accepted by CVPR 2026 Findings",
     "journal_ref": "",
     "bibtex_key": "shao2026finecog",
-    "bibtex": "@article{shao2026finecog,\n  title={FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation},\n  author={Dian Shao and Zhengzheng Xu and Peiyang Wang and Like Liu and Yule Wang and Jieqi Shi and Jing Huo},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.16298v1}\n}",
-    "notes": ""
+    "bibtex": "@article{shao2026finecog,\n  title={FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation},\n  author={Dian Shao and Zhengzheng Xu and Peiyang Wang and Like Liu and Yule Wang and Jieqi Shi and Jing Huo},\n  journal={CVPR},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.16298v1}\n}",
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7154993317",
+    "doi": "https://doi.org/10.48550/arxiv.2604.16298",
+    "citation_count": 0
   },
   {
     "id": "9787f7195583",
@@ -409,7 +1183,13 @@
     "journal_ref": "",
     "bibtex_key": "chen2026vision",
     "bibtex": "@article{chen2026vision,\n  title={Vision-and-Language Navigation for UAVs: Progress, Challenges, and a Research Roadmap},\n  author={Hanxuan Chen and Jie Zheng and Siqi Yang and Tianle Zeng and Siwei Feng and Songsheng Cheng and Ruilong Ren and Hanzhong Guo and Shuai Yuan and Xiangyue Wang and Kangli Wang and Ji Pei},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.13654v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7154790337",
+    "citation_count": 0,
+    "doi": "https://doi.org/10.48550/arxiv.2604.13654"
   },
   {
     "id": "f956d4ea1475",
@@ -451,7 +1231,13 @@
     "journal_ref": "",
     "bibtex_key": "xia2026vision",
     "bibtex": "@article{xia2026vision,\n  title={Vision-Language Navigation for Aerial Robots: Towards the Era of Large Language Models},\n  author={Xingyu Xia and Lekai Zhou and Yujie Tang and Xiaozhou Zhu and Hai Zhu and Wen Yao},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.07705v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7153671460",
+    "citation_count": 0,
+    "doi": "https://doi.org/10.48550/arxiv.2604.07705"
   },
   {
     "id": "772eef2e8a4c",
@@ -497,6 +1283,50 @@
     "notes": ""
   },
   {
+    "id": "1eeac8f31fa1",
+    "dedup_key": "vision language action vla models for unmanned aerial robotics and bimanual manipulation a review",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7152979392",
+    "doi": "https://doi.org/10.20944/preprints202604.0664.v1",
+    "title": "Vision-Language-Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review",
+    "authors": [
+      "Inkyu Sa",
+      "Chanoh Park",
+      "Ho Seok Ahn"
+    ],
+    "abstract": "Vision-Language-Action (VLA) models unify visual perception, natural-language understanding, and action generation within a single foundation model, allowing a robot to follow instructions such as “fold the towel” or “fly to the red building” directly from camera images. Because VLAs inherit world knowledge from internet-scale pre-training, they have become the dominant framework for learning-based manipulation, with bimanual coordination serving as the most demanding testbed: two arms with 7+ degrees of freedom each must move in concert to fold, assemble, and reorient objects. Unmanned aerial robotics faces a structurally similar challenge: a drone must coordinate thrust, attitude, and increasingly gripper commands from visual observations under strict latency and payload constraints. This review covers 186 contributions spanning 2017–2026 and organized along seven dimensions: VLA architectures, training recipes, action representations, bimanual coordination (2022–2026), unmanned aerial vehicle (UAV) navigation and control (2017–2026), language grounding, and cross-cutting concerns including memory and world models. We show that the coordination strategies, training recipes, and action representations developed for bimanual VLAs transfer to unmanned aerial systems, and identify fourteen research directions across both domains.",
+    "published": "2026-04-09",
+    "updated": "",
+    "date": "2026-04-09",
+    "year": "2026",
+    "venue": "Preprints.org",
+    "topics": [
+      "UAV VLA"
+    ],
+    "tags": [
+      "UAV VLA"
+    ],
+    "topic_scores": {
+      "UAV VLA": 5.0
+    },
+    "query_source": "aerial VLN",
+    "abs_url": "https://doi.org/10.20944/preprints202604.0664.v1",
+    "pdf_url": "https://www.preprints.org/frontend/manuscript/98c9348cbfea97adab7315fa37d3b9ca/download_pub",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "sa2026vision",
+    "bibtex": "@article{sa2026vision,\n  title={Vision-Language-Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review},\n  author={Inkyu Sa and Chanoh Park and Ho Seok Ahn},\n  journal={Preprints.org},\n  year={2026},\n  url={https://www.preprints.org/frontend/manuscript/98c9348cbfea97adab7315fa37d3b9ca/download_pub}\n}"
+  },
+  {
     "id": "5b5ac704b351",
     "arxiv_id": "2604.02827v1",
     "title": "Orientation Matters: Learning Radiation Patterns of Multi-Rotor UAVs In-Flight to Enhance Communication Availability Modeling",
@@ -533,6 +1363,51 @@
     "bibtex_key": "zoula2026orientation",
     "bibtex": "@article{zoula2026orientation,\n  title={Orientation Matters: Learning Radiation Patterns of Multi-Rotor UAVs In-Flight to Enhance Communication Availability Modeling},\n  author={Martin Zoula and Daniel Bonilla Licea and Jan Faigl and Václav Navrátil and Martin Saska},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2604.02827v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "13af2e174919",
+    "dedup_key": "vlm nav mapless uav navigation using monocular vision driven by vision language models",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7148733859",
+    "doi": "https://doi.org/10.1371/journal.pone.0345778",
+    "title": "VLM-Nav: Mapless UAV navigation using monocular vision driven by vision-language models",
+    "authors": [
+      "Gobinda Chandra Sarker",
+      "AKM Azad",
+      "Sejuti Rahman",
+      "Md Mehedi Hasan"
+    ],
+    "abstract": "Autonomous vehicles, such as Unmanned Aerial Vehicles (UAVs), have the potential to completely reshape various industries such as parcel delivery, agriculture, surveillance, monitoring, and search-and-rescue missions. Consequently, the demand for safe, cost-effective, and intelligent navigation systems is crucial to ensure reliable performance in complex and dynamic environments. In this study, we propose a novel vision-based UAV navigation method that integrates depthmap estimation with a Vision-Language Model (VLM) for efficient obstacle avoidance and path planning. The system processes RGB images captured by the UAV, transforming them into depth maps using DepthAnything-V2, a powerful zero-shot depth estimator. These depth maps are then analyzed by the VLM, which detects nearby obstacles and plans avoidance maneuvers. We have explored the Gemini-flash and GPT-4o models as VLM in our study. A fully connected network integrates the VLM output with the UAV's relative heading angle to predict the optimal course of action, enabling the UAV to dynamically navigate complex environments toward its target. The system's effectiveness is validated through simulations in AirSim using Blocks and the Downtown West environment. The UAV consistently reaches its destination, avoiding obstacles and achieving a near-perfect task completion rate of 0.98. By eliminating the need for costly sensors such as LiDAR and operating without pre-existing maps, our solution provides a cost-efficient, generalizable approach to real-time UAV navigation, especially in unfamiliar or dynamic settings, and highlights emerging trends in autonomous systems research that utilize VLMs.",
+    "published": "2026-04-03",
+    "updated": "",
+    "date": "2026-04-03",
+    "year": "2026",
+    "venue": "PLoS ONE",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "aerial VLN",
+    "abs_url": "https://doi.org/10.1371/journal.pone.0345778",
+    "pdf_url": "https://doi.org/10.1371/journal.pone.0345778",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "sarker2026vlm",
+    "bibtex": "@article{sarker2026vlm,\n  title={VLM-Nav: Mapless UAV navigation using monocular vision driven by vision-language models},\n  author={Gobinda Chandra Sarker and AKM Azad and Sejuti Rahman and Md Mehedi Hasan},\n  journal={PLoS ONE},\n  year={2026},\n  url={https://doi.org/10.1371/journal.pone.0345778}\n}"
   },
   {
     "id": "71058bdd7d17",
@@ -730,7 +1605,60 @@
     "journal_ref": "",
     "bibtex_key": "xu2026aerialvla",
     "bibtex": "@article{xu2026aerialvla,\n  title={AerialVLA: A Vision-Language-Action Model for UAV Navigation via Minimalist End-to-End Control},\n  author={Peng Xu and Zhengnan Deng and Jiayan Deng and Zonghua Gu and Shaohua Wan},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.14363v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7139144744",
+    "citation_count": 0,
+    "doi": "https://doi.org/10.48550/arxiv.2603.14363"
+  },
+  {
+    "id": "6a0bfb9a5d95",
+    "dedup_key": "aerialvla a vision language action model for aerial navigation with online dialogue",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7138404632",
+    "doi": "https://doi.org/10.1609/aaai.v40i22.38878",
+    "title": "AerialVLA: A Vision-Language-Action Model for Aerial Navigation with Online Dialogue",
+    "authors": [
+      "Jinyu Chen",
+      "Hongyu Li",
+      "Zongheng Tang",
+      "Xiaoduo Li",
+      "Wenjun Wu",
+      "Si Liu"
+    ],
+    "abstract": "Visual Dialogue Navigation (VDN) aims to enable agents to reach target locations through dialogue with humans. The integration of VDN into Unmanned Aerial Vehicle (UAV) systems enhances human-machine interaction by enabling intuitive, hands-free operation, thereby unlocking vast applications. However, existing VDN models for UAVs can only perform navigation based on dialogue history, lacking proactive interaction capabilities to correct trajectories. Moreover, their sequential observation history recording mechanism struggles to accurately localize landmarks observed in the historical context, leading to ineffective utilization of referential information in new user instructions.To address these, we present AerialVLA, an end-to-end UAV navigation framework integrating dialogue comprehension, action decision-making, and navigational question generation. AerialVLA comprises three core components: i) we propose the Progress-Driven Navigation-Query Alternation mechanism to determine optimal questioning timing through navigation progress estimation autonomously. ii) To effectively model long-horizon history observation sequences, we develop the History Spatial-Temporal Fusion module that extracts discriminative spatial-temporal representations from historical observations. iii) Furthermore, to overcome data scarcity in training, we devise the Online Task-Driven Augmentation strategy that enhances learning through action-conditioned data augmentation. Experimental results demonstrate that AerialVLA achieves state-of-the-art navigation performance while exhibiting effective dialogue capabilities.Moreover, to better evaluate the agent's proactive dialogue and navigation abilities, our evaluation benchmark, named UAV Navigation with Online Dialogue (UNOD), incorporates an online dialogue interaction module. The UNOD assesses UAV agents' real-time questioning capabilities by leveraging an Air Commander Large Language Model to simulate human-UAV interactions during testing.",
+    "published": "2026-03-14",
+    "updated": "",
+    "date": "2026-03-14",
+    "year": "2026",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "topics": [
+      "UAV VLA"
+    ],
+    "tags": [
+      "UAV VLA"
+    ],
+    "topic_scores": {
+      "UAV VLA": 3.0
+    },
+    "query_source": "AerialVLN",
+    "abs_url": "https://doi.org/10.1609/aaai.v40i22.38878",
+    "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38878/42840",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "chen2026aerialvla",
+    "bibtex": "@article{chen2026aerialvla,\n  title={AerialVLA: A Vision-Language-Action Model for Aerial Navigation with Online Dialogue},\n  author={Jinyu Chen and Hongyu Li and Zongheng Tang and Xiaoduo Li and Wenjun Wu and Si Liu},\n  journal={Proceedings of the AAAI Conference on Artificial Intelligence},\n  year={2026},\n  url={https://ojs.aaai.org/index.php/AAAI/article/download/38878/42840}\n}"
   },
   {
     "id": "af5ff9fa96d6",
@@ -768,7 +1696,12 @@
     "journal_ref": "",
     "bibtex_key": "zheng2026onfly",
     "bibtex": "@article{zheng2026onfly,\n  title={OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency},\n  author={Guiyong Zheng and Yueting Ban and Mingjie Zhang and Juepeng Zheng and Boyu Zhou},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.10682v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7135157121",
+    "citation_count": 0
   },
   {
     "id": "292ad0ad75b8",
@@ -846,7 +1779,12 @@
     "journal_ref": "",
     "bibtex_key": "tong2026visa",
     "bibtex": "@article{tong2026visa,\n  title={ViSA-Enhanced Aerial VLN: A Visual-Spatial Reasoning Enhanced Framework for Aerial Vision-Language Navigation},\n  author={Haoyu Tong and Xiangyu Dong and Xiaoguang Ma and Haoran Zhao and Yaoming Zhou and Chenghao Lin},\n  journal={arXiv preprint},\n  year={2026},\n  url={https://arxiv.org/pdf/2603.08007v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7134860555",
+    "citation_count": 0
   },
   {
     "id": "bedee0d4dfd5",
@@ -1083,6 +2021,148 @@
     "notes": ""
   },
   {
+    "id": "ca736cc2e5f4",
+    "dedup_key": "airuninav unified vision language navigation for uavs in indoor and outdoor scenes",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7123734307",
+    "doi": "https://doi.org/10.36227/techrxiv.176834454.46554529/v1",
+    "title": "AirUniNav: Unified Vision-Language Navigation for UAVs in Indoor and Outdoor Scenes",
+    "authors": [
+      "Yuzhao Luo",
+      "Ming Zhu",
+      "Xinghan Liu",
+      "Hengzhi Su",
+      "Yapeng Hu",
+      "Yuncheng Liu",
+      "Tian Chen"
+    ],
+    "abstract": "Vision-language navigation(VLN) for unmanned aerial vehicle(UAV) represents a pivotal challenge in embodied intelligence, bridging perceptual understanding with complex decision-making. Despite rapid progress, existing research often treats indoor and outdoor environments in isolation, ignoring the intrinsic visual and scale discrepancies between these environments. Consequently, current models lack the adaptability needed for real-world deployment. To bridge this gap, we present AirUniNav, a unified framework designed to master both precise indoor operations and large-scale outdoor navigation. AirUniNav enables cross-domain collaborative learning through the construction of a large-scale joint indoor-outdoor dataset and the design of a scenario-adaptive training strategy. To reduce redundant visual processing and improve efficiency, we design a dynamic frame sampling mechanism with time-decay weighting to reduce computational cost, and a vision-text token interaction module to enhance temporal modeling. Extensive experiments demonstrate that AirUniNav achieves superior generalization and navigation efficiency across diverse indoor and outdoor tasks, highlighting its potential to advance UAV VLN toward real-world applications.",
+    "published": "2026-01-13",
+    "updated": "",
+    "date": "2026-01-13",
+    "year": "2026",
+    "venue": "Unknown",
+    "topics": [
+      "Foundations"
+    ],
+    "tags": [
+      "Foundations"
+    ],
+    "topic_scores": {
+      "Foundations": 4.5
+    },
+    "query_source": "AerialVLN",
+    "abs_url": "https://doi.org/10.36227/techrxiv.176834454.46554529/v1",
+    "pdf_url": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176834454.46554529/v1",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "luo2026airuninav",
+    "bibtex": "@article{luo2026airuninav,\n  title={AirUniNav: Unified Vision-Language Navigation for UAVs in Indoor and Outdoor Scenes},\n  author={Yuzhao Luo and Ming Zhu and Xinghan Liu and Hengzhi Su and Yapeng Hu and Yuncheng Liu and Tian Chen},\n  journal={Unknown},\n  year={2026},\n  url={https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.176834454.46554529/v1}\n}"
+  },
+  {
+    "id": "1415e6701633",
+    "dedup_key": "airnav a large scale real world uav vision and language navigation dataset with natural and diverse instructions",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W7119557735",
+    "doi": "",
+    "title": "AirNav: A Large-Scale Real-World UAV Vision-and-Language Navigation Dataset with Natural and Diverse Instructions",
+    "authors": [
+      "Hengxing Cai",
+      "Yijie Rao",
+      "Huang, Ligang",
+      "Zanyang Zhong",
+      "Jinhan Dong",
+      "Jingjun Tan",
+      "Wenhao Lu",
+      "Renxin Zhong"
+    ],
+    "abstract": "Existing UAV vision-and-language navigation (VLN) benchmarks rarely provide realistic aerial scenes, natural process-level instructions, and sufficient scale simultaneously, making it difficult to systematically train and evaluate UAV VLN agents under realistic settings. To address this, we propose \\textbf{AirNav}, a large-scale benchmark built on real urban aerial data, comprising 137K navigation samples with natural and diverse instructions generated via a human--LLM collaborative pipeline with 10 user personas. We conduct a systematic evaluation of representative approaches on AirNav, ranging from traditional models to multimodal large language models (MLLMs), under unified metrics with open-source implementations. We further propose \\textbf{AirVLN-R1}, trained via supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT), achieving state-of-the-art performance with a 51.82\\% success rate on the test-unseen split. Real-world experiments on a physical UAV platform provide preliminary evidence of sim-to-real transferability, and our dataset and code are publicly available.",
+    "published": "2026-01-07",
+    "updated": "",
+    "date": "2026-01-07",
+    "year": "2026",
+    "venue": "ArXiv.org",
+    "topics": [
+      "Datasets & Simulators",
+      "Evaluation"
+    ],
+    "tags": [
+      "Datasets & Simulators",
+      "Evaluation"
+    ],
+    "topic_scores": {
+      "Datasets & Simulators": 6.0,
+      "Evaluation": 3.5
+    },
+    "query_source": "AerialVLN",
+    "abs_url": "https://openalex.org/W7119557735",
+    "pdf_url": "https://arxiv.org/pdf/2601.03707",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "cai2026airnav",
+    "bibtex": "@article{cai2026airnav,\n  title={AirNav: A Large-Scale Real-World UAV Vision-and-Language Navigation Dataset with Natural and Diverse Instructions},\n  author={Hengxing Cai and Yijie Rao and Huang, Ligang and Zanyang Zhong and Jinhan Dong and Jingjun Tan and Wenhao Lu and Renxin Zhong},\n  journal={ArXiv.org},\n  year={2026},\n  url={https://arxiv.org/pdf/2601.03707}\n}"
+  },
+  {
+    "id": "ca552b7bd33f",
+    "dedup_key": "hardware in the loop simulation system of the unmanned aerial vehicle autonomous navigation",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "d6ba2146fd99ff15763c291c721debd2821b101b",
+    "openalex_id": "",
+    "doi": "10.18127/j20700784-202603-06",
+    "title": "Hardware-in-the-loop simulation system of the unmanned aerial vehicle autonomous navigation",
+    "authors": [
+      "O. V. Drozd"
+    ],
+    "abstract": "In the development of unmanned aerial vehicles (UAV), ground testing of proposed technical solutions is an important part to ensure that the test object meets the functional requirements. Currently, approaches to debugging and testing of UAV systems are being actively developed using modular testing tools for on-board UAV systems based on Hardware-in-the-Loop simulation. The key role is played by measuring systems (stands) with full or partial simulation of the on-board control systems functioning. The aim of this work is to provide autonomous testing of unmanned aerial vehicles by using the Hardware-in-the-Loop technology of the navigation system. In this case, the problem of providing UAV autonomous group navigation by visual reference points is considered, including in a complex interference environment of real operating conditions. To achieve this goal, the Hardware-in-the-Loop simulation system of the unmanned aerial vehicle autonomous navigation was developed, which ensures the development and testing of algorithms for UAV group navigation in the absence of navigation signals from global positioning systems (GPS, GLONASS). The technical implementation and simulation results of the proposed system for semi-field simulation of autonomous navigation are considered in detail. The proposed Hardware-in-the-Loop simulation system includes: the library of reference point coordinates, the module for forming and correcting the target UAV flight trajectory, the neural network model of UAV group autonomous navigation, the module for evaluation the navigation task quality indicators, the UAV spatial dynamics model, the external influences model (atmospheric parameters and random air fluctuations). To ensure group autonomous navigation, a combination of convolutional (CNN) and recurrent (RNN) neural networks with long-short-term memory (LSTM) blocks is used. The process of conducting autonomous tests using the proposed system involves the formation of initial conditions and flight scenarios, training the autonomous navigation neural network, modeling the flight route and the aircraft reactions to obstacles, and assessing the navigation system quality. The autonomous testing environment is a dense urban development with intervals between individual obstacles no more than 5 meters and a park area with open areas for testing UAV maneuvering and navigation among natural obstacles. At the same time, periodic interference of navigation signals can be caused by both \"urban canyons\" of signal loss and the presence of external intentional radio frequency interference. The simulation results showed that the proposed Hardware-in-the-Loop simulation system of the UAV autonomous navigation ensures testing of group autonomous navigation models in difficult operating conditions, algorithms for restoring navigation parameters, optimal planning of the target flight path and real-time obstacle avoidance.",
+    "published": "2026-01-01",
+    "updated": "",
+    "date": "2026-01-01",
+    "year": "2026",
+    "venue": "Achievements of Modern Radioelectronics",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/d6ba2146fd99ff15763c291c721debd2821b101b",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "drozd2026hardware",
+    "bibtex": "@article{drozd2026hardware,\n  title={Hardware-in-the-loop simulation system of the unmanned aerial vehicle autonomous navigation},\n  author={O. V. Drozd},\n  journal={Achievements of Modern Radioelectronics},\n  year={2026},\n  url={https://www.semanticscholar.org/paper/d6ba2146fd99ff15763c291c721debd2821b101b}\n}"
+  },
+  {
     "id": "01ffc23f1d04",
     "arxiv_id": "2512.23257v1",
     "title": "Beyond Coverage Path Planning: Can UAV Swarms Perfect Scattered Regions Inspections?",
@@ -1244,7 +2324,13 @@
     "journal_ref": "",
     "bibtex_key": "liu2025indooruav",
     "bibtex": "@article{liu2025indooruav,\n  title={IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Environments},\n  author={Xu Liu and Yu Liu and Hanshuo Qiu and Yang Qirong and Zhouhui Lian},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2512.19024v1}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W7138448999",
+    "doi": "https://doi.org/10.1609/aaai.v40i28.39562",
+    "citation_count": 0
   },
   {
     "id": "80c9183c9bb2",
@@ -1290,6 +2376,48 @@
     "bibtex_key": "wu2025vla",
     "bibtex": "@article{wu2025vla,\n  title={VLA-AN: An Efficient and Onboard Vision-Language-Action Framework for Aerial Navigation in Complex Environments},\n  author={Yuze Wu and Mo Zhu and Xingxing Li and Yuheng Du and Yuxin Fan and Wenjun Li and Zhichao Han and Xin Zhou and Fei Gao},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2512.15258v2}\n}",
     "notes": ""
+  },
+  {
+    "id": "ab4494d740cc",
+    "dedup_key": "development of visual navigation systems for unmanned aerial vehicles in environments lacking gps signals",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "2ffb2ced45c1038a5745e7d942561feb40b0c6e4",
+    "openalex_id": "",
+    "doi": "10.20295/2413-2527-2025-444-26-32",
+    "title": "Development of Visual Navigation Systems for Unmanned Aerial Vehicles in Environments Lacking GPS Signals",
+    "authors": [
+      "Sergey Zlobin"
+    ],
+    "abstract": "Traditional navigation systems for unmanned aerial vehicles (UAVs) rely on GPS signals, which can be susceptible to jamming or spoofing under electronic warfare conditions, in densely populated urban areas, or due to natural electromagnetic interference. This vulnerability can lead to disorientation, mission interruptions, and even the loss of the vehicle. An alternative to GPS is visual navigation, which utilizes cameras and image processing algorithms. However, this method faces difficulties in rapidly changing environments without satellite signals. Purpose: to analyze the evolution of visual navigation methods for UAVs in scenarios lacking GPS signals. This will include a discussion on key technologies, their integration with inertial navigation systems and artificial intelligence, as well as an assessment of their benefits, challenges, and application prospects, with an emphasis on collaborative approaches in multi-agent systems. Results: there is an increasing interest in visual navigation, with a focus on VSLAM for estimating the posterior probability of trajectories and maps, visual odometry aimed at minimizing reprojection errors, and the integration of multi-sensor fusion through extended Kalman filters to achieve meter-level accuracy in complex environments. The incorporation of artificial intelligence, especially convolutional neural networks, enhances resilience to illumination variations and facilitates real-time adaptability. In the context of multi-agent systems, cooperative SLAM models with correspondence matrices among agent maps have demonstrated the capability to reduce the root-mean-square positioning error to below 1 meter in simulations, even amid intermittent communication and loss of GPS. Practical significance: these findings enhance UAV autonomy in scenarios lacking GPS signals, such as searchand-rescue operations in urban areas, monitoring of agricultural lands, environmental control, and specific tasks related to electronic warfare, thereby ensuring coordinated swarm actions for efficient territorial coverage and risk mitigation.",
+    "published": "2025-12-15",
+    "updated": "",
+    "date": "2025-12-15",
+    "year": "2025",
+    "venue": "Intellectual Technologies on Transport",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 6.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/2ffb2ced45c1038a5745e7d942561feb40b0c6e4",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "zlobin2025development",
+    "bibtex": "@article{zlobin2025development,\n  title={Development of Visual Navigation Systems for Unmanned Aerial Vehicles in Environments Lacking GPS Signals},\n  author={Sergey Zlobin},\n  journal={Intellectual Technologies on Transport},\n  year={2025},\n  url={https://www.semanticscholar.org/paper/2ffb2ced45c1038a5745e7d942561feb40b0c6e4}\n}"
   },
   {
     "id": "912a7fb3e1cd",
@@ -1756,7 +2884,59 @@
     "journal_ref": "",
     "bibtex_key": "lin2025openvln",
     "bibtex": "@article{lin2025openvln,\n  title={OpenVLN: Open-world Aerial Vision-Language Navigation},\n  author={Peican Lin and Gan Sun and Chenxi Liu and Fazeng Li and Weihong Ren and Yang Cong},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2511.06182v2}\n}",
-    "notes": ""
+    "notes": "",
+    "sources": [
+      "OpenAlex"
+    ],
+    "openalex_id": "https://openalex.org/W4416591427",
+    "doi": "https://doi.org/10.48550/arxiv.2511.06182",
+    "citation_count": 0
+  },
+  {
+    "id": "590df271215e",
+    "dedup_key": "visual navigation method for intelligent flight of highway inspection unmanned aerial vehicle",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "cb724581d78ffaad23901438851ac33c335fed6f",
+    "openalex_id": "",
+    "doi": "10.1088/3049-4761/ae1bab",
+    "title": "Visual navigation method for intelligent flight of highway inspection unmanned aerial vehicle",
+    "authors": [
+      "Lili Song",
+      "Zihan Xu",
+      "Yongzhao Tao",
+      "Jianfeng Han",
+      "Jiandong Fang"
+    ],
+    "abstract": "With the continuous development of unmanned aerial vehicle (UAV) technology, its application in highway inspection is becoming more and more mature. Using edge computing devices to control UAVs for highway inspection is a method of autonomous inspection, based on this method, this paper uses the improved lightweight target detection algorithm UAV-YOLO as the highway information feature recognition method, the improved UAV-Deep Simple Online and Realtime Tracking (DeepSORT) according to the logic of UAV inspection as the post-detection tracking method, and uses socket communication to transmit the visual results to the control terminal, and do exponential moving average processing on the received data to reduce the effect of transient noise on the UAV. Experiments show that UAV-YOLO improves 4.02% compared to the original algorithm mean average precision and UAV-DeepSORT improves 1.9% compared to the original algorithm MOTA without affecting the real-time performance, and the average frame rate is up to 31.2 fps on Nvidia Jetson Xavier NX platform, which can satisfy the real-time inspection of the UAV.",
+    "published": "2025-11-05",
+    "updated": "",
+    "date": "2025-11-05",
+    "year": "2025",
+    "venue": "Machine Learning: Engineering",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/cb724581d78ffaad23901438851ac33c335fed6f",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "song2025visual",
+    "bibtex": "@article{song2025visual,\n  title={Visual navigation method for intelligent flight of highway inspection unmanned aerial vehicle},\n  author={Lili Song and Zihan Xu and Yongzhao Tao and Jianfeng Han and Jiandong Fang},\n  journal={Machine Learning: Engineering},\n  year={2025},\n  url={https://www.semanticscholar.org/paper/cb724581d78ffaad23901438851ac33c335fed6f}\n}"
   },
   {
     "id": "a4f7565db105",
@@ -1867,6 +3047,49 @@
     "bibtex_key": "zhang2025a",
     "bibtex": "@article{zhang2025a,\n  title={A Physics-Informed Neural Network Approach for UAV Path Planning in Dynamic Environments},\n  author={Shuning Zhang},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2510.21874v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "1216a1acf9a2",
+    "dedup_key": "correlation algorithm for measuring image shifts and rotation angles in the onboard visual navigation system of an unmanned aerial vehicle",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "da3dd361eed86a19cecf5487e9864aaeab8dbb3f",
+    "openalex_id": "",
+    "doi": "10.1109/msnmc61130.2025.11399745",
+    "title": "Correlation Algorithm for Measuring Image Shifts and Rotation Angles in the Onboard Visual Navigation System of an Unmanned Aerial Vehicle",
+    "authors": [
+      "O. Hrichaniuk",
+      "Yu. Krykhtin"
+    ],
+    "abstract": "A new correlation algorithm for comparing current and reference images in the visual navigation system of an unmanned aerial vehicle is presented, which, unlike the known ones, measures both shifts and rotation angles of images. To measure the rotation angle of the current image, it is proposed to calculate the circular correlation by the brightness vectors, which are formed using concentric masks superimposed on the current and reference images. Such calculations are performed for all possible shifts of the current image relative to the reference. The calculation results are three-dimensional arrays of correlation coefficients, in which the indices X and Y are the current values of the horizontal and vertical shifts of the current image, the index Z is proportional to the rotation angle of the current image. Next, the indices are determined for the maximum correlation coefficients, and the rotation angles of the current image are calculated. The performance of the proposed algorithm was tested by simulating the operation of a layout of the unmanned aerial vehicle navigation system based on single-board computer Raspberry Pi 5. To increase the speed, correlation processing was carried out in two stages: comparison of images reduced by 4 times and comparison of the full-size current image with a fragment of the reference image. The results of simulating the layout operation showed that, unlike classical algorithms, the proposed correlation algorithm, which uses concentric masks, provides a high probability of correct matching in the presence of rotations of the current image relative to the reference.",
+    "published": "2025-10-21",
+    "updated": "",
+    "date": "2025-10-21",
+    "year": "2025",
+    "venue": "2025 IEEE 8th International Conference on Methods and Systems of Navigation and Motion Control (MSNMC)",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/da3dd361eed86a19cecf5487e9864aaeab8dbb3f",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "hrichaniuk2025correlation",
+    "bibtex": "@article{hrichaniuk2025correlation,\n  title={Correlation Algorithm for Measuring Image Shifts and Rotation Angles in the Onboard Visual Navigation System of an Unmanned Aerial Vehicle},\n  author={O. Hrichaniuk and Yu. Krykhtin},\n  journal={2025 IEEE 8th International Conference on Methods and Systems of Navigation and Motion Control (MSNMC)},\n  year={2025},\n  url={https://www.semanticscholar.org/paper/da3dd361eed86a19cecf5487e9864aaeab8dbb3f}\n}"
   },
   {
     "id": "08b9247f109b",
@@ -2020,6 +3243,52 @@
     "bibtex_key": "salamat2025large",
     "bibtex": "@article{salamat2025large,\n  title={\\LARGE GMP$^{3}$: Learning-Driven, Bellman-Guided Trajectory Planning for UAVs in Real-Time on SE(3)},\n  author={Babak Salamat and Dominik Mattern and Sebastian-Sven Olzem and Gerhard Elsbacher and Christian Seidel and Andrea M. Tonello},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2509.21264v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "3cd33206d017",
+    "dedup_key": "development of an algorithm for absolute visual navigation of an unmanned aerial vehicle",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "c994fa1c01d967debcba4c1d74911111820d835e",
+    "openalex_id": "",
+    "doi": "10.3103/S1068799825030067",
+    "title": "Development of an Algorithm for Absolute Visual Navigation of an Unmanned Aerial Vehicle",
+    "authors": [
+      "P. A. Lazareva",
+      "A. Malikov",
+      "G. Degtyarev",
+      "R. T. Mannanov",
+      "D. Shilin"
+    ],
+    "abstract": "",
+    "published": "2025-09-01",
+    "updated": "",
+    "date": "2025-09-01",
+    "year": "2025",
+    "venue": "Russian Aeronautics",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/c994fa1c01d967debcba4c1d74911111820d835e",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "lazareva2025development",
+    "bibtex": "@article{lazareva2025development,\n  title={Development of an Algorithm for Absolute Visual Navigation of an Unmanned Aerial Vehicle},\n  author={P. A. Lazareva and A. Malikov and G. Degtyarev and R. T. Mannanov and D. Shilin},\n  journal={Russian Aeronautics},\n  year={2025},\n  url={https://www.semanticscholar.org/paper/c994fa1c01d967debcba4c1d74911111820d835e}\n}"
   },
   {
     "id": "412e761c807e",
@@ -2419,6 +3688,97 @@
     "notes": ""
   },
   {
+    "id": "1df05d4267ef",
+    "dedup_key": "enhancing machine learning techniques in vslam for robust autonomous unmanned aerial vehicle navigation",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "f04de0f1f800ba0d2162c1ed1590ebdb2f9828fe",
+    "openalex_id": "",
+    "doi": "10.3390/electronics14071440",
+    "title": "Enhancing Machine Learning Techniques in VSLAM for Robust Autonomous Unmanned Aerial Vehicle Navigation",
+    "authors": [
+      "Hussam M. Rostum",
+      "J. Vásárhelyi"
+    ],
+    "abstract": "This study introduces a visual SLAM real-time system designed for small indoor environments. The system demonstrates resilience against significant motion clutter and supports wide-baseline loop closing, re-localization, and automatic initialization. Leveraging state-of-the-art algorithms, the approach presented in this article utilizes adapted Oriented FAST and Rotated BRIEF features for tracking, mapping, re-localization, and loop closing. In addition, the research uses an adaptive threshold to find putative feature matches that provide efficient map initialization and accurate tracking. The assignment is to process visual information from the camera of a DJI Tello drone for the construction of an indoor map and the estimation of the trajectory of the camera. In a ’survival of the fittest’ style, the algorithms selectively pick adaptive points and keyframes for reconstruction. This leads to robustness and a concise traceable map that develops as scene content emerges, making lifelong operation possible. The results give an improvement in the RMSE for the adaptive ORB algorithm and the adaptive threshold (3.280). However, the standard ORB algorithm failed to achieve the mapping process.",
+    "published": "2025-04-02",
+    "updated": "",
+    "date": "2025-04-02",
+    "year": "2025",
+    "venue": "Electronics",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/f04de0f1f800ba0d2162c1ed1590ebdb2f9828fe",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 3,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "rostum2025enhancing",
+    "bibtex": "@article{rostum2025enhancing,\n  title={Enhancing Machine Learning Techniques in VSLAM for Robust Autonomous Unmanned Aerial Vehicle Navigation},\n  author={Hussam M. Rostum and J. Vásárhelyi},\n  journal={Electronics},\n  year={2025},\n  url={https://www.semanticscholar.org/paper/f04de0f1f800ba0d2162c1ed1590ebdb2f9828fe}\n}"
+  },
+  {
+    "id": "e226e176233b",
+    "dedup_key": "a new algorithm for visual navigation in unmanned aerial vehicle water surface inspection",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "05453044b5bc5caea22659674460c9018a7be4dc",
+    "openalex_id": "",
+    "doi": "10.3390/s25082600",
+    "title": "A New Algorithm for Visual Navigation in Unmanned Aerial Vehicle Water Surface Inspection",
+    "authors": [
+      "Jianfeng Han",
+      "Xiongwei Gao",
+      "Lili Song",
+      "Jiandong Fang",
+      "Yongzhao Tao",
+      "Haixin Deng",
+      "Jie Yao"
+    ],
+    "abstract": "Water surface inspection is a crucial instrument for safeguarding the aquatic environment. UAVs enhance the efficiency of water area inspections due to their high mobility and extensive coverage. This paper introduces two UAV inspection methodologies for the characteristics of rivers and lakes, along with an efficient semantic segmentation algorithm, WaterSegLite (Water Segmentation Lightweight algorithm), for UAV visual navigation. The algorithm employs the UAV’s aerial perspective alongside a streamlined neural network architecture to facilitate rapid real-time segmentation of water bodies and to furnish positional data to the UAV for visual navigation. The experimental findings indicate that WaterSegLite achieves a segmentation accuracy (mIoU) of 93.81% and an F1 score of 95.44%, surpassing the baseline model by 2.7% and 2.23%, respectively. Simultaneously, the processing frame rate of this algorithm on the airborne device attains 28.27 frames per second, fully satisfying the requirements for real-time water surface inspection by UAVs. This paper offers technical assistance for UAV inspection techniques in aquatic environments and presents innovative concepts for the intelligent advancement of water surface inspection.",
+    "published": "2025-04-01",
+    "updated": "",
+    "date": "2025-04-01",
+    "year": "2025",
+    "venue": "Italian National Conference on Sensors",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/05453044b5bc5caea22659674460c9018a7be4dc",
+    "pdf_url": "https://doi.org/10.3390/s25082600",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 3,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "han2025a",
+    "bibtex": "@article{han2025a,\n  title={A New Algorithm for Visual Navigation in Unmanned Aerial Vehicle Water Surface Inspection},\n  author={Jianfeng Han and Xiongwei Gao and Lili Song and Jiandong Fang and Yongzhao Tao and Haixin Deng and Jie Yao},\n  journal={Italian National Conference on Sensors},\n  year={2025},\n  url={https://doi.org/10.3390/s25082600}\n}"
+  },
+  {
     "id": "3342559e794f",
     "arxiv_id": "2503.17982v1",
     "title": "Co-SemDepth: Fast Joint Semantic Segmentation and Depth Estimation on Aerial Images",
@@ -2511,6 +3871,65 @@
     "bibtex_key": "gao2025openfly",
     "bibtex": "@article{gao2025openfly,\n  title={Openfly: A comprehensive platform for aerial vision-language navigation},\n  author={Yunpeng Gao and Chenhui Li and Zhongrui You and Junli Liu and Zhen Li and Pengan Chen and Qizhi Chen and Zhonghan Tang and Liansheng Wang and Penghui Yang and Yiwen Tang and Yuhang Tang and Shuai Liang and Songyi Zhu and Ziqin Xiong and Yifei Su and Xinyi Ye and Jianan Li and Yan Ding and Dong Wang and Xuelong Li and Zhigang Wang and Bin Zhao},\n  journal={arXiv preprint},\n  year={2025},\n  url={https://arxiv.org/pdf/2502.18041v7}\n}",
     "notes": ""
+  },
+  {
+    "id": "2936e89580ea",
+    "dedup_key": "aeroverse review comprehensive survey on aerial embodied vision and language navigation",
+    "source": "OpenAlex",
+    "sources": [
+      "OpenAlex"
+    ],
+    "arxiv_id": "",
+    "s2_id": "",
+    "openalex_id": "https://openalex.org/W4415982703",
+    "doi": "https://doi.org/10.59717/j.xinn-inform.2025.100015",
+    "title": "AeroVerse-Review: Comprehensive survey on aerial embodied vision-and-language navigation",
+    "authors": [
+      "Fanglong Yao",
+      "Youzhi Liu",
+      "Wenyi Zhang",
+      "Zhengqiu Zhu",
+      "Chenglong Li",
+      "Nayu Liu",
+      "Peng Hu",
+      "Yuanchang Yue",
+      "Kaiwen Wei",
+      "Xin He",
+      "Xudong Zhao",
+      "Zihan Wei",
+      "Haotian Xu",
+      "Zhiyuan Wang",
+      "Gujie Shao",
+      "Liu Yang",
+      "Dan Zhao",
+      "Yong Yang"
+    ],
+    "abstract": "&lt;p&gt;With the rapid advancement of unmanned aerial vehicle (UAV) technology, embedding intelligence into aerial platforms has become an increasingly important research direction. UAV-based vision-and-language navigation (UAV-VLN), as a representative paradigm of aerospace embodied intelligence, requires UAVs to understand natural language instructions and integrate multimodal perception to autonomously plan and execute navigation tasks in three-dimensional environments. This survey provides a comprehensive review of UAV-VLN research, covering simulation platforms, task definitions, core methodologies, datasets and evaluation metrics, application scenarios, as well as key challenges and future directions. We first present the design principles and capabilities of mainstream simulators, followed by a structured summary of methodological progress, including rule-based approaches, deep learning-driven models, and multi-agent collaborative strategies. We then discuss critical technical challenges in UAV-VLN, such as dynamic feasibility and control in 3D space, perception and generalization in complex environments, linguistic ambiguity and cross-modal semantic grounding, long-term spatiotemporal reasoning, and deployment under resource constraints. Based on these challenges, we outline promising future directions, including standardized benchmark development, Sim-to-Real and cross-domain transfer, pretrained large model integration, embodied world model, collaborative and interactive UAV-VLN, and embodied navigation of space-air-ground unmanned systems. This survey aims to provide a structured reference for future research and to guide the practical deployment of UAV-VLN systems.&lt;/p&gt;",
+    "published": "2025-01-01",
+    "updated": "",
+    "date": "2025-01-01",
+    "year": "2025",
+    "venue": "The Innovation Informatics",
+    "topics": [
+      "Datasets & Simulators"
+    ],
+    "tags": [
+      "Datasets & Simulators"
+    ],
+    "topic_scores": {
+      "Datasets & Simulators": 3.5
+    },
+    "query_source": "SkyVLN",
+    "abs_url": "https://doi.org/10.59717/j.xinn-inform.2025.100015",
+    "pdf_url": "https://www.the-innovation.org/data/article/export-pdf?id=6909817aeaedd90f4128ae8b",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 2,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "yao2025aeroverse",
+    "bibtex": "@article{yao2025aeroverse,\n  title={AeroVerse-Review: Comprehensive survey on aerial embodied vision-and-language navigation},\n  author={Fanglong Yao and Youzhi Liu and Wenyi Zhang and Zhengqiu Zhu and Chenglong Li and Nayu Liu and Peng Hu and Yuanchang Yue and Kaiwen Wei and Xin He and Xudong Zhao and Zihan Wei and Haotian Xu and Zhiyuan Wang and Gujie Shao and Liu Yang and Dan Zhao and Yong Yang},\n  journal={The Innovation Informatics},\n  year={2025},\n  url={https://www.the-innovation.org/data/article/export-pdf?id=6909817aeaedd90f4128ae8b}\n}"
   },
   {
     "id": "423c607f21b8",
@@ -2679,6 +4098,93 @@
     "notes": ""
   },
   {
+    "id": "ab43ca51d23b",
+    "dedup_key": "development of unmanned aerial vehicle navigation and warehouse inventory system based on reinforcement learning",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "01316e429e046a89c1f60a7de6973a4f32b250d2",
+    "openalex_id": "",
+    "doi": "10.3390/drones8060220",
+    "title": "Development of Unmanned Aerial Vehicle Navigation and Warehouse Inventory System Based on Reinforcement Learning",
+    "authors": [
+      "Huei-Yung Lin",
+      "Kai-Lun Chang",
+      "Hsin-Ying Huang"
+    ],
+    "abstract": "In this paper, we present the exploration of indoor positioning technologies for UAVs, as well as navigation techniques for path planning and obstacle avoidance. The objective was to perform warehouse inventory tasks, using a drone to search for barcodes or markers to identify objects. For the indoor positioning techniques, we employed visual-inertial odometry (VIO), ultra-wideband (UWB), AprilTag fiducial markers, and simultaneous localization and mapping (SLAM). These algorithms included global positioning, local positioning, and pre-mapping positioning, comparing the merits and drawbacks of various techniques and trajectories. For UAV navigation, we combined the SLAM-based RTAB-map indoor mapping and navigation path planning of the ROS for indoor environments. This system enabled precise drone positioning indoors and utilized global and local path planners to generate flight paths that avoided dynamic, static, unknown, and known obstacles, demonstrating high practicality and feasibility. To achieve warehouse inventory inspection, a reinforcement learning approach was proposed, recognizing markers by adjusting the UAV’s viewpoint. We addressed several of the main problems in inventory management, including efficiently planning of paths, while ensuring a certain detection rate. Two reinforcement learning techniques, AC (actor–critic) and PPO (proximal policy optimization), were implemented based on AprilTag identification. Testing was performed in both simulated and real-world environments, and the effectiveness of the proposed method was validated.",
+    "published": "2024-05-28",
+    "updated": "",
+    "date": "2024-05-28",
+    "year": "2024",
+    "venue": "Drones",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/01316e429e046a89c1f60a7de6973a4f32b250d2",
+    "pdf_url": "https://www.mdpi.com/2504-446X/8/6/220/pdf?version=1716948715",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 16,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "lin2024development",
+    "bibtex": "@article{lin2024development,\n  title={Development of Unmanned Aerial Vehicle Navigation and Warehouse Inventory System Based on Reinforcement Learning},\n  author={Huei-Yung Lin and Kai-Lun Chang and Hsin-Ying Huang},\n  journal={Drones},\n  year={2024},\n  url={https://www.mdpi.com/2504-446X/8/6/220/pdf?version=1716948715}\n}"
+  },
+  {
+    "id": "cd3f5ff62e4c",
+    "dedup_key": "system development and integration of unmanned aerial vehicle navigation techniques for indoor environments",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "41a9e42323a4d2099b68b7a6981842693eeb1a22",
+    "openalex_id": "",
+    "doi": "10.1109/ICIT58233.2024.10540747",
+    "title": "System Development and Integration of Unmanned Aerial Vehicle Navigation Techniques for Indoor Environments",
+    "authors": [
+      "Kai-Lun Chang",
+      "Huei-Yung Lin"
+    ],
+    "abstract": "In this paper we present the exploration of indoor positioning technologies for UAV s, and navigation techniques for path planning and obstacle avoidance. For the indoor positioning techniques, we employed Visual-Inertial Odometry (VIO), Ultra-Wideband (UWB), AprilTag fiducial markers, and Simultaneous Localization and Mapping (SLAM). These algorithms encompass global positioning, local positioning, and pre-mapping positioning, comparing the merits and drawbacks of various techniques and trajectories. In UAV navigation, we combined SLAM-based RTAB-Map indoor mapping and navigation path planning of the ROS for indoor environments. This system enables precise drone positioning indoors and utilizes global and local path planners to generate flight paths that avoid dynamic, static, unknown, and known obstacles, demonstrating high practicality and feasibility. The feasibility of our UAV path planning and obstacle avoidance navigation algorithms is tested in real and virtual environments. Code is available at https://github.com/kellen080INavigation and https://github.com/kellen080IIndoor_Positioning",
+    "published": "2024-03-25",
+    "updated": "",
+    "date": "2024-03-25",
+    "year": "2024",
+    "venue": "International Conference on Industrial Technology",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/41a9e42323a4d2099b68b7a6981842693eeb1a22",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "chang2024system",
+    "bibtex": "@article{chang2024system,\n  title={System Development and Integration of Unmanned Aerial Vehicle Navigation Techniques for Indoor Environments},\n  author={Kai-Lun Chang and Huei-Yung Lin},\n  journal={International Conference on Industrial Technology},\n  year={2024},\n  url={https://www.semanticscholar.org/paper/41a9e42323a4d2099b68b7a6981842693eeb1a22}\n}"
+  },
+  {
     "id": "5a49ee5db102",
     "arxiv_id": "2402.10729v1",
     "title": "A CBF-Adaptive Control Architecture for Visual Navigation for UAV in the Presence of Uncertainties",
@@ -2753,6 +4259,51 @@
     "notes": ""
   },
   {
+    "id": "3affcbfca74b",
+    "dedup_key": "autonomous navigation of unmanned aerial vehicle investigating architectures and techniques for a flexible platform",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "f530ad19d89607d4c87592a066f503ecaef09382",
+    "openalex_id": "",
+    "doi": "10.1142/s2301385025500128",
+    "title": "Autonomous Navigation of Unmanned Aerial Vehicle: Investigating Architectures and Techniques for a Flexible Platform",
+    "authors": [
+      "Hervé B. Olou",
+      "E. C. Ezin",
+      "J. Dembélé",
+      "C. Cambier"
+    ],
+    "abstract": "Unmanned aerial vehicles (UAVs) have a significant impact on the aircraft industry and are used for both military and civilian purposes. The partial or full automation of UAVs is an active research domain that is attracting interest from both the industrial and academic sectors. This paper presents a comprehensive review of UAVs, their architectures, and techniques used for autonomous navigation. Autonomous navigation requires the ability to recognize and avoid obstacles, which can be achieved using visual, non-visual, or hybrid techniques. These methods use computer vision and machine learning algorithms and are implemented on a computer system, which may or may not be embedded in the vehicle. After investigating the existing architectures and techniques, a flexible platform is designed. This platform combines the advantages of the existing architectures, materials, and methods. It is based on a compact architecture with the possibility of external communication. This platform is mainly composed of a companion computer for complex tasks like obstacle detection and path planning during mission. When implementing this platform, it is crucial to take into account the capabilities of the companion computer processor and appropriately select techniques. Finally, the paper suggests potential areas for future research in this field.",
+    "published": "2023-10-31",
+    "updated": "",
+    "date": "2023-10-31",
+    "year": "2023",
+    "venue": "Unmanned Systems",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/f530ad19d89607d4c87592a066f503ecaef09382",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 5,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "olou2023autonomous",
+    "bibtex": "@article{olou2023autonomous,\n  title={Autonomous Navigation of Unmanned Aerial Vehicle: Investigating Architectures and Techniques for a Flexible Platform},\n  author={Hervé B. Olou and E. C. Ezin and J. Dembélé and C. Cambier},\n  journal={Unmanned Systems},\n  year={2023},\n  url={https://www.semanticscholar.org/paper/f530ad19d89607d4c87592a066f503ecaef09382}\n}"
+  },
+  {
     "id": "4b8b8e394c46",
     "arxiv_id": "2308.00235v1",
     "title": "Demonstrating Autonomous 3D Path Planning on a Novel Scalable UGV-UAV Morphing Robot",
@@ -2794,6 +4345,50 @@
     "notes": ""
   },
   {
+    "id": "19454d4b0e72",
+    "dedup_key": "visual navigation algorithm for night landing of fixed wing unmanned aerial vehicle",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "f59abd7065c491a629828cffff9e00d969936478",
+    "openalex_id": "",
+    "doi": "10.3390/aerospace9100615",
+    "title": "Visual Navigation Algorithm for Night Landing of Fixed-Wing Unmanned Aerial Vehicle",
+    "authors": [
+      "Zhaoyang Wang",
+      "Dan Zhao",
+      "Yunfeng Cao"
+    ],
+    "abstract": "In the recent years, visual navigation has been considered an effective mechanism for achieving an autonomous landing of Unmanned Aerial Vehicles (UAVs). Nevertheless, with the limitations of visual cameras, the effectiveness of visual algorithms is significantly limited by lighting conditions. Therefore, a novel vision-based autonomous landing navigation scheme is proposed for night-time autonomous landing of fixed-wing UAV. Firstly, due to the difficulty of detecting the runway caused by the low-light image, a strategy of visible and infrared image fusion is adopted. The objective functions of the fused and visible image, and the fused and infrared image, are established. Then, the fusion problem is transformed into the optimal situation of the objective function, and the optimal solution is realized by gradient descent schemes to obtain the fused image. Secondly, to improve the performance of detecting the runway from the enhanced image, a runway detection algorithm based on an improved Faster region-based convolutional neural network (Faster R-CNN) is proposed. The runway ground-truth box of the dataset is statistically analyzed, and the size and number of anchors in line with the runway detection background are redesigned based on the analysis results. Finally, a relative attitude and position estimation method for the UAV with respect to the landing runway is proposed. New coordinate reference systems are established, six landing parameters, such as three attitude and three positions, are further calculated by Orthogonal Iteration (OI). Simulation results reveal that the proposed algorithm can achieve 1.85% improvement of AP on runway detection, and the reprojection error of rotation and translation for pose estimation are 0.675∘ and 0.581%, respectively.",
+    "published": "2022-10-17",
+    "updated": "",
+    "date": "2022-10-17",
+    "year": "2022",
+    "venue": "Aerospace",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/f59abd7065c491a629828cffff9e00d969936478",
+    "pdf_url": "https://www.mdpi.com/2226-4310/9/10/615/pdf?version=1666587353",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 20,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "wang2022visual",
+    "bibtex": "@article{wang2022visual,\n  title={Visual Navigation Algorithm for Night Landing of Fixed-Wing Unmanned Aerial Vehicle},\n  author={Zhaoyang Wang and Dan Zhao and Yunfeng Cao},\n  journal={Aerospace},\n  year={2022},\n  url={https://www.mdpi.com/2226-4310/9/10/615/pdf?version=1666587353}\n}"
+  },
+  {
     "id": "79053411d24a",
     "arxiv_id": "2205.13242v2",
     "title": "GNSS-Denied Semi Direct Visual Navigation for Autonomous UAVs Aided by PI-Inspired Inertial Priors",
@@ -2827,6 +4422,51 @@
     "bibtex_key": "gallo2022gnss",
     "bibtex": "@article{gallo2022gnss,\n  title={GNSS-Denied Semi Direct Visual Navigation for Autonomous UAVs Aided by PI-Inspired Inertial Priors},\n  author={Eduardo Gallo and Antonio Barrientos},\n  journal={arXiv preprint},\n  year={2022},\n  url={https://arxiv.org/pdf/2205.13242v2}\n}",
     "notes": ""
+  },
+  {
+    "id": "ba66285a7d0a",
+    "dedup_key": "unmanned aerial vehicle visual simultaneous localization and mapping a survey",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "137d3d08c36f4db94da661e72a28f525182e45ba",
+    "openalex_id": "",
+    "doi": "10.1088/1742-6596/2278/1/012006",
+    "title": "Unmanned Aerial Vehicle Visual Simultaneous Localization and Mapping: A Survey",
+    "authors": [
+      "Y. Tian",
+      "H. Yue",
+      "B. Yang",
+      "J. Ren"
+    ],
+    "abstract": "Simultaneous Localization and Mapping (SLAM) has been widely applied in robotics and other vision applications, such as navigation and path planning for unmanned aerial vehicles (UAVs). UAV navigation can be regarded as the process of robot planning to reach the target location safely and quickly. In order to complete the predetermined task, the drone must fully understand its state, including position, navigation speed, heading, starting point, and target position. With the rapid development of computer vision technology, vision-based navigation has become a powerful tool for autonomous navigation. A visual sensor can provide a wealth of online environmental information, has high sensitivity, strong anti-interference ability, and is suitable for perceiving dynamic environments. Most visual sensors are passive sensors, which prevent sensing systems from being detected. Compared with traditional sensors such as global positioning system (GPS), laser lightning, and ultrasonic sensors, visual SLAM can obtain rich visual information such as color, texture and depth. In this paper, a survey is provided on the development of relevant techniques of visual SLAM, visual odometry, image stabilization and image denoising with applications to UAVs. By analyzing the existing development, some future perspectives are briefed.",
+    "published": "2022-05-01",
+    "updated": "",
+    "date": "2022-05-01",
+    "year": "2022",
+    "venue": "Journal of Physics: Conference Series",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/137d3d08c36f4db94da661e72a28f525182e45ba",
+    "pdf_url": "https://doi.org/10.1088/1742-6596/2278/1/012006",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 4,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "tian2022unmanned",
+    "bibtex": "@article{tian2022unmanned,\n  title={Unmanned Aerial Vehicle Visual Simultaneous Localization and Mapping: A Survey},\n  author={Y. Tian and H. Yue and B. Yang and J. Ren},\n  journal={Journal of Physics: Conference Series},\n  year={2022},\n  url={https://doi.org/10.1088/1742-6596/2278/1/012006}\n}"
   },
   {
     "id": "13b2a7f3403a",
@@ -2910,6 +4550,102 @@
     "bibtex_key": "orsuli2021flying",
     "bibtex": "@article{orsuli2021flying,\n  title={Flying with Cartographer: Adapting the Cartographer 3D Graph SLAM Stack for UAV Navigation},\n  author={Juraj Orsulić and Robert Milijas and Ana Batinovic and Lovro Markovic and Antun Ivanovic and Stjepan Bogdan},\n  journal={arXiv preprint},\n  year={2021},\n  url={https://arxiv.org/pdf/2106.02535v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "bbcf6a56526a",
+    "dedup_key": "visual navigation and landing control of an unmanned aerial vehicle on a moving autonomous surface vehicle via adaptive learning",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "d87d80d113205eb76c3bd11ffee366c23cf7812a",
+    "openalex_id": "",
+    "doi": "10.1109/TNNLS.2021.3080980",
+    "title": "Visual Navigation and Landing Control of an Unmanned Aerial Vehicle on a Moving Autonomous Surface Vehicle via Adaptive Learning",
+    "authors": [
+      "Hai-Tao Zhang",
+      "B. Hu",
+      "Zhecheng Xu",
+      "Zhi-jun Cai",
+      "Bin Liu",
+      "Xudong Wang",
+      "T. Geng",
+      "Sheng Zhong",
+      "Jin Zhao"
+    ],
+    "abstract": "This article presents a visual navigation and landing control paradigm for an unmanned aerial vehicle (UAV) to land on a moving autonomous surface vehicle (ASV). Therein, an adaptive learning navigation rule with a multilayer nested guidance is designed to pinpoint the position of the ASV and to guide and control the UAV to fulfill horizontal tracking and vertical descending in a narrow landing region of the ASV by means of merely relative position feedback. To ensure the feasibility of the proposed control law, asymptotical stability conditions are derived based on Lyapunov stability theory. Landing experimental results are reported for a UAV-ASV system consisting of an M-100 UAV and a self-developed three-meters-long HUSTER-30 ASV on a lake to substantiate the efficacy of the proposed landing control method.",
+    "published": "2021-05-28",
+    "updated": "",
+    "date": "2021-05-28",
+    "year": "2021",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/d87d80d113205eb76c3bd11ffee366c23cf7812a",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 61,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "zhang2021visual",
+    "bibtex": "@article{zhang2021visual,\n  title={Visual Navigation and Landing Control of an Unmanned Aerial Vehicle on a Moving Autonomous Surface Vehicle via Adaptive Learning},\n  author={Hai-Tao Zhang and B. Hu and Zhecheng Xu and Zhi-jun Cai and Bin Liu and Xudong Wang and T. Geng and Sheng Zhong and Jin Zhao},\n  journal={IEEE Transactions on Neural Networks and Learning Systems},\n  year={2021},\n  url={https://www.semanticscholar.org/paper/d87d80d113205eb76c3bd11ffee366c23cf7812a}\n}"
+  },
+  {
+    "id": "fe2b0fce5520",
+    "dedup_key": "compressed pseudo slam pseudorange integrated compressed simultaneous localisation and mapping for unmanned aerial vehicle navigation",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "2d0ef602138f90baf2c26b5a4b8789d8c17a971e",
+    "openalex_id": "",
+    "doi": "10.1017/S037346332100031X",
+    "title": "Compressed pseudo-SLAM: pseudorange-integrated compressed simultaneous localisation and mapping for unmanned aerial vehicle navigation",
+    "authors": [
+      "Jonghyuk Kim",
+      "José E. Guivant",
+      "M. Sollie",
+      "T. Bryne",
+      "T. Johansen"
+    ],
+    "abstract": "Abstract This paper addresses the fusion of the pseudorange/pseudorange rate observations from the global navigation satellite system and the inertial–visual simultaneous localisation and mapping (SLAM) to achieve reliable navigation of unmanned aerial vehicles. This work extends the previous work on a simulation-based study [Kim et al. (2017). Compressed fusion of GNSS and inertial navigation with simultaneous localisation and mapping. IEEE Aerospace and Electronic Systems Magazine, 32(8), 22–36] to a real-flight dataset collected from a fixed-wing unmanned aerial vehicle platform. The dataset consists of measurements from visual landmarks, an inertial measurement unit, and pseudorange and pseudorange rates. We propose a novel all-source navigation filter, termed a compressed pseudo-SLAM, which can seamlessly integrate all available information in a computationally efficient way. In this framework, a local map is dynamically defined around the vehicle, updating the vehicle and local landmark states within the region. A global map includes the rest of the landmarks and is updated at a much lower rate by accumulating (or compressing) the local-to-global correlation information within the filter. It will show that the horizontal navigation error is effectively constrained with one satellite vehicle and one landmark observation. The computational cost will be analysed, demonstrating the efficiency of the method.",
+    "published": "2021-03-26",
+    "updated": "",
+    "date": "2021-03-26",
+    "year": "2021",
+    "venue": "Journal of navigation",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 4.5
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/2d0ef602138f90baf2c26b5a4b8789d8c17a971e",
+    "pdf_url": "https://opus.lib.uts.edu.au/bitstream/10453/147548/2/Compressed-Pseudo-SLAM_JON_Revised_v2.1.pdf",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 4,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "kim2021compressed",
+    "bibtex": "@article{kim2021compressed,\n  title={Compressed pseudo-SLAM: pseudorange-integrated compressed simultaneous localisation and mapping for unmanned aerial vehicle navigation},\n  author={Jonghyuk Kim and José E. Guivant and M. Sollie and T. Bryne and T. Johansen},\n  journal={Journal of navigation},\n  year={2021},\n  url={https://opus.lib.uts.edu.au/bitstream/10453/147548/2/Compressed-Pseudo-SLAM_JON_Revised_v2.1.pdf}\n}"
   },
   {
     "id": "b304adef2664",
@@ -3102,6 +4838,51 @@
     "notes": ""
   },
   {
+    "id": "cee30531dec3",
+    "dedup_key": "on board visual navigation system for unmanned aerial vehicles autonomous aerial refueling",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "d4ba333f7a9575b257a6b3cd4409b5f4e42c01fd",
+    "openalex_id": "",
+    "doi": "10.1177/0954410017748182",
+    "title": "On-board visual navigation system for unmanned aerial vehicles autonomous aerial refueling",
+    "authors": [
+      "Yan Xu",
+      "H. Duan",
+      "Cong Li",
+      "Yimin Deng"
+    ],
+    "abstract": "",
+    "published": "2019-03-01",
+    "updated": "",
+    "date": "2019-03-01",
+    "year": "2019",
+    "venue": "Unknown",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/d4ba333f7a9575b257a6b3cd4409b5f4e42c01fd",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 9,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "xu2019on",
+    "bibtex": "@article{xu2019on,\n  title={On-board visual navigation system for unmanned aerial vehicles autonomous aerial refueling},\n  author={Yan Xu and H. Duan and Cong Li and Yimin Deng},\n  journal={Unknown},\n  year={2019},\n  url={https://www.semanticscholar.org/paper/d4ba333f7a9575b257a6b3cd4409b5f4e42c01fd}\n}"
+  },
+  {
     "id": "3cad7ca14b7f",
     "arxiv_id": "1808.06820v1",
     "title": "SLAMBench2: Multi-Objective Head-to-Head Benchmarking for Visual SLAM",
@@ -3188,6 +4969,50 @@
     "bibtex_key": "dowling2018accurate",
     "bibtex": "@article{dowling2018accurate,\n  title={Accurate indoor mapping using an autonomous unmanned aerial vehicle (UAV)},\n  author={Lachlan Dowling and Tomas Poblete and Isaac Hook and Hao Tang and Ying Tan and Will Glenn and Ranjith R Unnithan},\n  journal={arXiv preprint},\n  year={2018},\n  url={https://arxiv.org/pdf/1808.01940v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "c2e53ab0aed2",
+    "dedup_key": "autonomous visual navigation in an unmanned aerial vehicle onboard system",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "b6cd1bdecbd0120aaedfbab116033ce668e02623",
+    "openalex_id": "",
+    "doi": "10.18698/2541-8009-2017-6-110",
+    "title": "Autonomous visual navigation in an unmanned aerial vehicle onboard system",
+    "authors": [
+      "А.О. Комаров",
+      "М.А. Скворцова",
+      "О.В. Орешкова"
+    ],
+    "abstract": "",
+    "published": "2017-06-01",
+    "updated": "",
+    "date": "2017-06-01",
+    "year": "2017",
+    "venue": "Unknown",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/b6cd1bdecbd0120aaedfbab116033ce668e02623",
+    "pdf_url": "https://doi.org/10.18698/2541-8009-2017-6-110",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "paper2017autonomous",
+    "bibtex": "@article{paper2017autonomous,\n  title={Autonomous visual navigation in an unmanned aerial vehicle onboard system},\n  author={А.О. Комаров and М.А. Скворцова and О.В. Орешкова},\n  journal={Unknown},\n  year={2017},\n  url={https://doi.org/10.18698/2541-8009-2017-6-110}\n}"
   },
   {
     "id": "936c31ac52cd",
@@ -3303,5 +5128,135 @@
     "bibtex_key": "wagter2017design",
     "bibtex": "@article{wagter2017design,\n  title={Design, Control and Visual Navigation of the DelftaCopter},\n  author={Christophe De Wagter and Rick Ruijsink and Ewoud Smeur and Kevin van Hecke and Freek van Tienen and Erik van der Horst and Bart Remes},\n  journal={arXiv preprint},\n  year={2017},\n  url={https://arxiv.org/pdf/1701.00860v1}\n}",
     "notes": ""
+  },
+  {
+    "id": "697414dca91b",
+    "dedup_key": "a low cost visual navigation and mapping system for unmanned aerial vehicle using lsd slam algorithm",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "5d443d6608ba773a21fc75c8ae50117bad809d6c",
+    "openalex_id": "",
+    "doi": "10.1109/GET.2016.7916802",
+    "title": "A low-cost visual navigation and mapping system for Unmanned Aerial Vehicle using LSD-SLAM algorithm",
+    "authors": [
+      "S. Anandharaman",
+      "M. Sudhakaran",
+      "R. Seyezhai"
+    ],
+    "abstract": "",
+    "published": "2016-11-01",
+    "updated": "",
+    "date": "2016-11-01",
+    "year": "2016",
+    "venue": "Online International Conference on Green Engineering and Technologies",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 6.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/5d443d6608ba773a21fc75c8ae50117bad809d6c",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 5,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "anandharaman2016a",
+    "bibtex": "@article{anandharaman2016a,\n  title={A low-cost visual navigation and mapping system for Unmanned Aerial Vehicle using LSD-SLAM algorithm},\n  author={S. Anandharaman and M. Sudhakaran and R. Seyezhai},\n  journal={Online International Conference on Green Engineering and Technologies},\n  year={2016},\n  url={https://www.semanticscholar.org/paper/5d443d6608ba773a21fc75c8ae50117bad809d6c}\n}"
+  },
+  {
+    "id": "86b5b2e55073",
+    "dedup_key": "autonomous visual navigation of unmanned aerial vehicle for wind turbine inspection",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "70b89abf5f13d2a77e09a3b249a753f280accdf4",
+    "openalex_id": "",
+    "doi": "10.1109/ICUAS.2015.7152389",
+    "title": "Autonomous visual navigation of Unmanned Aerial Vehicle for wind turbine inspection",
+    "authors": [
+      "Martin Stokkeland",
+      "Kristian Klausen",
+      "T. Johansen"
+    ],
+    "abstract": "",
+    "published": "2015-06-09",
+    "updated": "",
+    "date": "2015-06-09",
+    "year": "2015",
+    "venue": "International Conference on Unmanned Aircraft Systems",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/70b89abf5f13d2a77e09a3b249a753f280accdf4",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 99,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "stokkeland2015autonomous",
+    "bibtex": "@article{stokkeland2015autonomous,\n  title={Autonomous visual navigation of Unmanned Aerial Vehicle for wind turbine inspection},\n  author={Martin Stokkeland and Kristian Klausen and T. Johansen},\n  journal={International Conference on Unmanned Aircraft Systems},\n  year={2015},\n  url={https://www.semanticscholar.org/paper/70b89abf5f13d2a77e09a3b249a753f280accdf4}\n}"
+  },
+  {
+    "id": "a975183eea5a",
+    "dedup_key": "unmanned aerial vehicle visual navigation method based on camera head calibration algorithm",
+    "source": "SemanticScholar",
+    "sources": [
+      "SemanticScholar"
+    ],
+    "arxiv_id": "",
+    "s2_id": "c25e2028fb8cb2c6340c2e360c4159ffb05ef947",
+    "openalex_id": "",
+    "doi": "",
+    "title": "Unmanned aerial vehicle visual navigation method based on camera head calibration algorithm",
+    "authors": [
+      "成怡"
+    ],
+    "abstract": "",
+    "published": "2013-12-09",
+    "updated": "",
+    "date": "2013-12-09",
+    "year": "2013",
+    "venue": "Unknown",
+    "topics": [
+      "Traditional UAV VLN"
+    ],
+    "tags": [
+      "Traditional UAV VLN"
+    ],
+    "topic_scores": {
+      "Traditional UAV VLN": 3.0
+    },
+    "query_source": "unmanned aerial vehicle visual navigation",
+    "abs_url": "https://www.semanticscholar.org/paper/c25e2028fb8cb2c6340c2e360c4159ffb05ef947",
+    "pdf_url": "",
+    "code_url": "",
+    "project_url": "",
+    "citation_count": 0,
+    "uav_relevance": "High",
+    "comment": "",
+    "journal_ref": "",
+    "bibtex_key": "paper2013unmanned",
+    "bibtex": "@article{paper2013unmanned,\n  title={Unmanned aerial vehicle visual navigation method based on camera head calibration algorithm},\n  author={成怡},\n  journal={Unknown},\n  year={2013},\n  url={https://www.semanticscholar.org/paper/c25e2028fb8cb2c6340c2e360c4159ffb05ef947}\n}"
   }
 ]
